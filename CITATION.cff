@@ -3,6 +3,8 @@ message: "If you use this reproducibility package, please cite the associated ar
 type: software
 title: "TEA-FL and ARL-FL IoT reproducibility package"
 version: 1.0.0
+doi: "10.5281/zenodo.21923445"
+date-released: 2026-08-13
 authors:
   - family-names: Reis
     given-names: "Manuel J. C. S."
@@ -25,4 +27,3 @@ keywords:
   - Byzantine robustness
   - PAMAP2
   - CICIoT2023
-

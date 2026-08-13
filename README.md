@@ -1,5 +1,7 @@
 # TEA-FL and ARL-FL reproducibility package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21923444.svg)](https://doi.org/10.5281/zenodo.21923444)
+
 This repository contains the frozen code, experimental protocols, manifests,
 run-level evidence, revised statistical analyses, and publication figures for:
 
@@ -77,11 +79,15 @@ and exclusions are described in [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE
 
 ## Citation
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). The archival
-Zenodo DOI will be inserted after the first public release.
+Citation metadata are provided in [`CITATION.cff`](CITATION.cff). The immutable
+version 1.0.0 archive is available at
+[https://doi.org/10.5281/zenodo.21923445](https://doi.org/10.5281/zenodo.21923445).
+The concept DOI
+[https://doi.org/10.5281/zenodo.21923444](https://doi.org/10.5281/zenodo.21923444)
+always resolves to the latest archived version.
 
 ## Licence status
 
-No licence has yet been granted for this repository. Until the authors select
-and add a licence, copyright law applies by default and reuse permission should
-not be inferred. This must be resolved before the public Zenodo release.
+No reuse licence has been granted for this repository or its Zenodo archive.
+Copyright © 2026 The Authors. All rights reserved. Reuse permission should not
+be inferred.
