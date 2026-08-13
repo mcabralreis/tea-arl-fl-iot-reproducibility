@@ -1,5 +1,6 @@
 {
   "title": "TEA-FL and ARL-FL IoT reproducibility package",
+  "version": "1.0.0",
   "upload_type": "software",
   "access_right": "open",
   "description": "Frozen source code, experimental protocols, manifests, run-level evidence, revised statistical analyses, and publication figures for the TEA-FL and ARL-FL evaluation on PAMAP2 and CICIoT2023.",
@@ -29,4 +30,3 @@
   ],
   "language": "eng"
 }
-

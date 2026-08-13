@@ -6,7 +6,7 @@
 - [ ] Confirm author order, affiliations, and the article title in
       `CITATION.cff` and `.zenodo.json`.
 - [ ] Add the accepted article DOI when available.
-- [ ] Commit and push the curated package while the repository remains private.
+- [x] Commit and push the curated package while the repository remains private.
 - [ ] Make the GitHub repository public when the authors and journal permit it.
 - [ ] Enable the repository in the Zenodo-GitHub integration before creating
       the first GitHub release.
@@ -19,4 +19,3 @@
 - [ ] Replace the repository/DOI placeholder in the manuscript Data
       Availability Statement.
 - [ ] Download the Zenodo archive once and verify its manifest and contents.
-
