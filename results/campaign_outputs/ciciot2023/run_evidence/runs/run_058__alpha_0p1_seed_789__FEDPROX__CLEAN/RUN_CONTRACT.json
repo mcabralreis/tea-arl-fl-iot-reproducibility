@@ -1,0 +1,11 @@
+{
+  "runner_id": "CICIoT2023_FROZEN_180_RUN_SCIENTIFIC_CAMPAIGN_RUNNER_V1",
+  "runner_sha256": "38F2047D95802F625FE9C597EAC46407F26A3A2874902D6BC3515F798D850CA1",
+  "build_binding_sha256": "D9BE0D1FF33073102A32B2092E8A5ACD0FDD3A36FEBB9142D88DEAF81E64D611",
+  "run_index": 58,
+  "config_id": "alpha_0p1_seed_789",
+  "experimental_seed": 789,
+  "method_id": "FEDPROX",
+  "scenario_id": "CLEAN",
+  "scientific_run": true
+}

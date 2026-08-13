@@ -1,0 +1,360 @@
+alpha,alpha_label,subject_id,row_index,activity_index,activity_name,start_timestamp_s,reason
+1.0,alpha1p0,101,11028,0,lying,55.58,cross_client_overlap_guard
+1.0,alpha1p0,101,11103,0,lying,151.58,cross_client_overlap_guard
+1.0,alpha1p0,101,11208,0,lying,285.98,cross_client_overlap_guard
+1.0,alpha1p0,101,11338,1,sitting,454.17,cross_client_overlap_guard
+1.0,alpha1p0,101,11345,1,sitting,463.13,cross_client_overlap_guard
+1.0,alpha1p0,101,11369,1,sitting,493.85,cross_client_overlap_guard
+1.0,alpha1p0,101,11460,2,standing,612.17,cross_client_overlap_guard
+1.0,alpha1p0,101,11467,2,standing,621.13,cross_client_overlap_guard
+1.0,alpha1p0,101,11553,2,standing,731.21,cross_client_overlap_guard
+1.0,alpha1p0,101,11601,10,ironing,891.33,cross_client_overlap_guard
+1.0,alpha1p0,101,11672,10,ironing,982.21,cross_client_overlap_guard
+1.0,alpha1p0,101,11684,10,ironing,997.57,cross_client_overlap_guard
+1.0,alpha1p0,101,11801,9,vacuum cleaning,1251.02,cross_client_overlap_guard
+1.0,alpha1p0,101,11864,9,vacuum cleaning,1331.66,cross_client_overlap_guard
+1.0,alpha1p0,101,11888,9,vacuum cleaning,1362.38,cross_client_overlap_guard
+1.0,alpha1p0,101,12041,8,descending stairs,1797.38,cross_client_overlap_guard
+1.0,alpha1p0,101,12097,7,ascending stairs,1907.76,cross_client_overlap_guard
+1.0,alpha1p0,101,12101,7,ascending stairs,1912.88,cross_client_overlap_guard
+1.0,alpha1p0,101,12108,7,ascending stairs,1921.84,cross_client_overlap_guard
+1.0,alpha1p0,101,12137,8,descending stairs,1961.14,cross_client_overlap_guard
+1.0,alpha1p0,101,12167,8,descending stairs,1999.54,cross_client_overlap_guard
+1.0,alpha1p0,101,12179,3,walking,2257.49,cross_client_overlap_guard
+1.0,alpha1p0,101,12185,3,walking,2265.17,cross_client_overlap_guard
+1.0,alpha1p0,101,12209,3,walking,2295.89,cross_client_overlap_guard
+1.0,alpha1p0,101,12389,6,Nordic walking,2600.29,cross_client_overlap_guard
+1.0,alpha1p0,101,12400,6,Nordic walking,2614.37,cross_client_overlap_guard
+1.0,alpha1p0,101,12462,6,Nordic walking,2693.73,cross_client_overlap_guard
+1.0,alpha1p0,101,12552,5,cycling,2907.18,cross_client_overlap_guard
+1.0,alpha1p0,101,12562,5,cycling,2919.98,cross_client_overlap_guard
+1.0,alpha1p0,101,12565,5,cycling,2923.82,cross_client_overlap_guard
+1.0,alpha1p0,101,12705,4,running,3165.24,cross_client_overlap_guard
+1.0,alpha1p0,101,12720,4,running,3184.44,cross_client_overlap_guard
+1.0,alpha1p0,101,12809,4,running,3298.36,cross_client_overlap_guard
+1.0,alpha1p0,101,12868,11,rope jumping,3524.14,cross_client_overlap_guard
+1.0,alpha1p0,101,12884,11,rope jumping,3544.62,cross_client_overlap_guard
+1.0,alpha1p0,101,12905,11,rope jumping,3571.5,cross_client_overlap_guard
+1.0,alpha1p0,102,14,0,lying,73.12,cross_client_overlap_guard
+1.0,alpha1p0,102,32,0,lying,96.16,cross_client_overlap_guard
+1.0,alpha1p0,102,125,0,lying,215.2,cross_client_overlap_guard
+1.0,alpha1p0,102,229,1,sitting,412.32,cross_client_overlap_guard
+1.0,alpha1p0,102,304,1,sitting,508.32,cross_client_overlap_guard
+1.0,alpha1p0,102,316,1,sitting,523.68,cross_client_overlap_guard
+1.0,alpha1p0,102,416,2,standing,673.96,cross_client_overlap_guard
+1.0,alpha1p0,102,460,2,standing,730.28,cross_client_overlap_guard
+1.0,alpha1p0,102,490,2,standing,768.68,cross_client_overlap_guard
+1.0,alpha1p0,102,565,10,ironing,923.44,cross_client_overlap_guard
+1.0,alpha1p0,102,626,10,ironing,1001.52,cross_client_overlap_guard
+1.0,alpha1p0,102,701,10,ironing,1097.52,cross_client_overlap_guard
+1.0,alpha1p0,102,876,9,vacuum cleaning,1404.5,cross_client_overlap_guard
+1.0,alpha1p0,102,920,9,vacuum cleaning,1460.82,cross_client_overlap_guard
+1.0,alpha1p0,102,924,9,vacuum cleaning,1465.94,cross_client_overlap_guard
+1.0,alpha1p0,102,967,7,ascending stairs,1772.57,cross_client_overlap_guard
+1.0,alpha1p0,102,1073,7,ascending stairs,2441.91,cross_client_overlap_guard
+1.0,alpha1p0,102,1117,7,ascending stairs,2498.23,cross_client_overlap_guard
+1.0,alpha1p0,102,1142,8,descending stairs,2531.92,cross_client_overlap_guard
+1.0,alpha1p0,102,1178,8,descending stairs,2578.0,cross_client_overlap_guard
+1.0,alpha1p0,102,1181,8,descending stairs,2581.84,cross_client_overlap_guard
+1.0,alpha1p0,102,1271,3,walking,2890.8,cross_client_overlap_guard
+1.0,alpha1p0,102,1290,3,walking,2915.12,cross_client_overlap_guard
+1.0,alpha1p0,102,1317,3,walking,2949.68,cross_client_overlap_guard
+1.0,alpha1p0,102,1507,6,Nordic walking,3318.02,cross_client_overlap_guard
+1.0,alpha1p0,102,1524,6,Nordic walking,3339.78,cross_client_overlap_guard
+1.0,alpha1p0,102,1665,6,Nordic walking,3520.26,cross_client_overlap_guard
+1.0,alpha1p0,102,1699,5,cycling,3626.29,cross_client_overlap_guard
+1.0,alpha1p0,102,1725,5,cycling,3659.57,cross_client_overlap_guard
+1.0,alpha1p0,102,1764,5,cycling,3709.49,cross_client_overlap_guard
+1.0,alpha1p0,102,1871,4,running,3924.4,cross_client_overlap_guard
+1.0,alpha1p0,102,1893,4,running,3952.56,cross_client_overlap_guard
+1.0,alpha1p0,102,1900,4,running,3961.52,cross_client_overlap_guard
+1.0,alpha1p0,102,1950,11,rope jumping,4132.27,cross_client_overlap_guard
+1.0,alpha1p0,102,1967,11,rope jumping,4154.03,cross_client_overlap_guard
+1.0,alpha1p0,102,2011,11,rope jumping,4210.35,cross_client_overlap_guard
+1.0,alpha1p0,103,2065,0,lying,201.95,cross_client_overlap_guard
+1.0,alpha1p0,103,2151,0,lying,312.03,cross_client_overlap_guard
+1.0,alpha1p0,103,2205,0,lying,381.15,cross_client_overlap_guard
+1.0,alpha1p0,103,2316,1,sitting,619.85,cross_client_overlap_guard
+1.0,alpha1p0,103,2379,1,sitting,700.49,cross_client_overlap_guard
+1.0,alpha1p0,103,2392,1,sitting,717.13,cross_client_overlap_guard
+1.0,alpha1p0,103,2463,2,standing,810.18,cross_client_overlap_guard
+1.0,alpha1p0,103,2481,2,standing,833.22,cross_client_overlap_guard
+1.0,alpha1p0,103,2584,2,standing,965.06,cross_client_overlap_guard
+1.0,alpha1p0,103,2781,10,ironing,1219.03,cross_client_overlap_guard
+1.0,alpha1p0,103,2783,10,ironing,1221.59,cross_client_overlap_guard
+1.0,alpha1p0,103,2801,10,ironing,1244.63,cross_client_overlap_guard
+1.0,alpha1p0,103,2858,9,vacuum cleaning,1368.3,cross_client_overlap_guard
+1.0,alpha1p0,103,2938,9,vacuum cleaning,1470.7,cross_client_overlap_guard
+1.0,alpha1p0,103,2941,9,vacuum cleaning,1474.54,cross_client_overlap_guard
+1.0,alpha1p0,103,2982,8,descending stairs,1664.13,cross_client_overlap_guard
+1.0,alpha1p0,103,3015,7,ascending stairs,1718.56,cross_client_overlap_guard
+1.0,alpha1p0,103,3075,8,descending stairs,1798.51,cross_client_overlap_guard
+1.0,alpha1p0,103,3113,7,ascending stairs,1889.54,cross_client_overlap_guard
+1.0,alpha1p0,103,3154,8,descending stairs,1944.2,cross_client_overlap_guard
+1.0,alpha1p0,103,3241,3,walking,2260.36,cross_client_overlap_guard
+1.0,alpha1p0,103,3281,3,walking,2311.56,cross_client_overlap_guard
+1.0,alpha1p0,103,3296,3,walking,2330.76,cross_client_overlap_guard
+1.0,alpha1p0,104,3426,0,lying,131.57,cross_client_overlap_guard
+1.0,alpha1p0,104,3436,0,lying,144.37,cross_client_overlap_guard
+1.0,alpha1p0,104,3452,0,lying,164.85,cross_client_overlap_guard
+1.0,alpha1p0,104,3645,1,sitting,465.9,cross_client_overlap_guard
+1.0,alpha1p0,104,3656,1,sitting,479.98,cross_client_overlap_guard
+1.0,alpha1p0,104,3691,1,sitting,524.78,cross_client_overlap_guard
+1.0,alpha1p0,104,3786,2,standing,647.86,cross_client_overlap_guard
+1.0,alpha1p0,104,3830,2,standing,704.18,cross_client_overlap_guard
+1.0,alpha1p0,104,3927,2,standing,828.34,cross_client_overlap_guard
+1.0,alpha1p0,104,4022,10,ironing,951.24,cross_client_overlap_guard
+1.0,alpha1p0,104,4080,10,ironing,1025.48,cross_client_overlap_guard
+1.0,alpha1p0,104,4097,10,ironing,1047.24,cross_client_overlap_guard
+1.0,alpha1p0,104,4153,9,vacuum cleaning,1185.35,cross_client_overlap_guard
+1.0,alpha1p0,104,4190,9,vacuum cleaning,1232.71,cross_client_overlap_guard
+1.0,alpha1p0,104,4293,9,vacuum cleaning,1364.55,cross_client_overlap_guard
+1.0,alpha1p0,104,4347,7,ascending stairs,1548.12,cross_client_overlap_guard
+1.0,alpha1p0,104,4429,7,ascending stairs,1799.72,cross_client_overlap_guard
+1.0,alpha1p0,104,4446,7,ascending stairs,1821.48,cross_client_overlap_guard
+1.0,alpha1p0,104,4485,8,descending stairs,1873.63,cross_client_overlap_guard
+1.0,alpha1p0,104,4526,8,descending stairs,1926.11,cross_client_overlap_guard
+1.0,alpha1p0,104,4579,3,walking,2241.93,cross_client_overlap_guard
+1.0,alpha1p0,104,4734,3,walking,2440.33,cross_client_overlap_guard
+1.0,alpha1p0,104,4780,3,walking,2499.21,cross_client_overlap_guard
+1.0,alpha1p0,104,4874,6,Nordic walking,2748.9,cross_client_overlap_guard
+1.0,alpha1p0,104,4943,6,Nordic walking,2837.22,cross_client_overlap_guard
+1.0,alpha1p0,104,4945,6,Nordic walking,2839.78,cross_client_overlap_guard
+1.0,alpha1p0,104,5088,5,cycling,3109.88,cross_client_overlap_guard
+1.0,alpha1p0,104,5110,5,cycling,3138.04,cross_client_overlap_guard
+1.0,alpha1p0,104,5155,5,cycling,3195.64,cross_client_overlap_guard
+1.0,alpha1p0,105,5237,0,lying,185.14,cross_client_overlap_guard
+1.0,alpha1p0,105,5249,0,lying,200.5,cross_client_overlap_guard
+1.0,alpha1p0,105,5251,0,lying,203.06,cross_client_overlap_guard
+1.0,alpha1p0,105,5381,1,sitting,440.47,cross_client_overlap_guard
+1.0,alpha1p0,105,5406,1,sitting,472.47,cross_client_overlap_guard
+1.0,alpha1p0,105,5473,1,sitting,558.23,cross_client_overlap_guard
+1.0,alpha1p0,105,5642,2,standing,776.95,cross_client_overlap_guard
+1.0,alpha1p0,105,5644,2,standing,779.51,cross_client_overlap_guard
+1.0,alpha1p0,105,5718,2,standing,874.23,cross_client_overlap_guard
+1.0,alpha1p0,105,5781,10,ironing,957.31,cross_client_overlap_guard
+1.0,alpha1p0,105,5819,10,ironing,1005.95,cross_client_overlap_guard
+1.0,alpha1p0,105,5904,10,ironing,1114.75,cross_client_overlap_guard
+1.0,alpha1p0,105,6069,9,vacuum cleaning,1392.3,cross_client_overlap_guard
+1.0,alpha1p0,105,6113,9,vacuum cleaning,1448.62,cross_client_overlap_guard
+1.0,alpha1p0,105,6163,9,vacuum cleaning,1512.62,cross_client_overlap_guard
+1.0,alpha1p0,105,6215,7,ascending stairs,1702.3,cross_client_overlap_guard
+1.0,alpha1p0,105,6225,7,ascending stairs,1715.1,cross_client_overlap_guard
+1.0,alpha1p0,105,6242,8,descending stairs,1805.37,cross_client_overlap_guard
+1.0,alpha1p0,105,6267,8,descending stairs,1837.37,cross_client_overlap_guard
+1.0,alpha1p0,105,6272,8,descending stairs,1843.77,cross_client_overlap_guard
+1.0,alpha1p0,105,6294,7,ascending stairs,1894.09,cross_client_overlap_guard
+1.0,alpha1p0,105,6458,3,walking,2324.54,cross_client_overlap_guard
+1.0,alpha1p0,105,6538,3,walking,2426.94,cross_client_overlap_guard
+1.0,alpha1p0,105,6608,3,walking,2516.54,cross_client_overlap_guard
+1.0,alpha1p0,105,6665,6,Nordic walking,2658.93,cross_client_overlap_guard
+1.0,alpha1p0,105,6724,6,Nordic walking,2734.45,cross_client_overlap_guard
+1.0,alpha1p0,105,6781,6,Nordic walking,2807.41,cross_client_overlap_guard
+1.0,alpha1p0,105,6860,5,cycling,3038.91,cross_client_overlap_guard
+1.0,alpha1p0,105,6939,5,cycling,3140.03,cross_client_overlap_guard
+1.0,alpha1p0,105,6952,5,cycling,3156.67,cross_client_overlap_guard
+1.0,alpha1p0,105,7068,4,running,3376.85,cross_client_overlap_guard
+1.0,alpha1p0,105,7128,4,running,3453.65,cross_client_overlap_guard
+1.0,alpha1p0,105,7151,4,running,3483.09,cross_client_overlap_guard
+1.0,alpha1p0,105,7225,11,rope jumping,3680.04,cross_client_overlap_guard
+1.0,alpha1p0,105,7265,11,rope jumping,3731.24,cross_client_overlap_guard
+1.0,alpha1p0,105,7269,11,rope jumping,3736.36,cross_client_overlap_guard
+1.0,alpha1p0,106,7348,0,lying,187.53,cross_client_overlap_guard
+1.0,alpha1p0,106,7413,0,lying,270.73,cross_client_overlap_guard
+1.0,alpha1p0,106,7459,0,lying,329.61,cross_client_overlap_guard
+1.0,alpha1p0,106,7473,1,sitting,402.72,cross_client_overlap_guard
+1.0,alpha1p0,106,7561,1,sitting,515.36,cross_client_overlap_guard
+1.0,alpha1p0,106,7570,1,sitting,526.88,cross_client_overlap_guard
+1.0,alpha1p0,106,7674,2,standing,661.29,cross_client_overlap_guard
+1.0,alpha1p0,106,7683,2,standing,672.81,cross_client_overlap_guard
+1.0,alpha1p0,106,7722,2,standing,722.73,cross_client_overlap_guard
+1.0,alpha1p0,106,7917,10,ironing,975.25,cross_client_overlap_guard
+1.0,alpha1p0,106,7962,10,ironing,1032.85,cross_client_overlap_guard
+1.0,alpha1p0,106,7979,10,ironing,1054.61,cross_client_overlap_guard
+1.0,alpha1p0,106,8214,9,vacuum cleaning,1432.48,cross_client_overlap_guard
+1.0,alpha1p0,106,8237,9,vacuum cleaning,1461.92,cross_client_overlap_guard
+1.0,alpha1p0,106,8276,9,vacuum cleaning,1511.84,cross_client_overlap_guard
+1.0,alpha1p0,106,8298,7,ascending stairs,1675.23,cross_client_overlap_guard
+1.0,alpha1p0,106,8335,8,descending stairs,1825.81,cross_client_overlap_guard
+1.0,alpha1p0,106,8367,8,descending stairs,1866.77,cross_client_overlap_guard
+1.0,alpha1p0,106,8390,7,ascending stairs,1981.16,cross_client_overlap_guard
+1.0,alpha1p0,106,8422,7,ascending stairs,2022.12,cross_client_overlap_guard
+1.0,alpha1p0,106,8469,8,descending stairs,2083.75,cross_client_overlap_guard
+1.0,alpha1p0,106,8552,3,walking,2413.6,cross_client_overlap_guard
+1.0,alpha1p0,106,8556,3,walking,2418.72,cross_client_overlap_guard
+1.0,alpha1p0,106,8616,3,walking,2495.52,cross_client_overlap_guard
+1.0,alpha1p0,106,8683,6,Nordic walking,2662.94,cross_client_overlap_guard
+1.0,alpha1p0,106,8784,6,Nordic walking,2792.22,cross_client_overlap_guard
+1.0,alpha1p0,106,8866,6,Nordic walking,2897.18,cross_client_overlap_guard
+1.0,alpha1p0,106,8896,5,cycling,3022.99,cross_client_overlap_guard
+1.0,alpha1p0,106,8941,5,cycling,3080.59,cross_client_overlap_guard
+1.0,alpha1p0,106,8967,5,cycling,3113.87,cross_client_overlap_guard
+1.0,alpha1p0,106,9093,4,running,3356.34,cross_client_overlap_guard
+1.0,alpha1p0,106,9151,4,running,3430.58,cross_client_overlap_guard
+1.0,alpha1p0,106,9163,4,running,3445.94,cross_client_overlap_guard
+1.0,alpha1p0,107,9345,0,lying,251.96,cross_client_overlap_guard
+1.0,alpha1p0,107,9402,0,lying,324.92,cross_client_overlap_guard
+1.0,alpha1p0,107,9408,0,lying,332.6,cross_client_overlap_guard
+1.0,alpha1p0,107,9427,1,sitting,412.56,cross_client_overlap_guard
+1.0,alpha1p0,107,9438,1,sitting,426.64,cross_client_overlap_guard
+1.0,alpha1p0,107,9455,1,sitting,448.4,cross_client_overlap_guard
+1.0,alpha1p0,107,9632,2,standing,677.53,cross_client_overlap_guard
+1.0,alpha1p0,107,9645,2,standing,694.17,cross_client_overlap_guard
+1.0,alpha1p0,107,9668,2,standing,723.61,cross_client_overlap_guard
+1.0,alpha1p0,107,9754,10,ironing,835.2,cross_client_overlap_guard
+1.0,alpha1p0,107,9848,10,ironing,955.52,cross_client_overlap_guard
+1.0,alpha1p0,107,9896,10,ironing,1016.96,cross_client_overlap_guard
+1.0,alpha1p0,107,9979,9,vacuum cleaning,1197.39,cross_client_overlap_guard
+1.0,alpha1p0,107,10067,9,vacuum cleaning,1310.03,cross_client_overlap_guard
+1.0,alpha1p0,107,10124,7,ascending stairs,1488.09,cross_client_overlap_guard
+1.0,alpha1p0,107,10182,8,descending stairs,1622.8,cross_client_overlap_guard
+1.0,alpha1p0,107,10196,8,descending stairs,1640.72,cross_client_overlap_guard
+1.0,alpha1p0,107,10198,8,descending stairs,1643.28,cross_client_overlap_guard
+1.0,alpha1p0,107,10263,7,ascending stairs,1762.74,cross_client_overlap_guard
+1.0,alpha1p0,107,10283,7,ascending stairs,1788.34,cross_client_overlap_guard
+1.0,alpha1p0,107,10417,3,walking,2167.4,cross_client_overlap_guard
+1.0,alpha1p0,107,10437,3,walking,2193.0,cross_client_overlap_guard
+1.0,alpha1p0,107,10580,3,walking,2376.04,cross_client_overlap_guard
+1.0,alpha1p0,107,10627,6,Nordic walking,2519.16,cross_client_overlap_guard
+1.0,alpha1p0,107,10735,6,Nordic walking,2657.4,cross_client_overlap_guard
+1.0,alpha1p0,107,10756,6,Nordic walking,2684.28,cross_client_overlap_guard
+1.0,alpha1p0,107,10818,5,cycling,2821.86,cross_client_overlap_guard
+1.0,alpha1p0,107,10975,5,cycling,3022.82,cross_client_overlap_guard
+1.0,alpha1p0,107,10985,5,cycling,3035.62,cross_client_overlap_guard
+1.0,alpha1p0,107,10994,4,running,3113.95,cross_client_overlap_guard
+1.0,alpha1p0,107,10999,4,running,3120.35,cross_client_overlap_guard
+1.0,alpha1p0,107,11005,4,running,3128.03,cross_client_overlap_guard
+1.0,alpha1p0,108,12992,0,lying,126.24,cross_client_overlap_guard
+1.0,alpha1p0,108,13076,0,lying,233.76,cross_client_overlap_guard
+1.0,alpha1p0,108,13118,0,lying,287.52,cross_client_overlap_guard
+1.0,alpha1p0,108,13141,1,sitting,383.49,cross_client_overlap_guard
+1.0,alpha1p0,108,13163,1,sitting,411.65,cross_client_overlap_guard
+1.0,alpha1p0,108,13188,1,sitting,443.65,cross_client_overlap_guard
+1.0,alpha1p0,108,13348,2,standing,649.84,cross_client_overlap_guard
+1.0,alpha1p0,108,13387,2,standing,699.76,cross_client_overlap_guard
+1.0,alpha1p0,108,13448,2,standing,777.84,cross_client_overlap_guard
+1.0,alpha1p0,108,13561,10,ironing,924.48,cross_client_overlap_guard
+1.0,alpha1p0,108,13588,10,ironing,959.04,cross_client_overlap_guard
+1.0,alpha1p0,108,13732,10,ironing,1143.36,cross_client_overlap_guard
+1.0,alpha1p0,108,13779,9,vacuum cleaning,1310.18,cross_client_overlap_guard
+1.0,alpha1p0,108,13803,9,vacuum cleaning,1340.9,cross_client_overlap_guard
+1.0,alpha1p0,108,13894,9,vacuum cleaning,1457.38,cross_client_overlap_guard
+1.0,alpha1p0,108,13962,7,ascending stairs,1680.08,cross_client_overlap_guard
+1.0,alpha1p0,108,13974,7,ascending stairs,1695.44,cross_client_overlap_guard
+1.0,alpha1p0,108,14014,8,descending stairs,1840.94,cross_client_overlap_guard
+1.0,alpha1p0,108,14066,7,ascending stairs,1966.81,cross_client_overlap_guard
+1.0,alpha1p0,108,14088,8,descending stairs,1996.47,cross_client_overlap_guard
+1.0,alpha1p0,108,14102,8,descending stairs,2014.39,cross_client_overlap_guard
+1.0,alpha1p0,108,14210,3,walking,2382.78,cross_client_overlap_guard
+1.0,alpha1p0,108,14250,3,walking,2433.98,cross_client_overlap_guard
+1.0,alpha1p0,108,14328,3,walking,2533.82,cross_client_overlap_guard
+1.0,alpha1p0,108,14442,5,cycling,2911.45,cross_client_overlap_guard
+1.0,alpha1p0,108,14483,5,cycling,2963.93,cross_client_overlap_guard
+1.0,alpha1p0,108,14542,5,cycling,3039.45,cross_client_overlap_guard
+1.0,alpha1p0,108,14624,6,Nordic walking,3211.12,cross_client_overlap_guard
+1.0,alpha1p0,108,14646,6,Nordic walking,3239.28,cross_client_overlap_guard
+1.0,alpha1p0,108,14721,6,Nordic walking,3335.28,cross_client_overlap_guard
+1.0,alpha1p0,108,14796,4,running,3489.12,cross_client_overlap_guard
+1.0,alpha1p0,108,14882,4,running,3599.2,cross_client_overlap_guard
+1.0,alpha1p0,108,14898,4,running,3619.68,cross_client_overlap_guard
+1.0,alpha1p0,108,14952,11,rope jumping,3860.52,cross_client_overlap_guard
+1.0,alpha1p0,108,14954,11,rope jumping,3863.08,cross_client_overlap_guard
+1.0,alpha1p0,108,14969,11,rope jumping,3882.28,cross_client_overlap_guard
+0.1,alpha0p1,101,11221,0,lying,302.62,cross_client_overlap_guard
+0.1,alpha0p1,101,11227,1,sitting,312.09,cross_client_overlap_guard
+0.1,alpha0p1,101,11377,1,sitting,504.09,cross_client_overlap_guard
+0.1,alpha0p1,101,11578,10,ironing,861.89,cross_client_overlap_guard
+0.1,alpha0p1,101,11583,10,ironing,868.29,cross_client_overlap_guard
+0.1,alpha0p1,101,11739,10,ironing,1067.97,cross_client_overlap_guard
+0.1,alpha0p1,101,11767,9,vacuum cleaning,1207.5,cross_client_overlap_guard
+0.1,alpha0p1,101,11816,9,vacuum cleaning,1270.22,cross_client_overlap_guard
+0.1,alpha0p1,101,12033,8,descending stairs,1787.14,cross_client_overlap_guard
+0.1,alpha0p1,101,12279,3,walking,2385.49,cross_client_overlap_guard
+0.1,alpha0p1,101,12383,6,Nordic walking,2592.61,cross_client_overlap_guard
+0.1,alpha0p1,101,12640,5,cycling,3019.82,cross_client_overlap_guard
+0.1,alpha0p1,101,12681,5,cycling,3072.3,cross_client_overlap_guard
+0.1,alpha0p1,101,12839,4,running,3336.76,cross_client_overlap_guard
+0.1,alpha0p1,101,12845,4,running,3344.44,cross_client_overlap_guard
+0.1,alpha0p1,101,12892,11,rope jumping,3554.86,cross_client_overlap_guard
+0.1,alpha0p1,101,12925,11,rope jumping,3597.1,cross_client_overlap_guard
+0.1,alpha0p1,101,12930,11,rope jumping,3603.5,cross_client_overlap_guard
+0.1,alpha0p1,102,27,0,lying,89.76,cross_client_overlap_guard
+0.1,alpha0p1,102,358,2,standing,599.72,cross_client_overlap_guard
+0.1,alpha0p1,102,374,2,standing,620.2,cross_client_overlap_guard
+0.1,alpha0p1,102,552,2,standing,848.04,cross_client_overlap_guard
+0.1,alpha0p1,102,744,10,ironing,1152.56,cross_client_overlap_guard
+0.1,alpha0p1,102,767,10,ironing,1182.0,cross_client_overlap_guard
+0.1,alpha0p1,102,779,9,vacuum cleaning,1280.34,cross_client_overlap_guard
+0.1,alpha0p1,102,950,7,ascending stairs,1750.81,cross_client_overlap_guard
+0.1,alpha0p1,102,1186,3,walking,2782.0,cross_client_overlap_guard
+0.1,alpha0p1,102,1415,3,walking,3075.12,cross_client_overlap_guard
+0.1,alpha0p1,102,1439,6,Nordic walking,3230.98,cross_client_overlap_guard
+0.1,alpha0p1,102,1561,6,Nordic walking,3387.14,cross_client_overlap_guard
+0.1,alpha0p1,102,1670,5,cycling,3589.17,cross_client_overlap_guard
+0.1,alpha0p1,102,1814,5,cycling,3773.49,cross_client_overlap_guard
+0.1,alpha0p1,102,1930,4,running,3999.92,cross_client_overlap_guard
+0.1,alpha0p1,102,1938,11,rope jumping,4116.91,cross_client_overlap_guard
+0.1,alpha0p1,103,2806,10,ironing,1251.03,cross_client_overlap_guard
+0.1,alpha0p1,103,2830,9,vacuum cleaning,1332.46,cross_client_overlap_guard
+0.1,alpha0p1,103,2832,9,vacuum cleaning,1335.02,cross_client_overlap_guard
+0.1,alpha0p1,103,3000,8,descending stairs,1687.17,cross_client_overlap_guard
+0.1,alpha0p1,103,3156,8,descending stairs,1946.76,cross_client_overlap_guard
+0.1,alpha0p1,103,3183,3,walking,2186.12,cross_client_overlap_guard
+0.1,alpha0p1,103,3233,3,walking,2250.12,cross_client_overlap_guard
+0.1,alpha0p1,103,3363,3,walking,2416.52,cross_client_overlap_guard
+0.1,alpha0p1,104,3544,0,lying,282.61,cross_client_overlap_guard
+0.1,alpha0p1,104,3564,1,sitting,362.22,cross_client_overlap_guard
+0.1,alpha0p1,104,3678,1,sitting,508.14,cross_client_overlap_guard
+0.1,alpha0p1,104,4298,9,vacuum cleaning,1370.95,cross_client_overlap_guard
+0.1,alpha0p1,104,4339,7,ascending stairs,1537.88,cross_client_overlap_guard
+0.1,alpha0p1,104,4377,8,descending stairs,1703.78,cross_client_overlap_guard
+0.1,alpha0p1,104,4786,6,Nordic walking,2636.26,cross_client_overlap_guard
+0.1,alpha0p1,104,5052,5,cycling,3063.8,cross_client_overlap_guard
+0.1,alpha0p1,105,5424,1,sitting,495.51,cross_client_overlap_guard
+0.1,alpha0p1,105,5732,2,standing,892.15,cross_client_overlap_guard
+0.1,alpha0p1,105,5743,10,ironing,908.67,cross_client_overlap_guard
+0.1,alpha0p1,105,5745,10,ironing,911.23,cross_client_overlap_guard
+0.1,alpha0p1,105,5991,10,ironing,1226.11,cross_client_overlap_guard
+0.1,alpha0p1,105,6182,9,vacuum cleaning,1536.94,cross_client_overlap_guard
+0.1,alpha0p1,105,6188,7,ascending stairs,1667.74,cross_client_overlap_guard
+0.1,alpha0p1,105,6383,8,descending stairs,2010.36,cross_client_overlap_guard
+0.1,alpha0p1,105,6389,3,walking,2236.22,cross_client_overlap_guard
+0.1,alpha0p1,105,6547,3,walking,2438.46,cross_client_overlap_guard
+0.1,alpha0p1,105,6692,6,Nordic walking,2693.49,cross_client_overlap_guard
+0.1,alpha0p1,105,6825,6,Nordic walking,2863.73,cross_client_overlap_guard
+0.1,alpha0p1,105,6842,5,cycling,3015.87,cross_client_overlap_guard
+0.1,alpha0p1,105,7032,4,running,3330.77,cross_client_overlap_guard
+0.1,alpha0p1,105,7193,4,running,3536.85,cross_client_overlap_guard
+0.1,alpha0p1,105,7221,4,running,3572.69,cross_client_overlap_guard
+0.1,alpha0p1,105,7267,11,rope jumping,3733.8,cross_client_overlap_guard
+0.1,alpha0p1,106,7293,0,lying,117.13,cross_client_overlap_guard
+0.1,alpha0p1,106,7634,1,sitting,608.8,cross_client_overlap_guard
+0.1,alpha0p1,106,7828,2,standing,858.41,cross_client_overlap_guard
+0.1,alpha0p1,106,8292,7,ascending stairs,1667.55,cross_client_overlap_guard
+0.1,alpha0p1,106,8421,7,ascending stairs,2020.84,cross_client_overlap_guard
+0.1,alpha0p1,106,9041,4,running,3289.78,cross_client_overlap_guard
+0.1,alpha0p1,107,9228,0,lying,102.2,cross_client_overlap_guard
+0.1,alpha0p1,107,9494,1,sitting,498.32,cross_client_overlap_guard
+0.1,alpha0p1,107,9577,2,standing,607.13,cross_client_overlap_guard
+0.1,alpha0p1,107,9719,10,ironing,790.4,cross_client_overlap_guard
+0.1,alpha0p1,107,9947,9,vacuum cleaning,1156.43,cross_client_overlap_guard
+0.1,alpha0p1,107,9949,9,vacuum cleaning,1158.99,cross_client_overlap_guard
+0.1,alpha0p1,107,10099,9,vacuum cleaning,1350.99,cross_client_overlap_guard
+0.1,alpha0p1,107,10104,7,ascending stairs,1462.49,cross_client_overlap_guard
+0.1,alpha0p1,107,10174,8,descending stairs,1612.56,cross_client_overlap_guard
+0.1,alpha0p1,107,10320,8,descending stairs,1837.94,cross_client_overlap_guard
+0.1,alpha0p1,107,10670,6,Nordic walking,2574.2,cross_client_overlap_guard
+0.1,alpha0p1,107,10686,6,Nordic walking,2594.68,cross_client_overlap_guard
+0.1,alpha0p1,107,10984,5,cycling,3034.34,cross_client_overlap_guard
+0.1,alpha0p1,107,11011,4,running,3135.71,cross_client_overlap_guard
+0.1,alpha0p1,108,12968,0,lying,95.52,cross_client_overlap_guard
+0.1,alpha0p1,108,13333,2,standing,630.64,cross_client_overlap_guard
+0.1,alpha0p1,108,13713,10,ironing,1119.04,cross_client_overlap_guard
+0.1,alpha0p1,108,13781,9,vacuum cleaning,1312.74,cross_client_overlap_guard
+0.1,alpha0p1,108,14008,8,descending stairs,1833.26,cross_client_overlap_guard
+0.1,alpha0p1,108,14069,7,ascending stairs,1970.65,cross_client_overlap_guard
+0.1,alpha0p1,108,14104,8,descending stairs,2016.95,cross_client_overlap_guard
+0.1,alpha0p1,108,14308,3,walking,2508.22,cross_client_overlap_guard
+0.1,alpha0p1,108,14755,6,Nordic walking,3378.8,cross_client_overlap_guard
+0.1,alpha0p1,108,14776,6,Nordic walking,3405.68,cross_client_overlap_guard
+0.1,alpha0p1,108,14903,4,running,3626.08,cross_client_overlap_guard

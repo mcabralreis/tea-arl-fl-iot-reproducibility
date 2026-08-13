@@ -1,0 +1,17 @@
+variant,variant_label,component_isolated,metric,conditions,mean_of_condition_mean_benefits,conditions_positive_mean,conditions_zero_mean,conditions_negative_mean,conditions_raw_exact_p_below_0p05,minimum_exact_p
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,active_client_benefit,6,4.116666666666667,6,0,0,0,0.0625
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,energy_benefit,6,0.5942032374156491,6,0,0,0,0.0625
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,fairness_benefit,6,-0.055347175646036494,0,0,6,0,0.0625
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,macro_f1_benefit,6,-0.017651132056444214,2,0,4,0,0.125
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,active_client_benefit,6,0.4000000000000001,5,1,0,0,0.25
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,energy_benefit,6,0.0800633650484186,6,0,0,0,0.0625
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,fairness_benefit,6,-0.009619486072848725,1,0,5,0,0.0625
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,macro_f1_benefit,6,0.028454112977643525,6,0,0,0,0.125
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,active_client_benefit,6,-12.333333333333334,0,0,6,0,0.0625
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,energy_benefit,6,0.995800851984375,6,0,0,0,0.0625
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,fairness_benefit,6,-0.16751255585474079,0,0,6,0,0.0625
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,macro_f1_benefit,6,0.2921155918529897,5,0,1,0,0.0625
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,active_client_benefit,6,0.5499999999999999,6,0,0,0,0.125
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,energy_benefit,6,-0.1466282984762605,2,0,4,0,0.0625
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,fairness_benefit,6,0.009181004181655912,6,0,0,0,0.0625
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,macro_f1_benefit,6,-0.016603784565347463,3,0,3,0,0.0625

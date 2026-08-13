@@ -1,0 +1,6 @@
+scenario,attack,malicious_fraction_nominal,malicious_count,realized_fraction,attack_start_round,sign_flip_scale,label_flip_rule
+clean,none,0.0,0,0.0,,,
+signflip_mu0p2,sign_flip,0.2,6,0.21428571428571427,20.0,5.0,
+signflip_mu0p4,sign_flip,0.4,11,0.39285714285714285,20.0,5.0,
+labelflip_mu0p2,label_flip,0.2,6,0.21428571428571427,20.0,,(y + 1) mod 12
+labelflip_mu0p4,label_flip,0.4,11,0.39285714285714285,20.0,,(y + 1) mod 12

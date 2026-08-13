@@ -1,0 +1,86 @@
+[
+  {
+    "file": "FIGURE_CAPTIONS.txt",
+    "bytes": 2236
+  },
+  {
+    "file": "Figure_3_PAMAP2_MacroF1_vs_Energy.pdf",
+    "bytes": 15674
+  },
+  {
+    "file": "Figure_3_PAMAP2_MacroF1_vs_Energy.png",
+    "bytes": 211359
+  },
+  {
+    "file": "Figure_4A_PAMAP2_Trajectory_Alpha1_SignFlip_Mu0p2.pdf",
+    "bytes": 21231
+  },
+  {
+    "file": "Figure_4A_PAMAP2_Trajectory_Alpha1_SignFlip_Mu0p2.png",
+    "bytes": 589758
+  },
+  {
+    "file": "Figure_4B_PAMAP2_Trajectory_Alpha1_SignFlip_Mu0p4.pdf",
+    "bytes": 20225
+  },
+  {
+    "file": "Figure_4B_PAMAP2_Trajectory_Alpha1_SignFlip_Mu0p4.png",
+    "bytes": 473454
+  },
+  {
+    "file": "Figure_5A_PAMAP2_Ablation_MacroF1_Forest.pdf",
+    "bytes": 17904
+  },
+  {
+    "file": "Figure_5A_PAMAP2_Ablation_MacroF1_Forest.png",
+    "bytes": 738847
+  },
+  {
+    "file": "Figure_5B_PAMAP2_Ablation_Energy_Forest.pdf",
+    "bytes": 17930
+  },
+  {
+    "file": "Figure_5B_PAMAP2_Ablation_Energy_Forest.png",
+    "bytes": 764901
+  },
+  {
+    "file": "Figure_6A_CICIoT2023_MacroF1_Alpha_0p1.pdf",
+    "bytes": 14193
+  },
+  {
+    "file": "Figure_6A_CICIoT2023_MacroF1_Alpha_0p1.png",
+    "bytes": 140810
+  },
+  {
+    "file": "Figure_6B_CICIoT2023_MacroF1_Alpha_1p0.pdf",
+    "bytes": 14681
+  },
+  {
+    "file": "Figure_6B_CICIoT2023_MacroF1_Alpha_1p0.png",
+    "bytes": 147042
+  },
+  {
+    "file": "Figure_7A_CICIoT2023_Retention_Alpha_0p1.pdf",
+    "bytes": 14382
+  },
+  {
+    "file": "Figure_7A_CICIoT2023_Retention_Alpha_0p1.png",
+    "bytes": 161476
+  },
+  {
+    "file": "Figure_7B_CICIoT2023_Retention_Alpha_1p0.pdf",
+    "bytes": 14314
+  },
+  {
+    "file": "Figure_7B_CICIoT2023_Retention_Alpha_1p0.png",
+    "bytes": 162739
+  },
+  {
+    "file": "Figure_S1_PAMAP2_Per_Activity_F1_Heatmap.pdf",
+    "bytes": 19892
+  },
+  {
+    "file": "Figure_S1_PAMAP2_Per_Activity_F1_Heatmap.png",
+    "bytes": 479304
+  }
+]

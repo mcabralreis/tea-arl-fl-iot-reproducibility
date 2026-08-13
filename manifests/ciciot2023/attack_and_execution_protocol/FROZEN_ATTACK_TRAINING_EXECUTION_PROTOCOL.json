@@ -1,0 +1,262 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_TRANSFORMED_UNIQUE_ATTACK_TRAINING_EXECUTION_PROTOCOL_FREEZE_V1",
+  "common_protocol_id": "CICIoT2023_TASK7_COMMON_ATTACK_TRAINING_EXECUTION_PROTOCOL_V1",
+  "attack_protocol_id": "CICIoT2023_SIGNFLIP_NEG5_R5_TO_R20_MAIN_MU0P2_0P4_V2",
+  "core_training_protocol_id": "CICIoT2023_MLP256_128_CPU_ADAM1E3_B256_S200_DISJOINT6BLOCKS_V2",
+  "seed_protocol_id": "CICIoT2023_PAIRED_GLOBAL_INIT_LOCAL_ORDER_LOCAL_RNG_SEEDS_V1",
+  "local_sample_order_algorithm_id": "SPLITMIX64_DUAL_KEY_CONFIG_CLIENT_LOCAL_SAMPLE_ORDER_V1",
+  "local_block_allocation_id": "SIX_DISJOINT_CONTIGUOUS_51200_BLOCKS_BY_PARTICIPATION_ORDINAL_V1",
+  "round_client_execution_id": "FROZEN_SCHEDULE_SLOT_ASCENDING_CLIENT_EXECUTION_V1",
+  "local_rng_application_id": "EVENT_SEED_MOD_2POW63_MINUS1_BEFORE_STOCHASTIC_LOCAL_TRAINING_V1",
+  "checkpoint_comparator_id": "LEXICOGRAPHIC_MAX_MACROF1_BALACC_NEGROUND_FLOAT64_NO_TOLERANCE_V1",
+  "main_campaign_set_id": "CICIoT2023_MAIN_CAMPAIGN_10CONFIG_6METHOD_3SCENARIO_180RUN_V1",
+  "immutable_binding": {
+    "effective_dataset_fingerprint_sha256": "5708EFE6C08C91CF3637FA8F89F53C4459933F94C7CC0BF819A590CBE9EF8E5D",
+    "feature_layer_fingerprint_sha256": "3BCCF823E11D0088970EC9BD26D411C73213D4E22C4469EBD0BF1D92F255944A",
+    "split_assignment_artifact_manifest_sha256": "DBF8B64C451E5DAB7AFA87FE88B5E9FFE6E7436FFAEAAFB66692076A5C16C276",
+    "train_weight_policy_artifact_manifest_sha256": "F77939B96EF739F6A298B821CB01BE4142248FFB517A600D64D482D525DD2E47",
+    "canonical_weight_vector_sha256": "C869BE9CA3CA092EBD86C1C86C99B24CA7668D99AEB4A9AEF3E8F8D46A818A69",
+    "assignment_set_content_sha256": "6161DDCA8874F3A079B3D61C19C62A0C1A60389ECFF2B2028E043FFC38B36E98",
+    "physical_assignment_audit_artifact_manifest_sha256": "E04148B061539804DF6928544707E47DFB84A3FCAE5544D55428719569DA67D5",
+    "combined_preattack_identity_sha256": "81057E395366BA10088F4455897446945556325756CA18BBF39B5F5A6A1198E2",
+    "participation_malicious_identity_artifact_manifest_sha256": "94C65F3EE7EDDCF19CC35FE1324AC595C706D472F3C4C898EC562747B8EA6031"
+  },
+  "frozen_scientific_fingerprints": {
+    "scenario_plan_sha256": "B660EC4C1D007C580E1451575E9192AFF68E0AC261E0FA7216080947D2DA8208",
+    "global_init_seed_set_sha256": "1A5D810307F46F54CC329E1F255B2E72AD36647E72189BFAA01C8372C3DFC30C",
+    "local_order_seed_set_sha256": "0EFBAA3CA5AE95B102950DB32F84C7719BDCA65FDE8471FC4524E1C178CEC9C3",
+    "local_train_rng_seed_set_sha256": "0792A7ED915B655D76776136DEB602EF789AE7C2510354112DAC522AD960CC59",
+    "campaign_matrix_sha256": "D67D6501935D5987BF0D3CDD9FBB8FC23FCCE611046BC59262C500F777B7DFEB",
+    "local_order_algorithm_sha256": "0C757D687DE35822211B8E2AC21FE1BC01FC8CFC70B5A3C3D6953931DCB4B21F",
+    "block_boundary_set_sha256": "7846A18811A29B5EE4876B85CF31E0DA49061AE6CC84127E96204C1B028B0607",
+    "round_execution_set_sha256": "028C4D8072D0B3B9BDF2A45FD81AE3A2F8C47BB9D0331EE70DB8AEE1E74AFFAA",
+    "checkpoint_comparator_sha256": "17C600042D27918CF2D754FC3A6E1C72224A48882B06E44254D41A8E517ED60B",
+    "gate81_combined_candidate_binding_sha256": "C3189C36A8E7BD9F1667663D0E5DEDF3B5B9D4306E796D0E2B45FB43FC2F4F59",
+    "gate82_combined_execution_detail_sha256": "02C7E853FF2453AE6DB681CA29EAD6DE131CBD9A2F334DCBC9E9A5AE9EB6C0FD",
+    "common_protocol_binding_hash_id": "COMMON_ATTACK_TRAINING_EXECUTION_BINDINGS_SHA256_LF_V1",
+    "common_protocol_binding_sha256": "0DA3146E8195CA630EE9F4DEDDC3D665F2BE9C08E3906677E5F79E6D1C602570"
+  },
+  "frozen_attack_protocol": {
+    "status": "FROZEN",
+    "main_scenarios": [
+      {
+        "ScenarioOrder": 0,
+        "ScenarioID": "CLEAN",
+        "MaliciousFraction": 0.0,
+        "MaliciousPrefixSize": 0,
+        "AttackOperator": "NONE",
+        "AttackActiveRounds": "NONE",
+        "MainCampaign": true
+      },
+      {
+        "ScenarioOrder": 1,
+        "ScenarioID": "SIGNFLIP_MU0P2",
+        "MaliciousFraction": 0.2,
+        "MaliciousPrefixSize": 6,
+        "AttackOperator": "NEG5_DELTA",
+        "AttackActiveRounds": "5_TO_20",
+        "MainCampaign": true
+      },
+      {
+        "ScenarioOrder": 2,
+        "ScenarioID": "SIGNFLIP_MU0P4",
+        "MaliciousFraction": 0.4,
+        "MaliciousPrefixSize": 12,
+        "AttackOperator": "NEG5_DELTA",
+        "AttackActiveRounds": "5_TO_20",
+        "MainCampaign": true
+      }
+    ],
+    "diagnostic_reference_scenario": {
+      "ScenarioOrder": 3,
+      "ScenarioID": "SIGNFLIP_MU0P1_DIAGNOSTIC",
+      "MaliciousFraction": 0.1,
+      "MaliciousPrefixSize": 3,
+      "AttackOperator": "NEG5_DELTA",
+      "AttackActiveRounds": "5_TO_20",
+      "MainCampaign": false
+    },
+    "delta_semantics": {
+      "honest_delta": "Delta_i = w_i_local - w_t",
+      "malicious_delta": "Delta_i_tilde = -5 * Delta_i",
+      "application_point": "AFTER_HONEST_LOCAL_TRAINING_BEFORE_SERVER_AGGREGATION",
+      "server_knows_malicious_identity": false,
+      "data_modified": false,
+      "labels_modified": false
+    },
+    "timing": {
+      "clean_warmup_rounds": "1_TO_4",
+      "attack_active_rounds": "5_TO_20"
+    },
+    "technical_operator_probe": {
+      "honest_delta": [
+        1.0,
+        -2.0,
+        0.5,
+        -0.25
+      ],
+      "malicious_delta": [
+        -5.0,
+        10.0,
+        -2.5,
+        1.25
+      ],
+      "scale": -5.0,
+      "exact_elementwise_replay": true
+    },
+    "attack_protocol_id": "CICIoT2023_SIGNFLIP_NEG5_R5_TO_R20_MAIN_MU0P2_0P4_V2"
+  },
+  "frozen_core_training_protocol": {
+    "status": "FROZEN",
+    "model": {
+      "architecture": "39_256_128_7",
+      "activation": "ReLU",
+      "dropout": 0.2,
+      "parameters": 44039
+    },
+    "optimizer": {
+      "name": "Adam",
+      "lr": 0.001,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "weight_decay": 0.0,
+      "amsgrad": false,
+      "foreach": false,
+      "fused": false,
+      "fresh_optimizer_per_client_participation": true,
+      "gradient_clipping": false
+    },
+    "fixed_work": {
+      "batch_size": 256,
+      "local_steps_per_participation": 200,
+      "samples_per_participation": 51200,
+      "participations_per_client": 6,
+      "samples_per_client_per_run": 307200,
+      "minimum_client_capacity": 551660,
+      "no_replacement": true,
+      "no_wrap": true,
+      "six_disjoint_blocks": true
+    },
+    "local_sample_order_candidate": {
+      "identity": "TRANSFORMED_HASH1_TRANSFORMED_HASH2",
+      "order_scope": "WITHIN_CONFIG_CLIENT",
+      "seed_scope": "CONFIG_CLIENT_SPECIFIC",
+      "participation_block_rule": "ORDINAL_K_GETS_HALF_OPEN_SLICE_Kx51200_TO_KPLUS1x51200",
+      "batch_rule": "200_CONTIGUOUS_BATCHES_OF_256_IN_FROZEN_HASH_ORDER"
+    },
+    "loss": {
+      "primary": "FROZEN_GLOBAL_TASK7_WEIGHTED_CE",
+      "reduction": "mean",
+      "secondary_sensitivity": "NATURAL_UNWEIGHTED_CE"
+    },
+    "checkpoint": {
+      "validation_frequency": "AFTER_EVERY_ROUND",
+      "primary_metric": "UNWEIGHTED_MACRO_F1",
+      "tie_1": "BALANCED_ACCURACY",
+      "tie_2": "EARLIER_ROUND",
+      "test_evaluations": 1,
+      "test_point": "SELECTED_CHECKPOINT_ONLY"
+    },
+    "environment": {
+      "python": "3.14.0",
+      "numpy": "2.5.1",
+      "torch": "2.12.1+xpu",
+      "cpu_primary": true,
+      "cuda_available": false,
+      "xpu_available": true,
+      "deterministic_algorithms": true,
+      "torch_num_threads": 16,
+      "torch_num_interop_threads": 16,
+      "mkldnn_enabled": true
+    },
+    "technical_cpu_replay": {
+      "technical_probe_runs": 2,
+      "optimizer_steps_per_probe_run": 3,
+      "technical_optimizer_steps_total": 6,
+      "scientific_optimizer_steps_total": 0,
+      "losses": [
+        1.9551841020584106,
+        1.8732490539550781,
+        1.8097550868988037
+      ],
+      "final_model_state_sha256": "C084011D2C233E80DD455A1D9065420F1816377C680F6C56D4764B5CE10230F8",
+      "bitwise_replay": true
+    },
+    "core_training_protocol_id": "CICIoT2023_MLP256_128_CPU_ADAM1E3_B256_S200_DISJOINT6BLOCKS_V2",
+    "seed_protocol_id": "CICIoT2023_PAIRED_GLOBAL_INIT_LOCAL_ORDER_LOCAL_RNG_SEEDS_V1",
+    "local_sample_order_algorithm_id": "SPLITMIX64_DUAL_KEY_CONFIG_CLIENT_LOCAL_SAMPLE_ORDER_V1",
+    "local_block_allocation_id": "SIX_DISJOINT_CONTIGUOUS_51200_BLOCKS_BY_PARTICIPATION_ORDINAL_V1",
+    "round_client_execution_id": "FROZEN_SCHEDULE_SLOT_ASCENDING_CLIENT_EXECUTION_V1",
+    "local_rng_application_id": "EVENT_SEED_MOD_2POW63_MINUS1_BEFORE_STOCHASTIC_LOCAL_TRAINING_V1",
+    "checkpoint_comparator_id": "LEXICOGRAPHIC_MAX_MACROF1_BALACC_NEGROUND_FLOAT64_NO_TOLERANCE_V1"
+  },
+  "frozen_execution_details": {
+    "local_order": {
+      "formula_artifact": "FROZEN_EXACT_LOCAL_SAMPLE_ORDER_ALGORITHM.txt",
+      "formula_sha256": "0C757D687DE35822211B8E2AC21FE1BC01FC8CFC70B5A3C3D6953931DCB4B21F"
+    },
+    "six_disjoint_blocks": {
+      "boundary_artifact": "FROZEN_LOCAL_PARTICIPATION_BLOCK_BOUNDARIES.csv",
+      "boundary_set_sha256": "7846A18811A29B5EE4876B85CF31E0DA49061AE6CC84127E96204C1B028B0607",
+      "rows": 1800,
+      "block_size": 51200,
+      "participation_ordinals": "0_TO_5",
+      "replacement": false,
+      "wrap": false
+    },
+    "round_client_execution": {
+      "artifact": "FROZEN_ROUND_CLIENT_EXECUTION_ORDER.csv",
+      "set_sha256": "028C4D8072D0B3B9BDF2A45FD81AE3A2F8C47BB9D0331EE70DB8AEE1E74AFFAA",
+      "rule": "FROZEN_SCHEDULE_SLOT_ASCENDING"
+    },
+    "local_rng_application": {
+      "artifact": "FROZEN_LOCAL_RNG_APPLICATION.csv",
+      "torch_seed_mapping": "SeedUInt64 mod (2^63 - 1)",
+      "application_point": "IMMEDIATELY_BEFORE_FIRST_STOCHASTIC_LOCAL_TRAINING_OPERATION",
+      "dataloader_shuffle": false,
+      "dataloader_workers": 0
+    },
+    "checkpoint_comparator": {
+      "artifact": "FROZEN_EXACT_CHECKPOINT_COMPARATOR.txt",
+      "sha256": "17C600042D27918CF2D754FC3A6E1C72224A48882B06E44254D41A8E517ED60B",
+      "rule": "MAX_LEXICOGRAPHIC_MACROF1_BALACC_NEGROUND_FLOAT64_NO_TOLERANCE",
+      "nonfinite_metrics_prohibited": true
+    }
+  },
+  "frozen_main_campaign": {
+    "configuration_count": 10,
+    "method_count": 6,
+    "scenario_count": 3,
+    "run_count": 180,
+    "method_ids": [
+      "ARL_FL",
+      "FEDAVG",
+      "FEDLE_ADAPTED",
+      "FEDPROX",
+      "RANDOM_TRIMMED_MEAN",
+      "TEA_FL"
+    ],
+    "scenario_ids": [
+      "CLEAN",
+      "SIGNFLIP_MU0P2",
+      "SIGNFLIP_MU0P4"
+    ],
+    "campaign_matrix_artifact": "FROZEN_MAIN_CAMPAIGN_MATRIX.csv",
+    "campaign_matrix_sha256": "D67D6501935D5987BF0D3CDD9FBB8FC23FCCE611046BC59262C500F777B7DFEB"
+  },
+  "scientific_boundary": {
+    "common_attack_protocol_frozen": true,
+    "common_core_training_protocol_frozen": true,
+    "deterministic_seed_protocol_frozen": true,
+    "exact_execution_detail_protocol_frozen": true,
+    "main_campaign_matrix_frozen": true,
+    "method_specific_algorithm_parameters_rebound": false,
+    "end_to_end_method_validation_started": false,
+    "scientific_optimizer_steps_executed": 0,
+    "scientific_training_started": false
+  }
+}

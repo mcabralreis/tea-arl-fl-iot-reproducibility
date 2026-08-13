@@ -1,0 +1,26 @@
+PAMAP2 POST-CAMPAIGN FREEZE DATA DICTIONARY
+==============================================================================
+
+PAMAP2_RUN_LEVEL_RESULTS_600.csv
+  One row per accepted scientific run. Final predictive, lifetime, energy,
+  fairness, optimizer-ledger, per-class F1, and binding fields.
+
+PAMAP2_PER_CLASS_F1_7200_ROWS.csv
+  Long-format table: 600 runs x 12 activity classes.
+
+PAMAP2_EVALUATION_TRAJECTORIES_12600_ROWS.csv
+  Long-format evaluation table: 600 runs x 21 frozen evaluation rounds.
+  global_pressure is numeric and required only for arl_fl; it is intentionally
+  blank for fedavg, fedprox, random_trimmed_mean, fedle_adapted and tea_fl.
+
+PAMAP2_RUN_RESULT_BINDING_LEDGER_600.csv
+  Compact scientific result-binding and optimizer-step ledger.
+
+PAMAP2_EARLY_STOP_RUNS.csv
+  Protocol-defined early stopping events. These runs remain COMPLETE and
+  scientifically accepted; completed_training_rounds = early_stop_round - 1.
+
+PAMAP2_DESCRIPTIVE_SUMMARY_60_CONDITIONS.csv
+  Descriptive aggregation by alpha x scenario x method. Each row has n=10
+  paired observations from 5 outer folds x 2 FL seeds. No inferential
+  significance test is performed by Gate-149R.

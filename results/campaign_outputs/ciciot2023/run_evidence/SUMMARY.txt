@@ -1,0 +1,45 @@
+﻿CICIoT2023 FINAL 180-RUN EVIDENCE SUMMARY
+===============================================================================
+
+Created:
+2026-07-20 18:45:08 +01:00
+
+Project root:
+C:\teste\tets
+
+Detected scientific campaign root:
+C:\teste\tets\outputs\ciciot2023\scientific_campaign_180runs_v1
+
+Scientific run directories detected:
+180
+
+Runs containing SCIENTIFIC_RUN_COMPLETE marker:
+180
+
+Runs containing at least one binding file:
+0
+
+Expected accepted complete scientific runs:
+180
+
+Expected accepted complete-run scientific optimizer steps:
+6480000
+
+Preserved failed-partial scientific optimizer steps:
+1801
+
+Expected total scientific optimizer steps including failed partials:
+6481801
+
+Technical optimizer steps:
+825
+
+PAMAP2 600-run campaign started:
+NO
+
+Excluded from this evidence pack:
+- datasets
+- PyTorch model files
+- checkpoints
+- tensor files
+- temporary caches

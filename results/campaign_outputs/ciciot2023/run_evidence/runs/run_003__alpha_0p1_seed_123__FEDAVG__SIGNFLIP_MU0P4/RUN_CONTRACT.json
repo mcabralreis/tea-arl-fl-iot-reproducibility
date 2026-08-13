@@ -1,0 +1,11 @@
+{
+  "runner_id": "CICIoT2023_FROZEN_180_RUN_SCIENTIFIC_CAMPAIGN_RUNNER_V1",
+  "runner_sha256": "F0D3CE89AA9A9B14FF3084E913A5301732CD8DE0854A95E1F3E865B9FD2BC688",
+  "build_binding_sha256": "333EDF80A9B1272CC745B76F70F8DCB47D005332028E2581BD24994810EEFF52",
+  "run_index": 3,
+  "config_id": "alpha_0p1_seed_123",
+  "experimental_seed": 123,
+  "method_id": "FEDAVG",
+  "scenario_id": "SIGNFLIP_MU0P4",
+  "scientific_run": true
+}

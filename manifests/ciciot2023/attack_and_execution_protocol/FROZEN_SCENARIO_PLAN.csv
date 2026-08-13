@@ -1,0 +1,5 @@
+﻿ScenarioOrder,ScenarioID,MaliciousFraction,MaliciousPrefixSize,AttackOperator,AttackActiveRounds,MainCampaign
+0,CLEAN,0.0,0,NONE,NONE,True
+1,SIGNFLIP_MU0P2,0.2,6,NEG5_DELTA,5_TO_20,True
+2,SIGNFLIP_MU0P4,0.4,12,NEG5_DELTA,5_TO_20,True
+3,SIGNFLIP_MU0P1_DIAGNOSTIC,0.1,3,NEG5_DELTA,5_TO_20,False

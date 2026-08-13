@@ -1,0 +1,49 @@
+{
+  "protocol_name": "PAMAP2 Federated Client Partitions v1",
+  "status": "FROZEN_AFTER_PARTITION_AUDIT_BEFORE_FL_TRAINING",
+  "source_evaluation_protocol": "C:\\teste\\tets\\outputs\\protocols\\pamap2_evaluation_v2\\EVALUATION_PROTOCOL_V2.json",
+  "source_evaluation_protocol_sha256": "26f4d5021a2ca9ae4442152423e5c16b197d3047a54c18da9261b5ee239eb145",
+  "processed_root": "C:\\teste\\tets\\data\\processed\\pamap2\\protocol_v1_w256_s128",
+  "subjects": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "outer_test_subjects": [
+    101,
+    102,
+    105,
+    106,
+    108
+  ],
+  "clients_per_subject": 4,
+  "clients_per_outer_fold": 28,
+  "subject_pure_clients": true,
+  "heterogeneity": {
+    "alphas": [
+      1.0,
+      0.1
+    ],
+    "partition_unit": "within-subject, within-activity chronological window slices",
+    "dirichlet_allocation": true,
+    "overlap_guard": "drop the first window of a later client slice only when it would overlap the previous client's final retained window",
+    "minimum_client_windows": 128,
+    "base_partition_seed": 20260706,
+    "master_subject_partitions_reused_across_outer_folds": true
+  },
+  "leakage_controls": {
+    "outer_test_subject_excluded_from_outer_training_clients": true,
+    "cross_client_overlapping_windows_within_subject_forbidden": true,
+    "client_contains_only_one_physical_subject": true
+  },
+  "audit": {
+    "alpha_0p1_lower_entropy_than_alpha_1p0": true,
+    "alpha_0p1_higher_jsd_than_alpha_1p0": true,
+    "all_clients_above_minimum_size": true
+  }
+}

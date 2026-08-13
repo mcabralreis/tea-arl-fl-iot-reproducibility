@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_SIX_METHOD_MINIMAL_ADAPTER_KERNEL_MAP_FREEZE_V1",
+  "adapter_protocol_id": "CICIoT2023_COMMON_SCHEDULE_SOURCE_BOUND_SIX_METHOD_ADAPTER_V1",
+  "immutable_binding": {
+    "common_protocol_binding_sha256": "0DA3146E8195CA630EE9F4DEDDC3D665F2BE9C08E3906677E5F79E6D1C602570",
+    "gate83_artifact_manifest_sha256": "DB39208DA367B5DC53DD33832D14746517EE82058C8DB07117806922BB8F86CA",
+    "six_method_binding_sha256": "8F0B7E875885A2ECAA6E5BC4F683D5517C0265C7AF92FFD49D41BE6EDC44D5A7",
+    "parameter_record_set_sha256": "DA93C652FA17D99B7F70F64284CE98DAC32E1D2EAAF206BE0BED33DC2EDE8A29",
+    "gate89_artifact_manifest_sha256": "8D3D94AF6BFE7A27C817F4D62DD43E7AFAAD2D3EE17DC7D2D19C07EE2375927B",
+    "gate90_execution_contract_sha256": "9112F809049681A23955D21C32BE1888F45EFC93691B1D2EC8610495B230DE91",
+    "gate91_execution_unit_map_sha256": "0FABFEF73B1B29E73E016A3EF8A6BE0ACC2E017335D63DC1B40ECB85AE605283",
+    "gate92_adapter_chain_map_sha256": "C56E10D75892526F66F9DA668A01080D4D9144CECCCD92FA288DCA070AE3B151",
+    "gate93_candidate_adapter_map_sha256": "67E576309FF615A93B6CA6C91EFA83BE2FD5FBC6ED14CFE7095AAB2DD75A4F13",
+    "gate94_fedle_transitive_flow_proof_sha256": "99AFF1D42A0565310574D20AB8C266F3074891ED47D0F60543194E2C37C97F04",
+    "gate95_fedle_second_output_proof_sha256": "A91E366D9AEC5BCD027AAA62C72BDC323E26D8E5158A5B86DDAA506FAF521872",
+    "frozen_kernel_map_sha256": "67E576309FF615A93B6CA6C91EFA83BE2FD5FBC6ED14CFE7095AAB2DD75A4F13",
+    "frozen_selection_policy_sha256": "91DDB247F12FE1B83BAB720975240A2F1E48D06397FC8FFC88A8CD2DFF4D6969",
+    "final_adapter_protocol_binding_sha256": "0AD1B31B87550DB02344857A876A69FA77416EFAA3681D5E697762636F89090A"
+  },
+  "participation_authority": "GATE80_GATE83_FROZEN_COMMON_SCHEDULE",
+  "participation_rule": "METHOD_SPECIFIC_SELECTION_MAY_NOT_REPLACE_FROZEN_PARTICIPANT_IDENTITIES",
+  "common_local_training_rule": "GATE83_COMMON_LOCAL_TRAINING_FOR_ALL_METHODS_EXCEPT_FEDPROX_PROXIMAL_OVERRIDE",
+  "method_count": 6,
+  "kernel_row_count": 14,
+  "method_specific_selection_executed_for_participant_identity": false,
+  "fedle_auxiliary_output": "AUDIT_ONLY_SECOND_OUTPUT_OMITTED_FROM_SCIENTIFIC_PATH",
+  "scientific_boundary": {
+    "execution_adapter_frozen": true,
+    "method_implementations_modified": false,
+    "technical_optimizer_steps_executed": 0,
+    "end_to_end_method_validation_started": false,
+    "scientific_optimizer_steps_executed": 0,
+    "scientific_training_started": false
+  }
+}

@@ -1,0 +1,118 @@
+CICIoT2023 TRANSFORMED-UNIQUE 80/10/10 SPLIT PROTOCOL FREEZE
+==============================================================================
+
+STATUS
+------------------------------------------------------------------------------
+FROZEN
+
+PROTOCOL IDENTIFIERS
+------------------------------------------------------------------------------
+Freeze ID: CICIoT2023_TRANSFORMED_UNIQUE_SPLIT_PROTOCOL_FREEZE_V1
+Split protocol ID: CICIoT2023_TASK7_TRANSFORMED_UNIQUE_F32_SPLIT_80_10_10_V1
+Allocation algorithm ID: SPLITMIX64_DUAL_KEY_EFFECTIVE_TVT_V1
+
+IMMUTABLE BINDING
+------------------------------------------------------------------------------
+Raw exact-unique dataset SHA256: D86976FD34A72E4E60249C536505165490F878D71A21301AC6F6FB7D387D6C8D
+Source transformed feature-layer SHA256: 3BCCF823E11D0088970EC9BD26D411C73213D4E22C4469EBD0BF1D92F255944A
+Transformed-collision policy SHA256: 04B6F4D4DCDDA139BF2814CD9A3FE15146847738F5F75D1C1E6E851A372B5515
+Effective dataset fingerprint SHA256: 5708EFE6C08C91CF3637FA8F89F53C4459933F94C7CC0BF819A590CBE9EF8E5D
+
+AUDITED SPLIT UNIT
+------------------------------------------------------------------------------
+One effective observation = one bitwise-exact 39-float32 model-input vector
+Effective observations: 20687272
+
+FROZEN RATIOS
+------------------------------------------------------------------------------
+TRAIN: 80%
+VALIDATION: 10%
+TEST: 10%
+
+FROZEN INTEGER TARGET RULE
+------------------------------------------------------------------------------
+Within each TASK7 label:
+  VALIDATION = floor(N_label / 10)
+  TEST = floor(N_label / 10)
+  TRAIN = N_label - VALIDATION - TEST
+
+PER-LABEL TARGETS
+------------------------------------------------------------------------------
+0 | Benign: N=1092826 | TRAIN=874262 | VALIDATION=109282 | TEST=109282
+1 | Brute Force: N=13044 | TRAIN=10436 | VALIDATION=1304 | TEST=1304
+2 | DoS_DDoS: N=15966567 | TRAIN=12773255 | VALIDATION=1596656 | TEST=1596656
+3 | Mirai: N=2454615 | TRAIN=1963693 | VALIDATION=245461 | TEST=245461
+4 | Recon: N=682204 | TRAIN=545764 | VALIDATION=68220 | TEST=68220
+5 | Spoofing: N=453406 | TRAIN=362726 | VALIDATION=45340 | TEST=45340
+6 | Web: N=24610 | TRAIN=19688 | VALIDATION=2461 | TEST=2461
+
+GLOBAL TARGETS
+------------------------------------------------------------------------------
+TRAIN: 16549824
+VALIDATION: 2068724
+TEST: 2068724
+
+FROZEN SEED
+------------------------------------------------------------------------------
+Seed material: CICIoT2023_TASK7_TRANSFORMED_UNIQUE_F32_INDEX_V1|5708EFE6C08C91CF3637FA8F89F53C4459933F94C7CC0BF819A590CBE9EF8E5D|TVT_SPLIT_V1
+Seed SHA256: 57F86F49720C8236885F1BF612C1B0AB4B937DD7D7BF73EE1FC087917212831B
+Seed uint64: 6338938836760691254
+Seed uint64 derivation: unsigned big-endian integer from first 8 SHA256 bytes
+
+FROZEN ALLOCATION ALGORITHM
+------------------------------------------------------------------------------
+Algorithm ID: SPLITMIX64_DUAL_KEY_EFFECTIVE_TVT_V1
+Scope: independently within each TASK7 label
+Effective observation ID:
+  TransformedHash1
+  TransformedHash2
+
+RankKey1 = splitmix64(TransformedHash1 XOR SeedU64)
+RankKey2 = splitmix64(TransformedHash2 XOR ROTL64(SeedU64,32) XOR 0xD1B54A32D192ED03)
+
+Ascending lexicographic sort tuple:
+  RankKey1
+  RankKey2
+  TransformedHash1
+  TransformedHash2
+
+Allocation after sort:
+  1. first TRAIN_target observations -> TRAIN
+  2. next VALIDATION_target observations -> VALIDATION
+  3. remaining TEST_target observations -> TEST
+
+PROHIBITED RANK INPUTS
+------------------------------------------------------------------------------
+Old split ID
+Representative source bucket / row
+RawMultiplicity
+Transformed-group multiplicity
+SumSourceRawMultiplicity
+Provenance
+Model results
+TASK7 label is used only to define the stratification scope, not as a rank key
+
+IMMUTABLE SPLIT PROTOCOL ARTIFACT
+------------------------------------------------------------------------------
+SPLIT_PROTOCOL: FROZEN_TRANSFORMED_UNIQUE_SPLIT_PROTOCOL.json
+  SHA256: AA5A9E77DE4B2D0A3E93927DB51AF4F89EF1373EBDCE159486DB289EF7EE0A20
+ALLOCATION_ALGORITHM: FROZEN_SPLIT_ALLOCATION_ALGORITHM.json
+  SHA256: AE9BD94B6E96A0E3728EFDDD4766DF3EE480393012B2547662DB39A0283C6389
+SPLIT_TARGETS: FROZEN_SPLIT_TARGETS.csv
+  SHA256: AA35385E08AEEB2578AE4A6F26E7F9FF9C2C2E90B48A82F4741F9B0717AB6018
+SPLIT_SEED: FROZEN_SPLIT_SEED.json
+  SHA256: C66BDCE08FA13BB47043DE00B44107745AA868FE6BE0AF423751D91435315D7A
+
+Combined split-protocol artifact-manifest SHA256: C3E938C506BB3342566694A3227FF5B9734E721C5BAF7AB8E9A02E559AD21AD5
+
+SCIENTIFIC STATE
+------------------------------------------------------------------------------
+Split protocol frozen: YES
+Split materialized: NO
+Client assignments materialized: NO
+Scientific optimizer steps executed: 0
+Scientific training started: NO
+
+NEXT GATE
+------------------------------------------------------------------------------
+Materialize the exact split IDs for all 20687272 effective observations using only the frozen transformed hashes, TASK7 stratification scope, seed, dual-key SplitMix64 ranking, sort tuple, and per-label targets. Then audit exact counts, coverage, deterministic replay, and zero dependency on superseded old split IDs before any client reconstruction.

@@ -1,0 +1,38 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_TRANSFORMED_UNIQUE_PHYSICAL_ASSIGNMENT_PROTOCOL_FREEZE_V1",
+  "physical_assignment_protocol_id": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_CONFIG_BOUND_HASH_ORDER_SLICE_ASSIGNMENT_V1",
+  "ordering_algorithm_id": "SPLITMIX64_DUAL_KEY_CONFIG_BOUND_LABEL_ORDER_V1",
+  "ordering_seed_derivation_id": "SHA256_CONFIG_BOUND_PHYSICAL_ASSIGNMENT_ORDER_SEED_V1",
+  "slice_allocation_id": "ASCENDING_CLIENT_ID_CONTIGUOUS_FROZEN_COUNT_PLAN_SLICES_V1",
+  "immutable_binding": {
+    "effective_dataset_fingerprint_sha256": "5708EFE6C08C91CF3637FA8F89F53C4459933F94C7CC0BF819A590CBE9EF8E5D",
+    "split_protocol_artifact_manifest_sha256": "C3E938C506BB3342566694A3227FF5B9734E721C5BAF7AB8E9A02E559AD21AD5",
+    "split_assignment_artifact_manifest_sha256": "DBF8B64C451E5DAB7AFA87FE88B5E9FFE6E7436FFAEAAFB66692076A5C16C276",
+    "train_weight_policy_artifact_manifest_sha256": "F77939B96EF739F6A298B821CB01BE4142248FFB517A600D64D482D525DD2E47",
+    "canonical_weight_vector_sha256": "C869BE9CA3CA092EBD86C1C86C99B24CA7668D99AEB4A9AEF3E8F8D46A818A69",
+    "client_partition_protocol_artifact_manifest_sha256": "7FF24F0A50C283EDC41053F81E7F8DB38A2864411C7E85B97BD8E9BEEEA7BB32",
+    "capacity_vector_sha256": "4876137D26ADE608583DE67560E3788E8ED8C3AA8327CB825C8AFCF16F0B11F0",
+    "count_plan_set_sha256": "CAD5F8DB2C71CC17614D039E39F792C31F6B1F2C5F8CB3E23EE28FF2BD0BD705"
+  },
+  "frozen_configuration_count": 10,
+  "frozen_seed_manifest_hash_id": "SORTED_CONFIG_ID_PLUS_SEED_SHA256_PLUS_SEED_UINT64_LF_V1",
+  "frozen_seed_manifest_sha256": "ABBABEA1D98D99E0EF3296C7257B75B6B97CA38CD17D53AF8ED7CD468E2EBEC8",
+  "frozen_slice_boundary_hash_id": "SORTED_CONFIG_LABEL_CLIENT_START_END_COUNT_LF_V1",
+  "frozen_slice_boundary_sha256": "2F6A628B3FE1CF3527A95A7B588DDF7123BBA4AFA5E0B57F6DE1EC9F9548ADA8",
+  "assignment_semantics": {
+    "configuration_independence": "EACH_CONFIG_HAS_ITS_OWN_COMPLETE_ASSIGNMENT_LAYER",
+    "train_only": true,
+    "validation_and_test_global_not_client_partitioned": true,
+    "one_client_per_train_observation_per_configuration": true,
+    "count_plan_is_primary_assignment_target": true
+  },
+  "scientific_boundary": {
+    "physical_assignment_algorithm_frozen": true,
+    "ordering_seeds_frozen": true,
+    "slice_boundaries_frozen": true,
+    "physical_client_assignments_materialized": false,
+    "scientific_optimizer_steps_executed": 0,
+    "scientific_training_started": false
+  }
+}

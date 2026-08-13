@@ -1,0 +1,7 @@
+method,selection,aggregation,energy_aware,risk_or_trust_aware,robust_aggregation
+fedavg,uniform random from eligible clients,sample-size-weighted mean of model deltas,False,False,False
+fedprox,same matched random selection as FedAvg,sample-size-weighted mean of model deltas,False,False,False
+random_trimmed_mean,same matched random selection as FedAvg,coordinate-wise trimmed mean with fixed k=2,False,False,True
+fedle_adapted,one-time partial-model similarity clustering; inverse cluster size preference; higher residual energy preferred within cluster,sample-size-weighted mean of model deltas,True,False,False
+tea_fl,published trust-energy exploit-explore orchestration,published trust-energy-weighted averaging,True,True,False
+arl_fl,Pareto risk-lifetime-staleness scheduling with adaptive exploration,independent adaptive norm clipping plus coordinate-wise trimmed mean,True,True,True

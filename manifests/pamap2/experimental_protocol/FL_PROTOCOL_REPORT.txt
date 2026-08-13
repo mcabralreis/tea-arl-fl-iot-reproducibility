@@ -1,0 +1,93 @@
+PAMAP2 FEDERATED EXPERIMENTAL PROTOCOL V1
+==============================================================================
+
+STATUS
+------------------------------------------------------------------------------
+FROZEN BEFORE ANY FL TRAINING
+
+FEDERATED DATA
+------------------------------------------------------------------------------
+Outer folds: 5
+Training clients per fold: 28
+Client design: 4 subject-pure pseudo-clients per training subject
+Heterogeneity: alpha=1.0 and alpha=0.1
+alpha=1.0 audit: classes/client=10.81; entropy=0.826; JSD=0.139
+alpha=0.1 audit: classes/client=5.55; entropy=0.478; JSD=0.463
+
+GLOBAL MODEL
+------------------------------------------------------------------------------
+Representation: Magnitude6 (16g acceleration + gyroscope magnitudes)
+Input channels: 6
+Normalization layer: GroupNorm
+Architecture: 32 -> 64 -> 96 lightweight 1D-CNN
+Trainable parameters: 77,004
+
+TRAINING
+------------------------------------------------------------------------------
+Communication rounds: 100
+Clients per round: 8/28 (28.6%)
+Local epochs: 1
+Local batch size: 64
+Local optimizer: AdamW
+Learning rate: 0.001
+Weight decay: 0.0001
+FL seeds per outer fold: [123, 456]
+
+THREAT MODEL
+------------------------------------------------------------------------------
+Attack begins at round 20.
+Clean
+Sign-flip, nominal mu=0.2 -> 6/28 malicious clients
+Sign-flip, nominal mu=0.4 -> 11/28 malicious clients
+Label flip, nominal mu=0.2 -> 6/28 malicious clients
+Label flip, nominal mu=0.4 -> 11/28 malicious clients
+Sign-flip scale: -5 x honest delta
+Label flip: (y + 1) mod 12
+
+METHODS
+------------------------------------------------------------------------------
+1. FedAvg
+2. FedProx (mu=0.01)
+3. Random Selection + coordinate-wise Trimmed Mean (k=2)
+4. FedLE-adapted
+5. TEA-FL
+6. ARL-FL
+
+COMMON ENERGY ENVIRONMENT
+------------------------------------------------------------------------------
+Normalized simulation units; no claim of physical joules.
+Initial energy: Uniform(0.70, 1.00)
+Device compute factor: Uniform(0.80, 1.20)
+Standby cost per round: 0.0005
+Communication cost per participation: 0.004
+Compute cost: 0.016 x compute_factor x (client_windows / fold_median_client_windows)
+Critical energy threshold: 0.10
+Network death threshold: fewer than 50% active clients
+
+ARL-FL SEPARATION PRINCIPLE
+------------------------------------------------------------------------------
+Scheduling uses risk, lifetime pressure, and staleness.
+Aggregation does not directly use residual energy or risk weights.
+Aggregation uses adaptive norm clipping and adaptive trimmed mean.
+
+PRIMARY REPORTING
+------------------------------------------------------------------------------
+Primary predictive metric: final Macro-F1 at round 100.
+Independent unit: outer-fold mean after averaging two FL seeds.
+Report mean +/- sample standard deviation across five outer folds.
+
+CAMPAIGN SIZE
+------------------------------------------------------------------------------
+5 outer folds x 2 alphas x 5 scenarios x 2 FL seeds = 100 matched conditions
+100 conditions x 6 methods = 600 PAMAP2 FL runs
+
+FILES
+------------------------------------------------------------------------------
+FL_EXPERIMENTAL_PROTOCOL_V1.json
+FL_PROTOCOL_REPORT.txt
+method_manifest.csv
+scenario_manifest.csv
+matched_condition_manifest.csv
+campaign_matrix_600_runs.csv
+malicious_client_manifest.csv
+client_energy_profile.csv

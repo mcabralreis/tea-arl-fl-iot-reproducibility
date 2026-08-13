@@ -1,0 +1,54 @@
+PAMAP2 GATE-151 MULTIOBJECTIVE, TEMPORAL AND PER-ACTIVITY ARTICLE ANALYSIS
+==============================================================================
+
+STATUS
+------------------------------------------------------------------------------
+PASS
+
+VERIFIED PROVENANCE
+------------------------------------------------------------------------------
+Gate-149R final binding: B73E05C64EAF424BF6014E076B1848DD2409F54F07307B083EBD5F9CB42AE2AC
+Gate-150 final binding: 3EBF4CFB46EDFF04BC54D12CFBA90CE176AAA90C3CD23DC234EA0605682EBB51
+Scientific runs verified: 600/600
+Accepted scientific optimizer steps: 3401459
+Evaluation trajectory rows: 12600
+Per-activity F1 rows: 7200
+
+GATE-150 PRIMARY OVERALL EVIDENCE CARRIED FORWARD
+------------------------------------------------------------------------------
+TEA-FL Macro-F1 significant Holm comparisons vs four baselines: 4/4
+ARL-FL Macro-F1 significant Holm comparisons vs four baselines: 3/4
+TEA-FL energy significant Holm comparisons vs four baselines: 4/4
+ARL-FL energy significant Holm comparisons vs four baselines: 4/4
+
+MULTIOBJECTIVE RESULTS
+------------------------------------------------------------------------------
+Effectiveness-energy profile leader: TEA-FL
+Balanced four-objective profile leader: ARL-FL
+Retention-priority illustrative profile leader: ARL-FL
+Overall 2D Macro-F1-energy Pareto set: TEA-FL
+Overall 4D Macro-F1-energy-active-clients-fairness Pareto set: ARL-FL, TEA-FL, Random Trimmed Mean, FedLE-adapted
+Composite profiles are transparent decision aids, not inferential endpoints.
+
+TEMPORAL ANALYSIS
+------------------------------------------------------------------------------
+Per-run temporal feature rows: 600
+Condition-method temporal summary rows: 60
+Attack-condition response rows: 48
+Trajectory mean/CI rows: 1260
+Attack start round: 20
+
+PER-ACTIVITY ANALYSIS
+------------------------------------------------------------------------------
+Activity mapping IDs: [1, 2, 3, 4, 5, 6, 7, 12, 13, 16, 17, 24]
+Hardest activities by all-method mean F1: Rope jumping=0.1952; Standing=0.2152; Sitting=0.2174
+Easiest activities by all-method mean F1: Cycling=0.5746; Walking=0.5578; Running=0.5054
+
+SCIENTIFIC BOUNDARY
+------------------------------------------------------------------------------
+Scientific training executed by Gate-151: NO
+Scientific optimizer steps executed by Gate-151: 0
+New scientific runs started by Gate-151: 0
+Input scientific results modified by Gate-151: NO
+New inferential statistical tests executed by Gate-151: NO
+CICIoT2023 scientific training started by Gate-151: NO

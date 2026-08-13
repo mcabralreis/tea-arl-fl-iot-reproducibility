@@ -1,0 +1,76 @@
+PAMAP2 EVALUATION PROTOCOL V2
+==============================================================================
+Processed dataset: C:\teste\tets\data\processed\pamap2\protocol_v1_w256_s128
+
+STATUS
+------------------------------------------------------------------------------
+FROZEN BEFORE ANY V2 MODEL TRAINING
+
+WHY V2 IS REQUIRED
+------------------------------------------------------------------------------
+The pilot single-subject validation/test design was unstable across subjects.
+The previous subject101 validation and subject108 test results are retained
+as pilot diagnostics and are not used as the final article evaluation design.
+
+OUTER EVALUATION
+------------------------------------------------------------------------------
+Design: five-fold leave-one-complete-subject-out
+Outer subjects: [101, 102, 105, 106, 108]
+Each outer test subject contains all 12 activities.
+All remaining core subjects contribute to outer training.
+Outer seeds: [123, 456, 789]
+
+NESTED INNER SELECTION
+------------------------------------------------------------------------------
+Four inner validation subjects per outer fold.
+Inner seeds: [123, 456]
+Selection: mean Macro-F1 across 8 inner runs per candidate.
+Equivalent candidates: within 0.005 Macro-F1 of the best.
+Tie-break: fewer input channels, then lower variability.
+
+CANDIDATE GRID
+------------------------------------------------------------------------------
+1. core27_axes (27 ch) + batchnorm
+2. core27_axes (27 ch) + groupnorm
+3. magnitude6_acc16_gyro (6 ch) + batchnorm
+4. magnitude6_acc16_gyro (6 ch) + groupnorm
+5. magnitude9_all (9 ch) + batchnorm
+6. magnitude9_all (9 ch) + groupnorm
+
+FIXED MODEL AND OPTIMIZATION
+------------------------------------------------------------------------------
+Model: small LightweightCNN1D
+Convolution channels: 32 -> 64 -> 96
+Dropout: 0.20
+Loss: standard cross-entropy
+Optimizer: AdamW
+Learning rate: 0.001
+Weight decay: 0.0001
+Batch size: 128
+Maximum epochs: 40
+Early stopping patience: 8
+
+FOLD-SPECIFIC INPUT NORMALIZATION
+------------------------------------------------------------------------------
+Candidate representations are constructed on recovered raw-scale windows.
+Z-score statistics are fitted only on the current training subjects.
+No inner-validation or outer-test subject contributes normalization statistics.
+
+PLANNED COMPUTATION
+------------------------------------------------------------------------------
+Inner screening runs: 240
+Outer final runs: 15
+Total planned model trainings: 255
+
+IMPORTANT TRANSPARENCY NOTE
+------------------------------------------------------------------------------
+subject101 and subject108 were already observed as held-out subjects in the pilot.
+The v2 study is therefore reported as a post-pilot nested cross-validation study,
+not as a retrospectively untouched hold-out experiment.
+
+FILES
+------------------------------------------------------------------------------
+EVALUATION_PROTOCOL_V2.json
+candidate_grid.csv
+outer_fold_manifest.csv
+inner_fold_manifest.csv

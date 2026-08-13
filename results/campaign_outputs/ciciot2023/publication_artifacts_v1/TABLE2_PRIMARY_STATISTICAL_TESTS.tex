@@ -1,0 +1,14 @@
+\begin{table*}[t]
+\centering
+\caption{Primary repeated-measures tests over ten frozen (α, seed) blocks.}
+\label{tab:ciciot\_primary\_stats}
+\begin{tabular}{lcccc}
+\toprule
+Scenario & Friedman χ²(5) & p & Kendall W & Significant ARL-FL comparisons \\
+\midrule
+Clean & 21.543 & 0.0006394 & 0.431 & ARL-FL vs TEA-FL (Δ=+0.0835, Holm p=0.009766) \\
+Sign-flip μ=0.2 & 32.203 & 5.417e-06 & 0.644 & ARL-FL vs FedAvg (Δ=+0.0605, Holm p=0.01953); ARL-FL vs FedProx (Δ=+0.0638, Holm p=0.01953); ARL-FL vs FedLE-adapted (Δ=+0.0628, Holm p=0.01953) \\
+Sign-flip μ=0.4 & 14.016 & 0.01551 & 0.280 & None \\
+\bottomrule
+\end{tabular}
+\end{table*}

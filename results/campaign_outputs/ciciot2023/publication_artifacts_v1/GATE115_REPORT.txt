@@ -1,0 +1,31 @@
+CICIoT2023 GATE-115 PUBLICATION TABLES AND FIGURES
+==============================================================================
+
+STATUS
+------
+PASS
+
+SCOPE
+-----
+PUBLICATION_TABLES_AND_FIGURES_ONLY
+Scientific training executed by Gate-115: NO
+Optimizer steps executed by Gate-115: 0
+PAMAP2 600-run campaign started: NO
+
+INPUT AUDIT
+-----------
+Gate-113 final binding: 7649BB9E5EA9452C53D26948D3A45D057C85A693A06896D6D556E6D6952BCE6A
+Gate-114 final binding: 237B16492B01942CACE6101A5A1DA4BE947BE44AFFBE2778EBE09DD68B656DC5
+Rows verified: 180/180
+Experimental matrix cells verified: 180/180
+Modal Macro-F1 floor count verified: 30/180
+
+OUTPUTS
+-------
+Publication tables: 4 CSV tables and 2 LaTeX tables
+Publication figures: 6 figures, each in PNG and PDF
+Publication results summary: PUBLICATION_RESULTS_SUMMARY.txt
+
+FINAL BINDING
+-------------
+775B4444EE6F22FF9A7293F242BA58686A0FD0A68523E0B319950A232CBA5298

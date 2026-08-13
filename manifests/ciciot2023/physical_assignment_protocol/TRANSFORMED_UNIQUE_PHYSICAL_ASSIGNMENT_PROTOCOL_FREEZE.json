@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_TRANSFORMED_UNIQUE_PHYSICAL_ASSIGNMENT_PROTOCOL_FREEZE_V1",
+  "physical_assignment_protocol_id": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_CONFIG_BOUND_HASH_ORDER_SLICE_ASSIGNMENT_V1",
+  "ordering_algorithm_id": "SPLITMIX64_DUAL_KEY_CONFIG_BOUND_LABEL_ORDER_V1",
+  "ordering_seed_manifest_sha256": "ABBABEA1D98D99E0EF3296C7257B75B6B97CA38CD17D53AF8ED7CD468E2EBEC8",
+  "slice_boundary_sha256": "2F6A628B3FE1CF3527A95A7B588DDF7123BBA4AFA5E0B57F6DE1EC9F9548ADA8",
+  "frozen_physical_assignment_protocol_artifact_manifest_sha256": "CF378EB71CDF283C2AB44C4E53CAB0E803672B3902CC92860005FD14635C0435",
+  "materialization_boundary": {
+    "physical_client_assignments_materialized": false,
+    "scientific_training_started": false
+  }
+}

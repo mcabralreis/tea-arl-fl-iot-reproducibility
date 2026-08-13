@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_TRANSFORMED_UNIQUE_PARTICIPATION_MALICIOUS_IDENTITY_FREEZE_V2",
+  "participation_protocol_id": "CICIoT2023_K30_R20_M9_SEED_PAIRED_SIX_EPOCH_EXACT_EXPOSURE_V2",
+  "malicious_identity_id": "CICIoT2023_K30_SEED_PAIRED_FIXED_HASH_RANK_NESTED_PREFIX_V2",
+  "config_mapping_sha256": "444E14F821630F3814E939A3B9A0F493B86D7E25BA245B8BDCDD7EE32A77FF9E",
+  "schedule_set_sha256": "072DE9493641E92D8A450A61E02E5C211AC818F80309041CD7F4CA5C6D50CE66",
+  "ranking_set_sha256": "65ADA6C60BCF1D5E7FCCF4A3874BD296AEAF1CF69B2D3C50087D5BC449CE491D",
+  "combined_preattack_identity_sha256": "81057E395366BA10088F4455897446945556325756CA18BBF39B5F5A6A1198E2",
+  "frozen_participation_malicious_identity_artifact_manifest_sha256": "94C65F3EE7EDDCF19CC35FE1324AC595C706D472F3C4C898EC562747B8EA6031",
+  "scientific_boundary": {
+    "participation_protocol_frozen": true,
+    "malicious_client_identity_frozen": true,
+    "attack_protocol_rebound": false,
+    "scientific_training_started": false
+  }
+}

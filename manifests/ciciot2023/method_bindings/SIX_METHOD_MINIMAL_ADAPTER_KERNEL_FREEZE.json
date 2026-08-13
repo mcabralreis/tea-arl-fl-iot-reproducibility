@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_SIX_METHOD_MINIMAL_ADAPTER_KERNEL_MAP_FREEZE_V1",
+  "adapter_protocol_id": "CICIoT2023_COMMON_SCHEDULE_SOURCE_BOUND_SIX_METHOD_ADAPTER_V1",
+  "frozen_kernel_map_sha256": "67E576309FF615A93B6CA6C91EFA83BE2FD5FBC6ED14CFE7095AAB2DD75A4F13",
+  "frozen_selection_policy_sha256": "91DDB247F12FE1B83BAB720975240A2F1E48D06397FC8FFC88A8CD2DFF4D6969",
+  "final_adapter_protocol_binding_sha256": "0AD1B31B87550DB02344857A876A69FA77416EFAA3681D5E697762636F89090A",
+  "frozen_six_method_adapter_artifact_manifest_sha256": "4114125BA621A898BDC4726CF99B723BE7566CB2A6B65D5463E574C37277C655",
+  "scientific_boundary": {
+    "execution_adapter_frozen": true,
+    "method_implementations_modified": false,
+    "technical_optimizer_steps_executed": 0,
+    "end_to_end_method_validation_started": false,
+    "scientific_optimizer_steps_executed": 0,
+    "scientific_training_started": false
+  }
+}

@@ -1,0 +1,58 @@
+PAMAP2 GATE-151 DATA DICTIONARY
+===============================================================================
+
+PAMAP2_OVERALL_MULTIOBJECTIVE_METHODS.csv
+  Overall method means, benefit-oriented min-max normalizations, ranks, three
+  transparent illustrative decision profiles, and 2D/4D Pareto membership.
+
+PAMAP2_CONDITION_MULTIOBJECTIVE_PARETO.csv
+  Condition-specific method means, normalized objective values, profile scores,
+  and Pareto membership for every alpha-scenario condition.
+
+PAMAP2_TEMPORAL_RUN_FEATURES_600.csv
+  One row per scientific run. Includes normalized AUCs, pre/post-attack Macro-F1,
+  post-attack nadir and recovery, final client/energy state, and ARL pressure.
+
+PAMAP2_TEMPORAL_SUMMARY_60_CONDITIONS.csv
+  Mean, standard deviation and median of temporal features for each
+  alpha-scenario-method panel (10 matched runs per row).
+
+PAMAP2_ATTACK_ONSET_RESPONSE_48_ROWS.csv
+  Temporal summaries restricted to the eight attacked alpha-scenario panels.
+
+PAMAP2_TRAJECTORY_MEAN_CI_1260_ROWS.csv
+  Mean, standard deviation, and 95% Student-t intervals at 21 evaluation rounds
+  for each alpha-scenario-method panel.
+
+PAMAP2_PER_ACTIVITY_OVERALL_72_ROWS.csv
+  Six methods x 12 PAMAP2 activities, with F1 summaries and within-activity rank.
+
+PAMAP2_PER_ACTIVITY_CONDITION_720_ROWS.csv
+  Ten alpha-scenario conditions x six methods x 12 activities.
+
+PAMAP2_ACTIVITY_DIFFICULTY_12_ROWS.csv
+  Overall activity difficulty and the best mean method for each activity.
+
+PAMAP2_ARTICLE_CONDITION_METHOD_TABLE_60_ROWS.csv
+  Compact article-ready means for the ten conditions and six methods.
+
+PAMAP2_ARTICLE_PRIMARY_EVIDENCE_LEDGER.csv
+  Gate-150 primary-endpoint comparisons carried forward without rerunning tests.
+
+Benefit normalization
+---------------------
+Higher values always mean better. Energy consumption is direction-reversed.
+The normalization is descriptive and relative to the six methods in this study.
+
+Illustrative profiles
+---------------------
+Effectiveness-energy: 0.50 Macro-F1 + 0.50 energy efficiency.
+Balanced four-objective: equal Macro-F1, energy efficiency, active clients,
+and participation fairness.
+Retention priority: 0.35 Macro-F1 + 0.20 energy efficiency + 0.30 active clients
++ 0.15 fairness. Profile weights are decision aids, not statistical endpoints.
+
+PAMAP2 activity mapping
+-----------------------
+class_index 0..11 maps in order to activity IDs
+1, 2, 3, 4, 5, 6, 7, 12, 13, 16, 17, 24.

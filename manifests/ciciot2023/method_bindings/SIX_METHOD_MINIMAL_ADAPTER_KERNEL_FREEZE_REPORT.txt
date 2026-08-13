@@ -1,0 +1,150 @@
+CICIoT2023 SIX-METHOD MINIMAL ADAPTER-KERNEL MAP FREEZE
+==============================================================================
+
+STATUS
+------------------------------------------------------------------------------
+FROZEN
+
+PROTOCOL IDENTIFIERS
+------------------------------------------------------------------------------
+Freeze ID: CICIoT2023_SIX_METHOD_MINIMAL_ADAPTER_KERNEL_MAP_FREEZE_V1
+Adapter protocol ID: CICIoT2023_COMMON_SCHEDULE_SOURCE_BOUND_SIX_METHOD_ADAPTER_V1
+
+IMMUTABLE UPSTREAM BINDING
+------------------------------------------------------------------------------
+Common protocol binding SHA256: 0DA3146E8195CA630EE9F4DEDDC3D665F2BE9C08E3906677E5F79E6D1C602570
+Gate-83 artifact-manifest SHA256: DB39208DA367B5DC53DD33832D14746517EE82058C8DB07117806922BB8F86CA
+Six-method binding SHA256: 8F0B7E875885A2ECAA6E5BC4F683D5517C0265C7AF92FFD49D41BE6EDC44D5A7
+Parameter-record set SHA256: DA93C652FA17D99B7F70F64284CE98DAC32E1D2EAAF206BE0BED33DC2EDE8A29
+Gate-89 artifact-manifest SHA256: 8D3D94AF6BFE7A27C817F4D62DD43E7AFAAD2D3EE17DC7D2D19C07EE2375927B
+Gate-90 execution-contract SHA256: 9112F809049681A23955D21C32BE1888F45EFC93691B1D2EC8610495B230DE91
+Gate-91 execution-unit map SHA256: 0FABFEF73B1B29E73E016A3EF8A6BE0ACC2E017335D63DC1B40ECB85AE605283
+Gate-92 adapter-chain map SHA256: C56E10D75892526F66F9DA668A01080D4D9144CECCCD92FA288DCA070AE3B151
+Gate-93 candidate adapter-map SHA256: 67E576309FF615A93B6CA6C91EFA83BE2FD5FBC6ED14CFE7095AAB2DD75A4F13
+Gate-94 FedLE transitive flow-proof SHA256: 99AFF1D42A0565310574D20AB8C266F3074891ED47D0F60543194E2C37C97F04
+Gate-95 FedLE second-output proof SHA256: A91E366D9AEC5BCD027AAA62C72BDC323E26D8E5158A5B86DDAA506FAF521872
+
+FROZEN PARTICIPATION AUTHORITY
+------------------------------------------------------------------------------
+Participant identities: GATE80_GATE83_FROZEN_COMMON_SCHEDULE
+Rule: METHOD_SPECIFIC_SELECTION_MAY_NOT_REPLACE_FROZEN_PARTICIPANT_IDENTITIES
+Method-specific selection executed for participant identity: NO
+Frozen selected list injected where legacy method selection previously supplied participant identities: YES
+
+FROZEN LOCAL-TRAINING RULE
+------------------------------------------------------------------------------
+GATE83_COMMON_LOCAL_TRAINING_FOR_ALL_METHODS_EXCEPT_FEDPROX_PROXIMAL_OVERRIDE
+FedProx local proximal override: EXECUTE
+Other methods use Gate-83 common local-training semantics: YES
+
+FROZEN SIX-METHOD ADAPTER MAP
+------------------------------------------------------------------------------
+FEDAVG: FROZEN
+  LOCAL_TRAINING: train_one_client
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=95332E09ABDA97ADE0D05F7C111C52B76C29E25668A33A1227F15D57AF1FE773
+    execution_disposition=COMMON_GATE83_LOCAL_TRAINING_SOURCE_SEMANTICS_REFERENCE_ONLY
+  SERVER_AGGREGATION: fedavg_weighted_state
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=95332E09ABDA97ADE0D05F7C111C52B76C29E25668A33A1227F15D57AF1FE773
+    execution_disposition=EXECUTE
+  selection_callable=
+  final_substitution_status=NO_METHOD_SELECTION_CALLABLE
+  selection_execution=NOT_APPLICABLE
+  auxiliary_output=NOT_APPLICABLE
+FEDPROX: FROZEN
+  LOCAL_TRAINING: train_one_client_method
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=D212E3F3FE2DA344401059294151D5FCA3925DCB8CB39D58ECAE0E7A90E7F1FB
+    execution_disposition=EXECUTE
+  SERVER_AGGREGATION: fedavg_weighted_state
+    resolution_scope=STATIC_BASE_DEPENDENCY
+    source_sha256=E845C32248A65651B6155B34BCC6024878E775C56DB2DB9096FA545AA9B37E53
+    execution_disposition=EXECUTE
+  selection_callable=
+  final_substitution_status=NO_METHOD_SELECTION_CALLABLE
+  selection_execution=NOT_APPLICABLE
+  auxiliary_output=NOT_APPLICABLE
+RANDOM_TRIMMED_MEAN: FROZEN
+  LOCAL_TRAINING: train_one_client_method
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=D212E3F3FE2DA344401059294151D5FCA3925DCB8CB39D58ECAE0E7A90E7F1FB
+    execution_disposition=COMMON_GATE83_LOCAL_TRAINING_SOURCE_SEMANTICS_REFERENCE_ONLY
+  SERVER_AGGREGATION: trimmed_mean_state
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=D212E3F3FE2DA344401059294151D5FCA3925DCB8CB39D58ECAE0E7A90E7F1FB
+    execution_disposition=EXECUTE
+  selection_callable=
+  final_substitution_status=NO_METHOD_SELECTION_CALLABLE
+  selection_execution=NOT_APPLICABLE
+  auxiliary_output=NOT_APPLICABLE
+FEDLE_ADAPTED: FROZEN
+  LOCAL_TRAINING: train_one_client
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=180C60755A788C4313D4D29CC33EB362EEDD3D439F9C29D2FEDF0685BCB342C4
+    execution_disposition=COMMON_GATE83_LOCAL_TRAINING_SOURCE_SEMANTICS_REFERENCE_ONLY
+  SERVER_AGGREGATION: weighted_fedavg_state
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=180C60755A788C4313D4D29CC33EB362EEDD3D439F9C29D2FEDF0685BCB342C4
+    execution_disposition=EXECUTE
+  selection_callable=select_fedle_clients
+  final_substitution_status=FEDLE_COMMON_SCHEDULE_SUBSTITUTION_FULLY_PROVEN
+  selection_execution=DO_NOT_EXECUTE_FOR_PARTICIPANT_IDENTITY_INJECT_FROZEN_SELECTED_LIST
+  auxiliary_output=AUDIT_ONLY_SECOND_OUTPUT_OMITTED_FROM_SCIENTIFIC_PATH
+TEA_FL: FROZEN
+  LOCAL_TRAINING: train_one_client
+    resolution_scope=STATIC_BASE_DEPENDENCY
+    source_sha256=E845C32248A65651B6155B34BCC6024878E775C56DB2DB9096FA545AA9B37E53
+    execution_disposition=COMMON_GATE83_LOCAL_TRAINING_SOURCE_SEMANTICS_REFERENCE_ONLY
+  SERVER_AGGREGATION: tea_weighted_aggregation
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=CBBE06A207E4B127E45B0EF9B9D0D5E054A0C7C817EE7E9D83F4B045614BC51B
+    execution_disposition=EXECUTE
+  STATE_UPDATE: update_trust_from_round_reference
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=CBBE06A207E4B127E45B0EF9B9D0D5E054A0C7C817EE7E9D83F4B045614BC51B
+    execution_disposition=EXECUTE
+  selection_callable=select_tea_clients
+  final_substitution_status=STATIC_COMMON_SELECTED_SUBSTITUTION_SUPPORTED
+  selection_execution=DO_NOT_EXECUTE_FOR_PARTICIPANT_IDENTITY_INJECT_FROZEN_SELECTED_LIST
+  auxiliary_output=NOT_APPLICABLE
+ARL_FL: FROZEN
+  LOCAL_TRAINING: train_one_client
+    resolution_scope=STATIC_BASE_DEPENDENCY
+    source_sha256=E845C32248A65651B6155B34BCC6024878E775C56DB2DB9096FA545AA9B37E53
+    execution_disposition=COMMON_GATE83_LOCAL_TRAINING_SOURCE_SEMANTICS_REFERENCE_ONLY
+  SERVER_AGGREGATION: adaptive_robust_aggregation
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=8533C05AC6EFCB3841127C0ED830CA3C0AB7FFA3691A9F5E311DF416D4B76684
+    execution_disposition=EXECUTE
+  STATE_UPDATE: compute_round_risk
+    resolution_scope=FROZEN_PRIMARY_SOURCE
+    source_sha256=8533C05AC6EFCB3841127C0ED830CA3C0AB7FFA3691A9F5E311DF416D4B76684
+    execution_disposition=EXECUTE
+  selection_callable=select_arl_clients
+  final_substitution_status=STATIC_COMMON_SELECTED_SUBSTITUTION_SUPPORTED
+  selection_execution=DO_NOT_EXECUTE_FOR_PARTICIPANT_IDENTITY_INJECT_FROZEN_SELECTED_LIST
+  auxiliary_output=NOT_APPLICABLE
+
+FROZEN SCIENTIFIC FINGERPRINTS
+------------------------------------------------------------------------------
+Frozen kernel-map SHA256: 67E576309FF615A93B6CA6C91EFA83BE2FD5FBC6ED14CFE7095AAB2DD75A4F13
+Frozen selection-policy SHA256: 91DDB247F12FE1B83BAB720975240A2F1E48D06397FC8FFC88A8CD2DFF4D6969
+Final adapter protocol binding SHA256: 0AD1B31B87550DB02344857A876A69FA77416EFAA3681D5E697762636F89090A
+
+IMMUTABLE FREEZE ARTIFACT
+------------------------------------------------------------------------------
+Combined six-method adapter artifact-manifest SHA256: 4114125BA621A898BDC4726CF99B723BE7566CB2A6B65D5463E574C37277C655
+
+SCIENTIFIC BOUNDARY
+------------------------------------------------------------------------------
+Execution adapter frozen: YES
+Method implementations modified: NO
+Technical optimizer steps executed: 0
+End-to-end method validation started: NO
+Scientific optimizer steps executed: 0
+Scientific training started: NO
+
+NEXT GATE
+------------------------------------------------------------------------------
+Build the minimal deterministic CICIoT2023 six-method end-to-end technical validator bound to the Gate-83 common protocol, Gate-89 method bindings, and this frozen adapter protocol. The validator must remain technical-only and minimal before any scientific run.

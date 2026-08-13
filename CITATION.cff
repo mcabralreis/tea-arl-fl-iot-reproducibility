@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated article and the archived software release."
+type: software
+title: "TEA-FL and ARL-FL IoT reproducibility package"
+version: 1.0.0
+authors:
+  - family-names: Reis
+    given-names: "Manuel J. C. S."
+    orcid: "https://orcid.org/0000-0002-8872-5721"
+  - family-names: Serôdio
+    given-names: Carlos
+  - family-names: Branco
+    given-names: Frederico
+repository-code: "https://github.com/mcabralreis/tea-arl-fl-iot-reproducibility"
+url: "https://github.com/mcabralreis/tea-arl-fl-iot-reproducibility"
+abstract: >-
+  Frozen source code, protocols, manifests, run-level evidence, revised
+  statistical analyses, and publication figures for the TEA-FL and ARL-FL
+  evaluation on PAMAP2 and CICIoT2023.
+keywords:
+  - federated learning
+  - Internet of Things
+  - trust-aware aggregation
+  - energy-aware client selection
+  - Byzantine robustness
+  - PAMAP2
+  - CICIoT2023
+

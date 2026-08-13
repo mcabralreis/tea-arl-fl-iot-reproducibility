@@ -1,0 +1,9 @@
+{
+  "analysis_date": "2026-08-12",
+  "purpose": "Coauthor-requested inferential-unit and unequal-horizon reanalysis",
+  "no_training_repeated": true,
+  "pamap2_primary_unit": "outer fold after averaging federated seeds",
+  "ciciot2023_primary_unit": "experimental seed after averaging alpha conditions",
+  "friedman_randomizations": 200000,
+  "bootstrap_replicates": 5000
+}

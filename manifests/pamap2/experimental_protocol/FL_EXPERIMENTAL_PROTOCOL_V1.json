@@ -1,0 +1,286 @@
+{
+  "protocol_name": "PAMAP2 Federated Experimental Protocol v1",
+  "status": "FROZEN_BEFORE_ANY_FL_TRAINING",
+  "provenance": {
+    "partition_protocol": "C:\\teste\\tets\\outputs\\protocols\\pamap2_fl_partitions_v1\\FL_PARTITION_PROTOCOL.json",
+    "partition_protocol_sha256": "4712148fb144b78b348caaaefdd62de3c8af1ead157e620340dbc8ceebb45dbf",
+    "central_summary": "C:\\teste\\tets\\outputs\\centralized\\pamap2\\outer_evaluation_v2\\overall_outer_summary.json",
+    "central_summary_sha256": "d7bc830fc4c827a8e38b5e007cb79bc9a06f7c896a71f407f6a8cb770a20d202",
+    "centralized_reference_macro_f1": 0.786835133390072
+  },
+  "data": {
+    "outer_folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "clients_per_fold": 28,
+    "subject_pure_clients": true,
+    "heterogeneity_alphas": [
+      1.0,
+      0.1
+    ],
+    "partition_manifests_frozen": true
+  },
+  "model": {
+    "representation": "magnitude6_acc16_gyro",
+    "input_channels": 6,
+    "normalization": "groupnorm",
+    "conv_channels": [
+      32,
+      64,
+      96
+    ],
+    "dropout": 0.2,
+    "groupnorm_groups": 8,
+    "trainable_parameters": 77004,
+    "rationale": "Magnitude6 was selected in 5/5 nested outer folds. GroupNorm is standardized across FL folds to avoid cross-client BatchNorm running-statistic aggregation."
+  },
+  "training": {
+    "rounds": 100,
+    "clients_per_round": 8,
+    "participation_fraction": 0.2857142857142857,
+    "local_epochs": 1,
+    "batch_size": 64,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "fl_seeds": [
+      123,
+      456
+    ],
+    "evaluation_rounds": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100
+    ],
+    "outer_test_metrics_never_used_for_training_or_selection": true
+  },
+  "common_energy_environment": {
+    "units": "normalized synthetic participation-energy units",
+    "not_physical_joules": true,
+    "initial_energy_distribution": [
+      0.7,
+      1.0
+    ],
+    "compute_factor_distribution": [
+      0.8,
+      1.2
+    ],
+    "standby_cost_per_round": 0.0005,
+    "participation_cost_formula": "communication_cost + compute_coefficient * compute_factor * (client_windows / fold_median_client_windows)",
+    "communication_cost": 0.004,
+    "compute_coefficient": 0.016,
+    "critical_energy_threshold": 0.1,
+    "network_stop_active_fraction": 0.5,
+    "early_stopped_model_carried_forward_to_round_100_for_reporting": true,
+    "same_initial_profiles_across_methods_alpha_and_scenarios": true
+  },
+  "threat_model": {
+    "scenarios": [
+      {
+        "scenario": "clean",
+        "attack": "none",
+        "malicious_fraction_nominal": 0.0,
+        "malicious_count": 0,
+        "realized_fraction": 0.0,
+        "attack_start_round": null,
+        "sign_flip_scale": null,
+        "label_flip_rule": null
+      },
+      {
+        "scenario": "signflip_mu0p2",
+        "attack": "sign_flip",
+        "malicious_fraction_nominal": 0.2,
+        "malicious_count": 6,
+        "realized_fraction": 0.21428571428571427,
+        "attack_start_round": 20,
+        "sign_flip_scale": 5.0,
+        "label_flip_rule": null
+      },
+      {
+        "scenario": "signflip_mu0p4",
+        "attack": "sign_flip",
+        "malicious_fraction_nominal": 0.4,
+        "malicious_count": 11,
+        "realized_fraction": 0.39285714285714285,
+        "attack_start_round": 20,
+        "sign_flip_scale": 5.0,
+        "label_flip_rule": null
+      },
+      {
+        "scenario": "labelflip_mu0p2",
+        "attack": "label_flip",
+        "malicious_fraction_nominal": 0.2,
+        "malicious_count": 6,
+        "realized_fraction": 0.21428571428571427,
+        "attack_start_round": 20,
+        "sign_flip_scale": null,
+        "label_flip_rule": "(y + 1) mod 12"
+      },
+      {
+        "scenario": "labelflip_mu0p4",
+        "attack": "label_flip",
+        "malicious_fraction_nominal": 0.4,
+        "malicious_count": 11,
+        "realized_fraction": 0.39285714285714285,
+        "attack_start_round": 20,
+        "sign_flip_scale": null,
+        "label_flip_rule": "(y + 1) mod 12"
+      }
+    ],
+    "malicious_id_pairing": "same outer fold, malicious count, and FL seed use identical malicious client identities across alpha, attack type, and method",
+    "attack_start_round": 20,
+    "sign_flip": {
+      "rule": "malicious delta = -scale * honest delta",
+      "scale": 5.0
+    },
+    "label_flip": {
+      "rule": "(y + 1) mod 12"
+    }
+  },
+  "methods": {
+    "fedavg": {
+      "selection": "matched deterministic random client permutation per round; take first eligible clients",
+      "aggregation": "sample-size-weighted mean"
+    },
+    "fedprox": {
+      "selection": "same matched schedule as FedAvg",
+      "proximal_mu": 0.01,
+      "aggregation": "sample-size-weighted mean"
+    },
+    "random_trimmed_mean": {
+      "selection": "same matched schedule as FedAvg",
+      "trim_count_each_tail": 2,
+      "aggregation": "coordinate-wise trimmed mean"
+    },
+    "fedle_adapted": {
+      "preflight_local_epochs": 1,
+      "partial_layers": "first convolution layer plus final linear layer",
+      "similarity": "cosine similarity",
+      "clustering": "one-time K-means",
+      "num_clusters": 8,
+      "selection_probability": "inverse cluster size preference multiplied by current residual-energy fraction",
+      "aggregation": "sample-size-weighted mean",
+      "preflight_energy_and_communication_charged": true
+    },
+    "tea_fl": {
+      "initial_trust": 0.5,
+      "trust_beta": 0.8,
+      "trust_floor": 0.05,
+      "selection_trust_weight": 0.8,
+      "exploration_ratio": 0.1,
+      "aggregation_trust_exponent": 2.0,
+      "aggregation_energy_exponent": 0.3,
+      "energy_environment": "common campaign energy environment"
+    },
+    "arl_fl": {
+      "design_principle": "selection risk signals do not directly weight aggregation",
+      "risk_signals": {
+        "direction_anomaly": "(1 - cosine(client_delta, coordinate_median_delta)) / 2",
+        "norm_anomaly": "upper robust z-score of log update norm using median/MAD, mapped to [0,1] by 1-exp(-z/3)",
+        "temporal_inconsistency": "(1 - cosine(current_delta, previous_client_delta)) / 2; first participation score = 0",
+        "instantaneous_fusion": "median of the three signals",
+        "ema_beta": 0.8
+      },
+      "global_adversarial_pressure": {
+        "definition": "quantile 0.75 of selected-client risk scores"
+      },
+      "scheduler": {
+        "objectives": [
+          "minimize risk",
+          "minimize predicted participation cost / residual energy",
+          "maximize staleness"
+        ],
+        "algorithm": "non-dominated Pareto sorting with crowding-distance ordering",
+        "staleness_cap_rounds": 10,
+        "adaptive_exploration_slots": "3 if pressure <0.25; 2 if 0.25<=pressure<0.5; 1 if pressure>=0.5"
+      },
+      "aggregation": {
+        "independent_from_energy_and_direct_risk_weights": true,
+        "norm_clipping": "median norm + kappa * 1.4826*MAD; kappa = 3 - 2*pressure",
+        "kappa_range": [
+          1.0,
+          3.0
+        ],
+        "trim_count": "1 if pressure < 0.5; 2 otherwise",
+        "rule": "coordinate-wise trimmed mean after adaptive clipping"
+      }
+    }
+  },
+  "matched_randomness": {
+    "same_initial_model_per_outer_fold_and_fl_seed": true,
+    "same_malicious_identities_across_methods": true,
+    "same_energy_profiles_across_methods": true,
+    "fedavg_fedprox_random_trimmed_mean_share_random_selection_schedule": true,
+    "local_shuffle_seed_derivation": "deterministic hash of base seed, outer fold, FL seed, round, client ID"
+  },
+  "metrics": {
+    "primary_predictive": "final Macro-F1 at round 100",
+    "predictive": [
+      "Macro-F1",
+      "balanced accuracy",
+      "accuracy",
+      "per-class F1",
+      "learning-curve area over fixed evaluation rounds",
+      "final-window variability"
+    ],
+    "security": [
+      "attack degradation versus matched clean condition",
+      "malicious participation exposure",
+      "risk separation between malicious and benign clients",
+      "risk detection delay after attack onset"
+    ],
+    "lifetime": [
+      "first client dropout round",
+      "75% active-client lifetime",
+      "50% active-client lifetime",
+      "active-client AUC",
+      "final mean residual energy",
+      "final minimum residual energy",
+      "total normalized energy consumed",
+      "Jain participation fairness",
+      "energy-to-target"
+    ],
+    "systems": [
+      "wall-clock time",
+      "server orchestration overhead",
+      "uploaded bytes",
+      "downloaded bytes"
+    ]
+  },
+  "statistical_reporting": {
+    "primary_independent_unit": "outer-fold mean after averaging the two FL seeds",
+    "report": "mean and sample standard deviation across five outer folds",
+    "paired_comparisons": "paired outer-fold differences against ARL-FL",
+    "confidence_intervals": "95% bootstrap confidence intervals over paired outer-fold differences",
+    "exploratory_tests": "Wilcoxon signed-rank with Holm correction across five baselines",
+    "do_not_treat_10_fold_seed_runs_as_10_independent_subjects": true
+  },
+  "campaign_size": {
+    "matched_conditions": 100,
+    "methods": 6,
+    "total_runs": 600,
+    "formula": "5 folds x 2 alphas x 5 scenarios x 2 FL seeds x 6 methods"
+  }
+}

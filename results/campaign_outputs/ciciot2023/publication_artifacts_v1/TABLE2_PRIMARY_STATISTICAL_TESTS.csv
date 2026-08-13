@@ -1,0 +1,4 @@
+scenario_id,scenario_label,friedman_chi_square,friedman_df,friedman_p_value,kendalls_w,significant_arl_pairwise_after_holm
+CLEAN,Clean,21.5428571428571,5,0.0006394109899219,0.430857142857143,"ARL-FL vs TEA-FL (Δ=+0.0835, Holm p=0.009766)"
+SIGNFLIP_MU0P2,Sign-flip μ=0.2,32.2025723472669,5,5.41693775528891e-06,0.644051446945337,"ARL-FL vs FedAvg (Δ=+0.0605, Holm p=0.01953); ARL-FL vs FedProx (Δ=+0.0638, Holm p=0.01953); ARL-FL vs FedLE-adapted (Δ=+0.0628, Holm p=0.01953)"
+SIGNFLIP_MU0P4,Sign-flip μ=0.4,14.016393442623,5,0.0155056174349938,0.280327868852459,None

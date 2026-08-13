@@ -1,0 +1,121 @@
+variant,variant_label,component_isolated,alpha,scenario,outer_fold,macro_f1_benefit,energy_benefit,active_client_benefit,fairness_benefit
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,clean,1,-0.06816835019503395,0.8409808559635543,2.5,-0.08218651569648866
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,clean,2,-0.07437820407392814,0.49659213046174777,3.5,-0.046536115155459856
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,clean,3,0.00955263629616282,0.39379910055055234,4.5,-0.03157013678925685
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,clean,4,0.06398620325044435,0.5171026705625064,2.0,-0.04432713051810627
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,clean,5,0.15715276055055302,0.5740652666488941,3.5,-0.07970368322600685
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p2,1,0.09207907726646375,0.889864194507199,6.5,-0.07960158928538641
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p2,2,-0.12472729345455258,0.5247831906152332,3.5,-0.04609554314493369
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p2,3,-0.010026032893177717,0.44973942257874455,4.0,-0.03815717254698148
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p2,4,-0.06624855944501815,0.740656963158985,5.5,-0.0427681768609362
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p2,5,-0.004132080462361992,0.7475140872387129,6.5,-0.08030264221101446
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p4,1,-0.025288908828740055,0.7533600629282731,6.0,-0.07466448073137
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p4,2,-0.038593335880630304,0.5048352013409332,4.0,-0.04985342117807118
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p4,3,0.0049962982484954505,0.3341464876037694,5.0,-0.03809487701882125
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p4,4,-0.04623307445104209,0.7845502739315009,6.0,-0.05582583693688331
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,0.1,signflip_mu0p4,5,-0.0105400676134555,0.7941985377606287,3.5,-0.06711261031120169
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,labelflip_mu0p4,1,-0.1351902937793723,0.5786909817642751,1.0,-0.04189951892767213
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,labelflip_mu0p4,2,0.07693788752826371,0.6450675976212761,2.5,-0.061004699382606664
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,labelflip_mu0p4,3,0.1274683752637968,0.6423677083469634,4.5,-0.09979373406006975
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,labelflip_mu0p4,4,0.17681003734259854,0.5195707835170946,2.0,-0.0472246919503615
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,labelflip_mu0p4,5,0.052955690566369895,0.42758075524637995,1.5,-0.04909292080533323
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p2,1,-0.10418551062811232,0.6052713896799187,4.0,-0.04875818276787097
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p2,2,-0.03579569654531162,0.5017929542802211,4.5,-0.03292205747993049
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p2,3,-0.030485233742285622,0.47634499821857545,6.0,-0.06063135602691472
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p2,4,-0.04955895568565111,0.5411487074636305,3.0,-0.04969271667367109
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p2,5,0.0410606875120792,0.7071540868525261,5.0,-0.064541252600687
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p4,1,-0.11825057654049399,0.6851805500816024,5.5,-0.05454728267671277
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p4,2,-0.2809694655601028,0.411200875206692,3.0,-0.031701838606767174
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p4,3,0.0324098994479301,0.6291370419141291,5.5,-0.06892884728590781
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p4,4,-0.143742976298399,0.6017666342954335,5.0,-0.044605993675857214
+arl_no_energy,ARL-FL without energy-aware selection,ARL energy-aware selection,1.0,signflip_mu0p4,5,0.0015711011111850508,0.5076336121295215,4.0,-0.04827024484981385
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,clean,1,-0.009161618664329213,0.0357764085678518,-1.0,0.006054454235459583
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,clean,2,-0.02073923065854741,0.060339289724907985,2.5,-0.005012948341171997
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,clean,3,0.10834097602214801,0.06887356297831815,0.5,-0.008436307840534674
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,clean,4,0.02465860094692532,-0.03009406752841315,-1.5,0.009489334858468701
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,clean,5,0.11005183692786819,0.02391837894097737,-0.5,-0.00022477724293384904
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p2,1,0.02848736978415113,0.21435091448410581,1.5,-0.021729223362324523
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p2,2,0.07324185100463465,0.01996444600320224,-0.5,0.00036911170951592354
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p2,3,0.11455964043537559,0.08804514811467179,1.5,-0.005176651469674831
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p2,4,-0.021106965158566998,0.09105218234765822,0.0,-0.010935360307079256
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p2,5,-0.04468739811743955,0.10162448720272987,1.5,-0.009025351813168825
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p4,1,0.0,-0.03257057516562334,0.0,-0.0025327940397417703
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p4,2,0.0,0.23498858478995288,1.0,-0.03603261338233643
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p4,3,0.0015721026581833,0.04217280241137189,1.0,-0.00945524584430213
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p4,4,0.0020114360850183,0.11499387114186099,-0.5,-0.014806786351167056
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,0.1,signflip_mu0p4,5,0.0058418264983987,0.2709195687414834,0.5,-0.026390460012007733
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,labelflip_mu0p4,1,0.016334128236305367,0.03227791235385702,0.0,0.006737051964735841
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,labelflip_mu0p4,2,0.03623848148872966,0.12051927671306295,-1.0,-0.013887342680940384
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,labelflip_mu0p4,3,-0.010955227472301987,0.08575421931980465,2.0,-0.010732699923755418
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,labelflip_mu0p4,4,0.06437167512359215,-0.0874600201480984,0.5,0.008484522361497382
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,labelflip_mu0p4,5,-0.030395085766968977,-0.032261244360809904,0.5,0.004961742935822633
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p2,1,-0.005065251319325281,0.16558902688825405,-1.0,-0.024236600304862632
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p2,2,0.2046583633815331,0.1326860846592659,1.5,-0.02155622822244857
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p2,3,0.06560537275774508,0.04155464071004111,1.0,-0.005298820932103765
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p2,4,0.021415904141571296,0.07722911544116862,0.5,-0.01209059856554262
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p2,5,0.06943478548296639,0.015770216343631738,-0.5,-0.002679678701384358
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p4,1,-0.0016348923011586004,0.08609379015378238,0.0,-0.01669206848875776
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p4,2,0.0,0.063657480710269,1.0,-0.011789763319064173
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p4,3,0.03781288845444945,0.11019510757709483,0.5,-0.01120932286633125
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p4,4,0.015761574637150298,0.14326684787623556,-0.5,-0.025019738650056245
+arl_no_pressure,ARL-FL without adaptive global pressure,ARL adaptive global pressure,1.0,signflip_mu0p4,5,-0.003029755278802149,0.1426734944599426,1.5,-0.019729417589271547
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,clean,1,-0.07320974696439828,2.3037941756799016,-8.0,-0.24720029389991555
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,clean,2,-0.10840971385195164,1.5144110947810994,-9.5,-0.2051733658589867
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,clean,3,-0.16348214599513125,1.880279273337976,-10.5,-0.19671480506155298
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,clean,4,-0.2977528979809665,1.846448196822072,-10.0,-0.21878745729011706
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,clean,5,-0.2715709030816692,1.7571664604993336,-8.5,-0.2214202448448208
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p2,1,0.3335282554853604,1.649928122314443,-10.0,-0.2382139750799594
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p2,2,0.2832331206408259,0.808208178900041,-11.0,-0.17183223655464896
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p2,3,0.41008266695754214,1.6637558983973495,-11.0,-0.19608363769565634
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p2,4,0.3962076673775656,0.46297323683709024,-12.0,-0.1547244445550029
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p2,5,0.5387069502109515,1.3470420397875582,-10.5,-0.20628539899161064
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p4,1,0.440047645857494,0.6321062835018285,-12.0,-0.14580665862075037
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p4,2,0.38250623167061537,0.9828347267763817,-13.0,-0.17229707273433925
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p4,3,0.23104952920873112,0.7352851216414127,-14.0,-0.13796624285134534
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p4,4,0.2222125171673246,1.0383279824234526,-13.0,-0.14461880263825566
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,0.1,signflip_mu0p4,5,0.3142553675072375,0.2161329807714738,-15.0,-0.0865880082159407
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,labelflip_mu0p4,1,0.15987614897358268,0.8337763122685447,-12.0,-0.17292613683246372
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,labelflip_mu0p4,2,0.15202908607006752,0.6609089540990949,-13.5,-0.16554327539927233
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,labelflip_mu0p4,3,-0.19165468646103356,1.2893277304126123,-14.5,-0.11734147849361837
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,labelflip_mu0p4,4,0.06921002643181809,0.9362302452213731,-13.0,-0.1697778652450842
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,labelflip_mu0p4,5,0.09729208943143955,0.5545324203879591,-14.0,-0.158831580004399
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p2,1,0.6498471944361441,0.6475044664162706,-13.5,-0.18558696746281195
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p2,2,0.6259521458152303,0.5619369234088003,-12.5,-0.15540327659105957
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p2,3,0.7219077094081474,1.340506880450759,-14.0,-0.14884497384886802
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p2,4,0.6968704600925992,0.7007015071345277,-14.0,-0.17261585699417187
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p2,5,0.6872274048884162,0.1823009877150481,-13.5,-0.13011311811803022
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p4,1,0.542245331354954,0.5857160181071883,-12.0,-0.14702929548890065
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p4,2,0.3617325498323023,0.6336007914875292,-14.0,-0.15184951209008274
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p4,3,0.5701351126654175,1.0309902295831224,-14.0,-0.10953737876768282
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p4,4,0.38943529105027336,0.47191110956107707,-14.0,-0.13497585518922434
+tea_energy_only,TEA-FL energy-only,TEA trust mechanism,1.0,signflip_mu0p4,5,0.5939573473908,0.605387210805926,-13.5,-0.1612874602236518
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,clean,1,0.051065923658772105,0.09442077655465031,2.5,0.006357381336239143
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,clean,2,0.05118753336419174,-0.02537327877708684,2.0,-0.003806241515444342
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,clean,3,0.011604813635623518,0.16173015841685334,0.5,-0.012519232792999435
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,clean,4,-0.06946902956207049,-0.008982954294286749,0.5,0.004362704353284508
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,clean,5,-0.08059973858213676,-0.22126690186247,0.0,0.01460955801608499
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p2,1,-0.022820954051173487,-0.1820770292615661,-0.5,0.0025381728582836716
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p2,2,-0.14654587776840922,-0.05578080703108412,1.5,0.005268561821486495
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p2,3,0.028484789884361816,0.13825514097434333,1.5,-0.0016514344275051496
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p2,4,0.06291249454382192,-0.27979040935346866,0.5,0.0157201713250415
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p2,5,0.14728337331881808,0.24817843172056797,-1.0,-0.010774461037105831
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p4,1,0.17818250261420407,-0.005521062000767962,2.5,0.006116599457330507
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p4,2,-0.021032941826231,0.0009938023318172284,0.0,-0.0017063330334947113
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p4,3,0.02876987584324349,-0.08251475857709156,0.5,0.0017393221734962605
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p4,4,0.029013148662315885,0.021658378343964557,0.0,-0.0015479573940023195
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,0.1,signflip_mu0p4,5,-0.013782050713871896,0.26234009303670547,-0.5,-0.0027186775635950067
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,labelflip_mu0p4,1,0.1451842406177849,-0.2243758800321194,0.5,0.014766074233381388
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,labelflip_mu0p4,2,0.015867710832111304,-0.38095296867147344,1.5,0.023930825281067325
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,labelflip_mu0p4,3,-0.29062081781008875,-0.609043431604305,-0.5,0.05990064129678496
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,labelflip_mu0p4,4,0.14325454183032754,0.04692653786273926,0.5,-0.005369032761354198
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,labelflip_mu0p4,5,-0.04360554926148469,-0.19485392878190844,-0.5,0.008743655193834021
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p2,1,-0.027237185577272338,-0.14897642447255333,0.0,-0.0022064787738962366
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p2,2,0.019334185327948894,0.05125822322509155,1.0,-0.013942518416393213
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p2,3,0.06708857077498293,-0.4832734334872786,0.5,0.044361373328903664
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p2,4,0.020389039715178525,-0.22707115925013,0.5,0.0038801287211272517
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p2,5,-0.0379388762221029,-0.3555280589964358,1.0,0.02701190794288777
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p4,1,-0.11932546393674659,-0.2777808615613875,0.0,0.02419084482545869
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p4,2,-0.17545016289823892,-0.3422766279688103,1.0,0.02467016910280595
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p4,3,-0.13311994740364322,-0.7804743388340034,1.0,0.014607220794871423
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p4,4,-0.22126173440895758,-0.14954419760516302,0.0,0.015482400002701735
+tea_trust_only,TEA-FL trust-only,TEA energy awareness,1.0,signflip_mu0p4,5,-0.09492595156168282,-0.38915198433115794,0.0,0.013414781100396567

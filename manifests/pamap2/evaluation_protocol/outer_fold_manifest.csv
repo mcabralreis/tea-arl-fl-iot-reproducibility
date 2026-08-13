@@ -1,0 +1,6 @@
+outer_fold,outer_test_subject,outer_training_subjects,outer_training_windows,outer_test_windows,pilot_heldout_performance_previously_observed,inner_validation_subjects,outer_final_seeds
+1,subject101,"subject102,subject103,subject104,subject105,subject106,subject107,subject108",13040,1932,True,"subject102,subject105,subject106,subject108","123,456,789"
+2,subject102,"subject101,subject103,subject104,subject105,subject106,subject107,subject108",12935,2037,False,"subject101,subject105,subject106,subject108","123,456,789"
+3,subject105,"subject101,subject102,subject103,subject104,subject106,subject107,subject108",12865,2107,False,"subject101,subject102,subject106,subject108","123,456,789"
+4,subject106,"subject101,subject102,subject103,subject104,subject105,subject107,subject108",13039,1933,False,"subject101,subject102,subject105,subject108","123,456,789"
+5,subject108,"subject101,subject102,subject103,subject104,subject105,subject106,subject107",12946,2026,True,"subject101,subject102,subject105,subject106","123,456,789"

@@ -1,0 +1,3361 @@
+outer_fold,outer_test_subject,alpha,global_client_id,class_index,activity_name,windows
+1,101,1.0,subject102_client0,0,lying,56
+1,101,1.0,subject102_client0,1,sitting,38
+1,101,1.0,subject102_client0,2,standing,29
+1,101,1.0,subject102_client0,3,walking,18
+1,101,1.0,subject102_client0,4,running,6
+1,101,1.0,subject102_client0,5,cycling,38
+1,101,1.0,subject102_client0,6,Nordic walking,16
+1,101,1.0,subject102_client0,7,ascending stairs,46
+1,101,1.0,subject102_client0,8,descending stairs,35
+1,101,1.0,subject102_client0,9,vacuum cleaning,43
+1,101,1.0,subject102_client0,10,ironing,74
+1,101,1.0,subject102_client0,11,rope jumping,43
+1,101,1.0,subject102_client1,0,lying,92
+1,101,1.0,subject102_client1,1,sitting,47
+1,101,1.0,subject102_client1,2,standing,61
+1,101,1.0,subject102_client1,3,walking,26
+1,101,1.0,subject102_client1,4,running,21
+1,101,1.0,subject102_client1,5,cycling,30
+1,101,1.0,subject102_client1,6,Nordic walking,140
+1,101,1.0,subject102_client1,7,ascending stairs,30
+1,101,1.0,subject102_client1,8,descending stairs,72
+1,101,1.0,subject102_client1,9,vacuum cleaning,3
+1,101,1.0,subject102_client1,10,ironing,75
+1,101,1.0,subject102_client1,11,rope jumping,16
+1,101,1.0,subject102_client2,0,lying,17
+1,101,1.0,subject102_client2,1,sitting,74
+1,101,1.0,subject102_client2,2,standing,43
+1,101,1.0,subject102_client2,3,walking,120
+1,101,1.0,subject102_client2,4,running,34
+1,101,1.0,subject102_client2,5,cycling,25
+1,101,1.0,subject102_client2,6,Nordic walking,3
+1,101,1.0,subject102_client2,7,ascending stairs,43
+1,101,1.0,subject102_client2,8,descending stairs,2
+1,101,1.0,subject102_client2,9,vacuum cleaning,12
+1,101,1.0,subject102_client2,10,ironing,12
+1,101,1.0,subject102_client2,11,rope jumping,15
+1,101,1.0,subject102_client3,0,lying,14
+1,101,1.0,subject102_client3,1,sitting,11
+1,101,1.0,subject102_client3,2,standing,62
+1,101,1.0,subject102_client3,3,walking,86
+1,101,1.0,subject102_client3,4,running,7
+1,101,1.0,subject102_client3,5,cycling,99
+1,101,1.0,subject102_client3,6,Nordic walking,69
+1,101,1.0,subject102_client3,7,ascending stairs,11
+1,101,1.0,subject102_client3,8,descending stairs,3
+1,101,1.0,subject102_client3,9,vacuum cleaning,99
+1,101,1.0,subject102_client3,10,ironing,60
+1,101,1.0,subject102_client3,11,rope jumping,25
+1,101,1.0,subject103_client0,0,lying,85
+1,101,1.0,subject103_client0,1,sitting,38
+1,101,1.0,subject103_client0,2,standing,102
+1,101,1.0,subject103_client0,3,walking,85
+1,101,1.0,subject103_client0,4,running,0
+1,101,1.0,subject103_client0,5,cycling,0
+1,101,1.0,subject103_client0,6,Nordic walking,0
+1,101,1.0,subject103_client0,7,ascending stairs,7
+1,101,1.0,subject103_client0,8,descending stairs,2
+1,101,1.0,subject103_client0,9,vacuum cleaning,51
+1,101,1.0,subject103_client0,10,ironing,191
+1,101,1.0,subject103_client0,11,rope jumping,0
+1,101,1.0,subject103_client1,0,lying,53
+1,101,1.0,subject103_client1,1,sitting,12
+1,101,1.0,subject103_client1,2,standing,5
+1,101,1.0,subject103_client1,3,walking,14
+1,101,1.0,subject103_client1,4,running,0
+1,101,1.0,subject103_client1,5,cycling,0
+1,101,1.0,subject103_client1,6,Nordic walking,0
+1,101,1.0,subject103_client1,7,ascending stairs,0
+1,101,1.0,subject103_client1,8,descending stairs,51
+1,101,1.0,subject103_client1,9,vacuum cleaning,79
+1,101,1.0,subject103_client1,10,ironing,1
+1,101,1.0,subject103_client1,11,rope jumping,0
+1,101,1.0,subject103_client2,0,lying,2
+1,101,1.0,subject103_client2,1,sitting,62
+1,101,1.0,subject103_client2,2,standing,32
+1,101,1.0,subject103_client2,3,walking,39
+1,101,1.0,subject103_client2,4,running,0
+1,101,1.0,subject103_client2,5,cycling,0
+1,101,1.0,subject103_client2,6,Nordic walking,0
+1,101,1.0,subject103_client2,7,ascending stairs,8
+1,101,1.0,subject103_client2,8,descending stairs,41
+1,101,1.0,subject103_client2,9,vacuum cleaning,2
+1,101,1.0,subject103_client2,10,ironing,17
+1,101,1.0,subject103_client2,11,rope jumping,0
+1,101,1.0,subject103_client3,0,lying,28
+1,101,1.0,subject103_client3,1,sitting,108
+1,101,1.0,subject103_client3,2,standing,17
+1,101,1.0,subject103_client3,3,walking,84
+1,101,1.0,subject103_client3,4,running,0
+1,101,1.0,subject103_client3,5,cycling,0
+1,101,1.0,subject103_client3,6,Nordic walking,0
+1,101,1.0,subject103_client3,7,ascending stairs,61
+1,101,1.0,subject103_client3,8,descending stairs,18
+1,101,1.0,subject103_client3,9,vacuum cleaning,22
+1,101,1.0,subject103_client3,10,ironing,5
+1,101,1.0,subject103_client3,11,rope jumping,0
+1,101,1.0,subject104_client0,0,lying,15
+1,101,1.0,subject104_client0,1,sitting,10
+1,101,1.0,subject104_client0,2,standing,43
+1,101,1.0,subject104_client0,3,walking,154
+1,101,1.0,subject104_client0,4,running,0
+1,101,1.0,subject104_client0,5,cycling,90
+1,101,1.0,subject104_client0,6,Nordic walking,52
+1,101,1.0,subject104_client0,7,ascending stairs,36
+1,101,1.0,subject104_client0,8,descending stairs,0
+1,101,1.0,subject104_client0,9,vacuum cleaning,36
+1,101,1.0,subject104_client0,10,ironing,57
+1,101,1.0,subject104_client0,11,rope jumping,0
+1,101,1.0,subject104_client1,0,lying,9
+1,101,1.0,subject104_client1,1,sitting,84
+1,101,1.0,subject104_client1,2,standing,96
+1,101,1.0,subject104_client1,3,walking,3
+1,101,1.0,subject104_client1,4,running,0
+1,101,1.0,subject104_client1,5,cycling,18
+1,101,1.0,subject104_client1,6,Nordic walking,1
+1,101,1.0,subject104_client1,7,ascending stairs,47
+1,101,1.0,subject104_client1,8,descending stairs,58
+1,101,1.0,subject104_client1,9,vacuum cleaning,8
+1,101,1.0,subject104_client1,10,ironing,47
+1,101,1.0,subject104_client1,11,rope jumping,0
+1,101,1.0,subject104_client2,0,lying,108
+1,101,1.0,subject104_client2,1,sitting,34
+1,101,1.0,subject104_client2,2,standing,23
+1,101,1.0,subject104_client2,3,walking,45
+1,101,1.0,subject104_client2,4,running,0
+1,101,1.0,subject104_client2,5,cycling,44
+1,101,1.0,subject104_client2,6,Nordic walking,68
+1,101,1.0,subject104_client2,7,ascending stairs,16
+1,101,1.0,subject104_client2,8,descending stairs,9
+1,101,1.0,subject104_client2,9,vacuum cleaning,102
+1,101,1.0,subject104_client2,10,ironing,16
+1,101,1.0,subject104_client2,11,rope jumping,0
+1,101,1.0,subject104_client3,0,lying,44
+1,101,1.0,subject104_client3,1,sitting,67
+1,101,1.0,subject104_client3,2,standing,27
+1,101,1.0,subject104_client3,3,walking,43
+1,101,1.0,subject104_client3,4,running,0
+1,101,1.0,subject104_client3,5,cycling,21
+1,101,1.0,subject104_client3,6,Nordic walking,90
+1,101,1.0,subject104_client3,7,ascending stairs,25
+1,101,1.0,subject104_client3,8,descending stairs,40
+1,101,1.0,subject104_client3,9,vacuum cleaning,6
+1,101,1.0,subject104_client3,10,ironing,71
+1,101,1.0,subject104_client3,11,rope jumping,0
+1,101,1.0,subject105_client0,0,lying,106
+1,101,1.0,subject105_client0,1,sitting,24
+1,101,1.0,subject105_client0,2,standing,73
+1,101,1.0,subject105_client0,3,walking,71
+1,101,1.0,subject105_client0,4,running,22
+1,101,1.0,subject105_client0,5,cycling,78
+1,101,1.0,subject105_client0,6,Nordic walking,56
+1,101,1.0,subject105_client0,7,ascending stairs,32
+1,101,1.0,subject105_client0,8,descending stairs,13
+1,101,1.0,subject105_client0,9,vacuum cleaning,75
+1,101,1.0,subject105_client0,10,ironing,44
+1,101,1.0,subject105_client0,11,rope jumping,3
+1,101,1.0,subject105_client1,0,lying,11
+1,101,1.0,subject105_client1,1,sitting,66
+1,101,1.0,subject105_client1,2,standing,18
+1,101,1.0,subject105_client1,3,walking,79
+1,101,1.0,subject105_client1,4,running,70
+1,101,1.0,subject105_client1,5,cycling,12
+1,101,1.0,subject105_client1,6,Nordic walking,58
+1,101,1.0,subject105_client1,7,ascending stairs,49
+1,101,1.0,subject105_client1,8,descending stairs,24
+1,101,1.0,subject105_client1,9,vacuum cleaning,49
+1,101,1.0,subject105_client1,10,ironing,84
+1,101,1.0,subject105_client1,11,rope jumping,3
+1,101,1.0,subject105_client2,0,lying,1
+1,101,1.0,subject105_client2,1,sitting,23
+1,101,1.0,subject105_client2,2,standing,1
+1,101,1.0,subject105_client2,3,walking,69
+1,101,1.0,subject105_client2,4,running,59
+1,101,1.0,subject105_client2,5,cycling,20
+1,101,1.0,subject105_client2,6,Nordic walking,29
+1,101,1.0,subject105_client2,7,ascending stairs,9
+1,101,1.0,subject105_client2,8,descending stairs,52
+1,101,1.0,subject105_client2,9,vacuum cleaning,43
+1,101,1.0,subject105_client2,10,ironing,37
+1,101,1.0,subject105_client2,11,rope jumping,39
+1,101,1.0,subject105_client3,0,lying,63
+1,101,1.0,subject105_client3,1,sitting,92
+1,101,1.0,subject105_client3,2,standing,76
+1,101,1.0,subject105_client3,3,walking,27
+1,101,1.0,subject105_client3,4,running,37
+1,101,1.0,subject105_client3,5,cycling,78
+1,101,1.0,subject105_client3,6,Nordic walking,58
+1,101,1.0,subject105_client3,7,ascending stairs,15
+1,101,1.0,subject105_client3,8,descending stairs,4
+1,101,1.0,subject105_client3,9,vacuum cleaning,19
+1,101,1.0,subject105_client3,10,ironing,89
+1,101,1.0,subject105_client3,11,rope jumping,11
+1,101,1.0,subject106_client0,0,lying,45
+1,101,1.0,subject106_client0,1,sitting,70
+1,101,1.0,subject106_client0,2,standing,33
+1,101,1.0,subject106_client0,3,walking,53
+1,101,1.0,subject106_client0,4,running,57
+1,101,1.0,subject106_client0,5,cycling,44
+1,101,1.0,subject106_client0,6,Nordic walking,100
+1,101,1.0,subject106_client0,7,ascending stairs,10
+1,101,1.0,subject106_client0,8,descending stairs,1
+1,101,1.0,subject106_client0,9,vacuum cleaning,38
+1,101,1.0,subject106_client0,10,ironing,142
+1,101,1.0,subject106_client0,11,rope jumping,0
+1,101,1.0,subject106_client1,0,lying,67
+1,101,1.0,subject106_client1,1,sitting,8
+1,101,1.0,subject106_client1,2,standing,8
+1,101,1.0,subject106_client1,3,walking,3
+1,101,1.0,subject106_client1,4,running,57
+1,101,1.0,subject106_client1,5,cycling,19
+1,101,1.0,subject106_client1,6,Nordic walking,13
+1,101,1.0,subject106_client1,7,ascending stairs,13
+1,101,1.0,subject106_client1,8,descending stairs,31
+1,101,1.0,subject106_client1,9,vacuum cleaning,22
+1,101,1.0,subject106_client1,10,ironing,16
+1,101,1.0,subject106_client1,11,rope jumping,0
+1,101,1.0,subject106_client2,0,lying,64
+1,101,1.0,subject106_client2,1,sitting,87
+1,101,1.0,subject106_client2,2,standing,38
+1,101,1.0,subject106_client2,3,walking,81
+1,101,1.0,subject106_client2,4,running,11
+1,101,1.0,subject106_client2,5,cycling,68
+1,101,1.0,subject106_client2,6,Nordic walking,81
+1,101,1.0,subject106_client2,7,ascending stairs,31
+1,101,1.0,subject106_client2,8,descending stairs,3
+1,101,1.0,subject106_client2,9,vacuum cleaning,92
+1,101,1.0,subject106_client2,10,ironing,87
+1,101,1.0,subject106_client2,11,rope jumping,1
+1,101,1.0,subject106_client3,0,lying,2
+1,101,1.0,subject106_client3,1,sitting,11
+1,101,1.0,subject106_client3,2,standing,107
+1,101,1.0,subject106_client3,3,walking,59
+1,101,1.0,subject106_client3,4,running,49
+1,101,1.0,subject106_client3,5,cycling,25
+1,101,1.0,subject106_client3,6,Nordic walking,10
+1,101,1.0,subject106_client3,7,ascending stairs,44
+1,101,1.0,subject106_client3,8,descending stairs,47
+1,101,1.0,subject106_client3,9,vacuum cleaning,8
+1,101,1.0,subject106_client3,10,ironing,44
+1,101,1.0,subject106_client3,11,rope jumping,0
+1,101,1.0,subject107_client0,0,lying,5
+1,101,1.0,subject107_client0,1,sitting,51
+1,101,1.0,subject107_client0,2,standing,38
+1,101,1.0,subject107_client0,3,walking,7
+1,101,1.0,subject107_client0,4,running,4
+1,101,1.0,subject107_client0,5,cycling,1
+1,101,1.0,subject107_client0,6,Nordic walking,20
+1,101,1.0,subject107_client0,7,ascending stairs,19
+1,101,1.0,subject107_client0,8,descending stairs,62
+1,101,1.0,subject107_client0,9,vacuum cleaning,0
+1,101,1.0,subject107_client0,10,ironing,47
+1,101,1.0,subject107_client0,11,rope jumping,0
+1,101,1.0,subject107_client1,0,lying,56
+1,101,1.0,subject107_client1,1,sitting,10
+1,101,1.0,subject107_client1,2,standing,22
+1,101,1.0,subject107_client1,3,walking,142
+1,101,1.0,subject107_client1,4,running,8
+1,101,1.0,subject107_client1,5,cycling,9
+1,101,1.0,subject107_client1,6,Nordic walking,39
+1,101,1.0,subject107_client1,7,ascending stairs,2
+1,101,1.0,subject107_client1,8,descending stairs,1
+1,101,1.0,subject107_client1,9,vacuum cleaning,35
+1,101,1.0,subject107_client1,10,ironing,93
+1,101,1.0,subject107_client1,11,rope jumping,0
+1,101,1.0,subject107_client2,0,lying,4
+1,101,1.0,subject107_client2,1,sitting,14
+1,101,1.0,subject107_client2,2,standing,125
+1,101,1.0,subject107_client2,3,walking,91
+1,101,1.0,subject107_client2,4,running,7
+1,101,1.0,subject107_client2,5,cycling,7
+1,101,1.0,subject107_client2,6,Nordic walking,107
+1,101,1.0,subject107_client2,7,ascending stairs,21
+1,101,1.0,subject107_client2,8,descending stairs,9
+1,101,1.0,subject107_client2,9,vacuum cleaning,43
+1,101,1.0,subject107_client2,10,ironing,39
+1,101,1.0,subject107_client2,11,rope jumping,0
+1,101,1.0,subject107_client3,0,lying,131
+1,101,1.0,subject107_client3,1,sitting,16
+1,101,1.0,subject107_client3,2,standing,12
+1,101,1.0,subject107_client3,3,walking,19
+1,101,1.0,subject107_client3,4,running,5
+1,101,1.0,subject107_client3,5,cycling,156
+1,101,1.0,subject107_client3,6,Nordic walking,54
+1,101,1.0,subject107_client3,7,ascending stairs,90
+1,101,1.0,subject107_client3,8,descending stairs,13
+1,101,1.0,subject107_client3,9,vacuum cleaning,87
+1,101,1.0,subject107_client3,10,ironing,47
+1,101,1.0,subject107_client3,11,rope jumping,0
+1,101,1.0,subject108_client0,0,lying,14
+1,101,1.0,subject108_client0,1,sitting,121
+1,101,1.0,subject108_client0,2,standing,38
+1,101,1.0,subject108_client0,3,walking,77
+1,101,1.0,subject108_client0,4,running,15
+1,101,1.0,subject108_client0,5,cycling,58
+1,101,1.0,subject108_client0,6,Nordic walking,21
+1,101,1.0,subject108_client0,7,ascending stairs,55
+1,101,1.0,subject108_client0,8,descending stairs,13
+1,101,1.0,subject108_client0,9,vacuum cleaning,54
+1,101,1.0,subject108_client0,10,ironing,143
+1,101,1.0,subject108_client0,11,rope jumping,47
+1,101,1.0,subject108_client1,0,lying,46
+1,101,1.0,subject108_client1,1,sitting,21
+1,101,1.0,subject108_client1,2,standing,38
+1,101,1.0,subject108_client1,3,walking,39
+1,101,1.0,subject108_client1,4,running,85
+1,101,1.0,subject108_client1,5,cycling,10
+1,101,1.0,subject108_client1,6,Nordic walking,71
+1,101,1.0,subject108_client1,7,ascending stairs,7
+1,101,1.0,subject108_client1,8,descending stairs,7
+1,101,1.0,subject108_client1,9,vacuum cleaning,23
+1,101,1.0,subject108_client1,10,ironing,26
+1,101,1.0,subject108_client1,11,rope jumping,2
+1,101,1.0,subject108_client2,0,lying,83
+1,101,1.0,subject108_client2,1,sitting,8
+1,101,1.0,subject108_client2,2,standing,56
+1,101,1.0,subject108_client2,3,walking,26
+1,101,1.0,subject108_client2,4,running,6
+1,101,1.0,subject108_client2,5,cycling,87
+1,101,1.0,subject108_client2,6,Nordic walking,74
+1,101,1.0,subject108_client2,7,ascending stairs,11
+1,101,1.0,subject108_client2,8,descending stairs,20
+1,101,1.0,subject108_client2,9,vacuum cleaning,18
+1,101,1.0,subject108_client2,10,ironing,28
+1,101,1.0,subject108_client2,11,rope jumping,1
+1,101,1.0,subject108_client3,0,lying,41
+1,101,1.0,subject108_client3,1,sitting,24
+1,101,1.0,subject108_client3,2,standing,60
+1,101,1.0,subject108_client3,3,walking,100
+1,101,1.0,subject108_client3,4,running,19
+1,101,1.0,subject108_client3,5,cycling,40
+1,101,1.0,subject108_client3,6,Nordic walking,55
+1,101,1.0,subject108_client3,7,ascending stairs,13
+1,101,1.0,subject108_client3,8,descending stairs,29
+1,101,1.0,subject108_client3,9,vacuum cleaning,90
+1,101,1.0,subject108_client3,10,ironing,56
+1,101,1.0,subject108_client3,11,rope jumping,14
+1,101,0.1,subject102_client0,0,lying,0
+1,101,0.1,subject102_client0,1,sitting,0
+1,101,0.1,subject102_client0,2,standing,0
+1,101,0.1,subject102_client0,3,walking,22
+1,101,0.1,subject102_client0,4,running,0
+1,101,0.1,subject102_client0,5,cycling,1
+1,101,0.1,subject102_client0,6,Nordic walking,1
+1,101,0.1,subject102_client0,7,ascending stairs,0
+1,101,0.1,subject102_client0,8,descending stairs,0
+1,101,0.1,subject102_client0,9,vacuum cleaning,0
+1,101,0.1,subject102_client0,10,ironing,9
+1,101,0.1,subject102_client0,11,rope jumping,98
+1,101,0.1,subject102_client1,0,lying,0
+1,101,0.1,subject102_client1,1,sitting,0
+1,101,0.1,subject102_client1,2,standing,177
+1,101,0.1,subject102_client1,3,walking,0
+1,101,0.1,subject102_client1,4,running,4
+1,101,0.1,subject102_client1,5,cycling,143
+1,101,0.1,subject102_client1,6,Nordic walking,0
+1,101,0.1,subject102_client1,7,ascending stairs,13
+1,101,0.1,subject102_client1,8,descending stairs,115
+1,101,0.1,subject102_client1,9,vacuum cleaning,157
+1,101,0.1,subject102_client1,10,ironing,191
+1,101,0.1,subject102_client1,11,rope jumping,0
+1,101,0.1,subject102_client2,0,lying,154
+1,101,0.1,subject102_client2,1,sitting,0
+1,101,0.1,subject102_client2,2,standing,3
+1,101,0.1,subject102_client2,3,walking,228
+1,101,0.1,subject102_client2,4,running,0
+1,101,0.1,subject102_client2,5,cycling,0
+1,101,0.1,subject102_client2,6,Nordic walking,121
+1,101,0.1,subject102_client2,7,ascending stairs,119
+1,101,0.1,subject102_client2,8,descending stairs,0
+1,101,0.1,subject102_client2,9,vacuum cleaning,2
+1,101,0.1,subject102_client2,10,ironing,22
+1,101,0.1,subject102_client2,11,rope jumping,3
+1,101,0.1,subject102_client3,0,lying,27
+1,101,0.1,subject102_client3,1,sitting,173
+1,101,0.1,subject102_client3,2,standing,15
+1,101,0.1,subject102_client3,3,walking,1
+1,101,0.1,subject102_client3,4,running,66
+1,101,0.1,subject102_client3,5,cycling,49
+1,101,0.1,subject102_client3,6,Nordic walking,107
+1,101,0.1,subject102_client3,7,ascending stairs,0
+1,101,0.1,subject102_client3,8,descending stairs,0
+1,101,0.1,subject102_client3,9,vacuum cleaning,0
+1,101,0.1,subject102_client3,10,ironing,0
+1,101,0.1,subject102_client3,11,rope jumping,0
+1,101,0.1,subject103_client0,0,lying,0
+1,101,0.1,subject103_client0,1,sitting,0
+1,101,0.1,subject103_client0,2,standing,0
+1,101,0.1,subject103_client0,3,walking,129
+1,101,0.1,subject103_client0,4,running,0
+1,101,0.1,subject103_client0,5,cycling,0
+1,101,0.1,subject103_client0,6,Nordic walking,0
+1,101,0.1,subject103_client0,7,ascending stairs,78
+1,101,0.1,subject103_client0,8,descending stairs,0
+1,101,0.1,subject103_client0,9,vacuum cleaning,131
+1,101,0.1,subject103_client0,10,ironing,216
+1,101,0.1,subject103_client0,11,rope jumping,0
+1,101,0.1,subject103_client1,0,lying,0
+1,101,0.1,subject103_client1,1,sitting,223
+1,101,0.1,subject103_client1,2,standing,0
+1,101,0.1,subject103_client1,3,walking,49
+1,101,0.1,subject103_client1,4,running,0
+1,101,0.1,subject103_client1,5,cycling,0
+1,101,0.1,subject103_client1,6,Nordic walking,0
+1,101,0.1,subject103_client1,7,ascending stairs,0
+1,101,0.1,subject103_client1,8,descending stairs,0
+1,101,0.1,subject103_client1,9,vacuum cleaning,23
+1,101,0.1,subject103_client1,10,ironing,0
+1,101,0.1,subject103_client1,11,rope jumping,0
+1,101,0.1,subject103_client2,0,lying,171
+1,101,0.1,subject103_client2,1,sitting,0
+1,101,0.1,subject103_client2,2,standing,0
+1,101,0.1,subject103_client2,3,walking,18
+1,101,0.1,subject103_client2,4,running,0
+1,101,0.1,subject103_client2,5,cycling,0
+1,101,0.1,subject103_client2,6,Nordic walking,0
+1,101,0.1,subject103_client2,7,ascending stairs,0
+1,101,0.1,subject103_client2,8,descending stairs,36
+1,101,0.1,subject103_client2,9,vacuum cleaning,1
+1,101,0.1,subject103_client2,10,ironing,0
+1,101,0.1,subject103_client2,11,rope jumping,0
+1,101,0.1,subject103_client3,0,lying,0
+1,101,0.1,subject103_client3,1,sitting,0
+1,101,0.1,subject103_client3,2,standing,159
+1,101,0.1,subject103_client3,3,walking,26
+1,101,0.1,subject103_client3,4,running,0
+1,101,0.1,subject103_client3,5,cycling,0
+1,101,0.1,subject103_client3,6,Nordic walking,0
+1,101,0.1,subject103_client3,7,ascending stairs,0
+1,101,0.1,subject103_client3,8,descending stairs,77
+1,101,0.1,subject103_client3,9,vacuum cleaning,0
+1,101,0.1,subject103_client3,10,ironing,0
+1,101,0.1,subject103_client3,11,rope jumping,0
+1,101,0.1,subject104_client0,0,lying,162
+1,101,0.1,subject104_client0,1,sitting,80
+1,101,0.1,subject104_client0,2,standing,192
+1,101,0.1,subject104_client0,3,walking,0
+1,101,0.1,subject104_client0,4,running,0
+1,101,0.1,subject104_client0,5,cycling,0
+1,101,0.1,subject104_client0,6,Nordic walking,211
+1,101,0.1,subject104_client0,7,ascending stairs,39
+1,101,0.1,subject104_client0,8,descending stairs,0
+1,101,0.1,subject104_client0,9,vacuum cleaning,0
+1,101,0.1,subject104_client0,10,ironing,194
+1,101,0.1,subject104_client0,11,rope jumping,0
+1,101,0.1,subject104_client1,0,lying,16
+1,101,0.1,subject104_client1,1,sitting,0
+1,101,0.1,subject104_client1,2,standing,0
+1,101,0.1,subject104_client1,3,walking,248
+1,101,0.1,subject104_client1,4,running,0
+1,101,0.1,subject104_client1,5,cycling,54
+1,101,0.1,subject104_client1,6,Nordic walking,0
+1,101,0.1,subject104_client1,7,ascending stairs,0
+1,101,0.1,subject104_client1,8,descending stairs,96
+1,101,0.1,subject104_client1,9,vacuum cleaning,1
+1,101,0.1,subject104_client1,10,ironing,0
+1,101,0.1,subject104_client1,11,rope jumping,0
+1,101,0.1,subject104_client2,0,lying,0
+1,101,0.1,subject104_client2,1,sitting,3
+1,101,0.1,subject104_client2,2,standing,0
+1,101,0.1,subject104_client2,3,walking,0
+1,101,0.1,subject104_client2,4,running,0
+1,101,0.1,subject104_client2,5,cycling,0
+1,101,0.1,subject104_client2,6,Nordic walking,0
+1,101,0.1,subject104_client2,7,ascending stairs,0
+1,101,0.1,subject104_client2,8,descending stairs,12
+1,101,0.1,subject104_client2,9,vacuum cleaning,153
+1,101,0.1,subject104_client2,10,ironing,0
+1,101,0.1,subject104_client2,11,rope jumping,0
+1,101,0.1,subject104_client3,0,lying,0
+1,101,0.1,subject104_client3,1,sitting,113
+1,101,0.1,subject104_client3,2,standing,0
+1,101,0.1,subject104_client3,3,walking,0
+1,101,0.1,subject104_client3,4,running,0
+1,101,0.1,subject104_client3,5,cycling,121
+1,101,0.1,subject104_client3,6,Nordic walking,2
+1,101,0.1,subject104_client3,7,ascending stairs,87
+1,101,0.1,subject104_client3,8,descending stairs,0
+1,101,0.1,subject104_client3,9,vacuum cleaning,0
+1,101,0.1,subject104_client3,10,ironing,0
+1,101,0.1,subject104_client3,11,rope jumping,0
+1,101,0.1,subject105_client0,0,lying,0
+1,101,0.1,subject105_client0,1,sitting,141
+1,101,0.1,subject105_client0,2,standing,0
+1,101,0.1,subject105_client0,3,walking,88
+1,101,0.1,subject105_client0,4,running,0
+1,101,0.1,subject105_client0,5,cycling,0
+1,101,0.1,subject105_client0,6,Nordic walking,132
+1,101,0.1,subject105_client0,7,ascending stairs,0
+1,101,0.1,subject105_client0,8,descending stairs,0
+1,101,0.1,subject105_client0,9,vacuum cleaning,0
+1,101,0.1,subject105_client0,10,ironing,6
+1,101,0.1,subject105_client0,11,rope jumping,0
+1,101,0.1,subject105_client1,0,lying,0
+1,101,0.1,subject105_client1,1,sitting,0
+1,101,0.1,subject105_client1,2,standing,0
+1,101,0.1,subject105_client1,3,walking,2
+1,101,0.1,subject105_client1,4,running,160
+1,101,0.1,subject105_client1,5,cycling,0
+1,101,0.1,subject105_client1,6,Nordic walking,14
+1,101,0.1,subject105_client1,7,ascending stairs,0
+1,101,0.1,subject105_client1,8,descending stairs,3
+1,101,0.1,subject105_client1,9,vacuum cleaning,0
+1,101,0.1,subject105_client1,10,ironing,245
+1,101,0.1,subject105_client1,11,rope jumping,0
+1,101,0.1,subject105_client2,0,lying,184
+1,101,0.1,subject105_client2,1,sitting,66
+1,101,0.1,subject105_client2,2,standing,4
+1,101,0.1,subject105_client2,3,walking,157
+1,101,0.1,subject105_client2,4,running,27
+1,101,0.1,subject105_client2,5,cycling,188
+1,101,0.1,subject105_client2,6,Nordic walking,0
+1,101,0.1,subject105_client2,7,ascending stairs,5
+1,101,0.1,subject105_client2,8,descending stairs,0
+1,101,0.1,subject105_client2,9,vacuum cleaning,188
+1,101,0.1,subject105_client2,10,ironing,1
+1,101,0.1,subject105_client2,11,rope jumping,45
+1,101,0.1,subject105_client3,0,lying,0
+1,101,0.1,subject105_client3,1,sitting,0
+1,101,0.1,subject105_client3,2,standing,166
+1,101,0.1,subject105_client3,3,walking,0
+1,101,0.1,subject105_client3,4,running,1
+1,101,0.1,subject105_client3,5,cycling,2
+1,101,0.1,subject105_client3,6,Nordic walking,56
+1,101,0.1,subject105_client3,7,ascending stairs,102
+1,101,0.1,subject105_client3,8,descending stairs,92
+1,101,0.1,subject105_client3,9,vacuum cleaning,0
+1,101,0.1,subject105_client3,10,ironing,2
+1,101,0.1,subject105_client3,11,rope jumping,13
+1,101,0.1,subject106_client0,0,lying,168
+1,101,0.1,subject106_client0,1,sitting,0
+1,101,0.1,subject106_client0,2,standing,0
+1,101,0.1,subject106_client0,3,walking,0
+1,101,0.1,subject106_client0,4,running,0
+1,101,0.1,subject106_client0,5,cycling,0
+1,101,0.1,subject106_client0,6,Nordic walking,207
+1,101,0.1,subject106_client0,7,ascending stairs,7
+1,101,0.1,subject106_client0,8,descending stairs,0
+1,101,0.1,subject106_client0,9,vacuum cleaning,0
+1,101,0.1,subject106_client0,10,ironing,0
+1,101,0.1,subject106_client0,11,rope jumping,0
+1,101,0.1,subject106_client1,0,lying,0
+1,101,0.1,subject106_client1,1,sitting,0
+1,101,0.1,subject106_client1,2,standing,1
+1,101,0.1,subject106_client1,3,walking,0
+1,101,0.1,subject106_client1,4,running,5
+1,101,0.1,subject106_client1,5,cycling,159
+1,101,0.1,subject106_client1,6,Nordic walking,0
+1,101,0.1,subject106_client1,7,ascending stairs,11
+1,101,0.1,subject106_client1,8,descending stairs,0
+1,101,0.1,subject106_client1,9,vacuum cleaning,0
+1,101,0.1,subject106_client1,10,ironing,0
+1,101,0.1,subject106_client1,11,rope jumping,0
+1,101,0.1,subject106_client2,0,lying,12
+1,101,0.1,subject106_client2,1,sitting,6
+1,101,0.1,subject106_client2,2,standing,187
+1,101,0.1,subject106_client2,3,walking,0
+1,101,0.1,subject106_client2,4,running,171
+1,101,0.1,subject106_client2,5,cycling,0
+1,101,0.1,subject106_client2,6,Nordic walking,0
+1,101,0.1,subject106_client2,7,ascending stairs,0
+1,101,0.1,subject106_client2,8,descending stairs,85
+1,101,0.1,subject106_client2,9,vacuum cleaning,0
+1,101,0.1,subject106_client2,10,ironing,0
+1,101,0.1,subject106_client2,11,rope jumping,0
+1,101,0.1,subject106_client3,0,lying,0
+1,101,0.1,subject106_client3,1,sitting,172
+1,101,0.1,subject106_client3,2,standing,0
+1,101,0.1,subject106_client3,3,walking,199
+1,101,0.1,subject106_client3,4,running,0
+1,101,0.1,subject106_client3,5,cycling,0
+1,101,0.1,subject106_client3,6,Nordic walking,0
+1,101,0.1,subject106_client3,7,ascending stairs,81
+1,101,0.1,subject106_client3,8,descending stairs,0
+1,101,0.1,subject106_client3,9,vacuum cleaning,163
+1,101,0.1,subject106_client3,10,ironing,292
+1,101,0.1,subject106_client3,11,rope jumping,1
+1,101,0.1,subject107_client0,0,lying,0
+1,101,0.1,subject107_client0,1,sitting,0
+1,101,0.1,subject107_client0,2,standing,0
+1,101,0.1,subject107_client0,3,walking,0
+1,101,0.1,subject107_client0,4,running,0
+1,101,0.1,subject107_client0,5,cycling,0
+1,101,0.1,subject107_client0,6,Nordic walking,82
+1,101,0.1,subject107_client0,7,ascending stairs,133
+1,101,0.1,subject107_client0,8,descending stairs,1
+1,101,0.1,subject107_client0,9,vacuum cleaning,1
+1,101,0.1,subject107_client0,10,ironing,0
+1,101,0.1,subject107_client0,11,rope jumping,0
+1,101,0.1,subject107_client1,0,lying,14
+1,101,0.1,subject107_client1,1,sitting,0
+1,101,0.1,subject107_client1,2,standing,129
+1,101,0.1,subject107_client1,3,walking,0
+1,101,0.1,subject107_client1,4,running,2
+1,101,0.1,subject107_client1,5,cycling,173
+1,101,0.1,subject107_client1,6,Nordic walking,0
+1,101,0.1,subject107_client1,7,ascending stairs,0
+1,101,0.1,subject107_client1,8,descending stairs,0
+1,101,0.1,subject107_client1,9,vacuum cleaning,3
+1,101,0.1,subject107_client1,10,ironing,0
+1,101,0.1,subject107_client1,11,rope jumping,0
+1,101,0.1,subject107_client2,0,lying,0
+1,101,0.1,subject107_client2,1,sitting,81
+1,101,0.1,subject107_client2,2,standing,70
+1,101,0.1,subject107_client2,3,walking,0
+1,101,0.1,subject107_client2,4,running,24
+1,101,0.1,subject107_client2,5,cycling,2
+1,101,0.1,subject107_client2,6,Nordic walking,15
+1,101,0.1,subject107_client2,7,ascending stairs,0
+1,101,0.1,subject107_client2,8,descending stairs,5
+1,101,0.1,subject107_client2,9,vacuum cleaning,11
+1,101,0.1,subject107_client2,10,ironing,216
+1,101,0.1,subject107_client2,11,rope jumping,0
+1,101,0.1,subject107_client3,0,lying,184
+1,101,0.1,subject107_client3,1,sitting,12
+1,101,0.1,subject107_client3,2,standing,0
+1,101,0.1,subject107_client3,3,walking,262
+1,101,0.1,subject107_client3,4,running,0
+1,101,0.1,subject107_client3,5,cycling,0
+1,101,0.1,subject107_client3,6,Nordic walking,124
+1,101,0.1,subject107_client3,7,ascending stairs,1
+1,101,0.1,subject107_client3,8,descending stairs,80
+1,101,0.1,subject107_client3,9,vacuum cleaning,149
+1,101,0.1,subject107_client3,10,ironing,12
+1,101,0.1,subject107_client3,11,rope jumping,0
+1,101,0.1,subject108_client0,0,lying,0
+1,101,0.1,subject108_client0,1,sitting,0
+1,101,0.1,subject108_client0,2,standing,23
+1,101,0.1,subject108_client0,3,walking,46
+1,101,0.1,subject108_client0,4,running,0
+1,101,0.1,subject108_client0,5,cycling,198
+1,101,0.1,subject108_client0,6,Nordic walking,0
+1,101,0.1,subject108_client0,7,ascending stairs,0
+1,101,0.1,subject108_client0,8,descending stairs,14
+1,101,0.1,subject108_client0,9,vacuum cleaning,167
+1,101,0.1,subject108_client0,10,ironing,47
+1,101,0.1,subject108_client0,11,rope jumping,67
+1,101,0.1,subject108_client1,0,lying,0
+1,101,0.1,subject108_client1,1,sitting,177
+1,101,0.1,subject108_client1,2,standing,0
+1,101,0.1,subject108_client1,3,walking,0
+1,101,0.1,subject108_client1,4,running,126
+1,101,0.1,subject108_client1,5,cycling,0
+1,101,0.1,subject108_client1,6,Nordic walking,0
+1,101,0.1,subject108_client1,7,ascending stairs,0
+1,101,0.1,subject108_client1,8,descending stairs,51
+1,101,0.1,subject108_client1,9,vacuum cleaning,0
+1,101,0.1,subject108_client1,10,ironing,0
+1,101,0.1,subject108_client1,11,rope jumping,0
+1,101,0.1,subject108_client2,0,lying,164
+1,101,0.1,subject108_client2,1,sitting,0
+1,101,0.1,subject108_client2,2,standing,171
+1,101,0.1,subject108_client2,3,walking,0
+1,101,0.1,subject108_client2,4,running,1
+1,101,0.1,subject108_client2,5,cycling,0
+1,101,0.1,subject108_client2,6,Nordic walking,20
+1,101,0.1,subject108_client2,7,ascending stairs,4
+1,101,0.1,subject108_client2,8,descending stairs,5
+1,101,0.1,subject108_client2,9,vacuum cleaning,20
+1,101,0.1,subject108_client2,10,ironing,208
+1,101,0.1,subject108_client2,11,rope jumping,0
+1,101,0.1,subject108_client3,0,lying,22
+1,101,0.1,subject108_client3,1,sitting,0
+1,101,0.1,subject108_client3,2,standing,0
+1,101,0.1,subject108_client3,3,walking,198
+1,101,0.1,subject108_client3,4,running,0
+1,101,0.1,subject108_client3,5,cycling,0
+1,101,0.1,subject108_client3,6,Nordic walking,202
+1,101,0.1,subject108_client3,7,ascending stairs,84
+1,101,0.1,subject108_client3,8,descending stairs,0
+1,101,0.1,subject108_client3,9,vacuum cleaning,0
+1,101,0.1,subject108_client3,10,ironing,0
+1,101,0.1,subject108_client3,11,rope jumping,0
+2,102,1.0,subject101_client0,0,lying,74
+2,102,1.0,subject101_client0,1,sitting,113
+2,102,1.0,subject101_client0,2,standing,85
+2,102,1.0,subject101_client0,3,walking,9
+2,102,1.0,subject101_client0,4,running,14
+2,102,1.0,subject101_client0,5,cycling,9
+2,102,1.0,subject101_client0,6,Nordic walking,47
+2,102,1.0,subject101_client0,7,ascending stairs,104
+2,102,1.0,subject101_client0,8,descending stairs,2
+2,102,1.0,subject101_client0,9,vacuum cleaning,62
+2,102,1.0,subject101_client0,10,ironing,73
+2,102,1.0,subject101_client0,11,rope jumping,21
+2,102,1.0,subject101_client1,0,lying,14
+2,102,1.0,subject101_client1,1,sitting,23
+2,102,1.0,subject101_client1,2,standing,21
+2,102,1.0,subject101_client1,3,walking,23
+2,102,1.0,subject101_client1,4,running,37
+2,102,1.0,subject101_client1,5,cycling,2
+2,102,1.0,subject101_client1,6,Nordic walking,36
+2,102,1.0,subject101_client1,7,ascending stairs,3
+2,102,1.0,subject101_client1,8,descending stairs,36
+2,102,1.0,subject101_client1,9,vacuum cleaning,23
+2,102,1.0,subject101_client1,10,ironing,70
+2,102,1.0,subject101_client1,11,rope jumping,20
+2,102,1.0,subject101_client2,0,lying,104
+2,102,1.0,subject101_client2,1,sitting,37
+2,102,1.0,subject101_client2,2,standing,53
+2,102,1.0,subject101_client2,3,walking,5
+2,102,1.0,subject101_client2,4,running,88
+2,102,1.0,subject101_client2,5,cycling,116
+2,102,1.0,subject101_client2,6,Nordic walking,10
+2,102,1.0,subject101_client2,7,ascending stairs,6
+2,102,1.0,subject101_client2,8,descending stairs,29
+2,102,1.0,subject101_client2,9,vacuum cleaning,43
+2,102,1.0,subject101_client2,10,ironing,11
+2,102,1.0,subject101_client2,11,rope jumping,40
+2,102,1.0,subject101_client3,0,lying,16
+2,102,1.0,subject101_client3,1,sitting,6
+2,102,1.0,subject101_client3,2,standing,6
+2,102,1.0,subject101_client3,3,walking,132
+2,102,1.0,subject101_client3,4,running,23
+2,102,1.0,subject101_client3,5,cycling,53
+2,102,1.0,subject101_client3,6,Nordic walking,61
+2,102,1.0,subject101_client3,7,ascending stairs,5
+2,102,1.0,subject101_client3,8,descending stairs,43
+2,102,1.0,subject101_client3,9,vacuum cleaning,47
+2,102,1.0,subject101_client3,10,ironing,26
+2,102,1.0,subject101_client3,11,rope jumping,15
+2,102,1.0,subject103_client0,0,lying,85
+2,102,1.0,subject103_client0,1,sitting,38
+2,102,1.0,subject103_client0,2,standing,102
+2,102,1.0,subject103_client0,3,walking,85
+2,102,1.0,subject103_client0,4,running,0
+2,102,1.0,subject103_client0,5,cycling,0
+2,102,1.0,subject103_client0,6,Nordic walking,0
+2,102,1.0,subject103_client0,7,ascending stairs,7
+2,102,1.0,subject103_client0,8,descending stairs,2
+2,102,1.0,subject103_client0,9,vacuum cleaning,51
+2,102,1.0,subject103_client0,10,ironing,191
+2,102,1.0,subject103_client0,11,rope jumping,0
+2,102,1.0,subject103_client1,0,lying,53
+2,102,1.0,subject103_client1,1,sitting,12
+2,102,1.0,subject103_client1,2,standing,5
+2,102,1.0,subject103_client1,3,walking,14
+2,102,1.0,subject103_client1,4,running,0
+2,102,1.0,subject103_client1,5,cycling,0
+2,102,1.0,subject103_client1,6,Nordic walking,0
+2,102,1.0,subject103_client1,7,ascending stairs,0
+2,102,1.0,subject103_client1,8,descending stairs,51
+2,102,1.0,subject103_client1,9,vacuum cleaning,79
+2,102,1.0,subject103_client1,10,ironing,1
+2,102,1.0,subject103_client1,11,rope jumping,0
+2,102,1.0,subject103_client2,0,lying,2
+2,102,1.0,subject103_client2,1,sitting,62
+2,102,1.0,subject103_client2,2,standing,32
+2,102,1.0,subject103_client2,3,walking,39
+2,102,1.0,subject103_client2,4,running,0
+2,102,1.0,subject103_client2,5,cycling,0
+2,102,1.0,subject103_client2,6,Nordic walking,0
+2,102,1.0,subject103_client2,7,ascending stairs,8
+2,102,1.0,subject103_client2,8,descending stairs,41
+2,102,1.0,subject103_client2,9,vacuum cleaning,2
+2,102,1.0,subject103_client2,10,ironing,17
+2,102,1.0,subject103_client2,11,rope jumping,0
+2,102,1.0,subject103_client3,0,lying,28
+2,102,1.0,subject103_client3,1,sitting,108
+2,102,1.0,subject103_client3,2,standing,17
+2,102,1.0,subject103_client3,3,walking,84
+2,102,1.0,subject103_client3,4,running,0
+2,102,1.0,subject103_client3,5,cycling,0
+2,102,1.0,subject103_client3,6,Nordic walking,0
+2,102,1.0,subject103_client3,7,ascending stairs,61
+2,102,1.0,subject103_client3,8,descending stairs,18
+2,102,1.0,subject103_client3,9,vacuum cleaning,22
+2,102,1.0,subject103_client3,10,ironing,5
+2,102,1.0,subject103_client3,11,rope jumping,0
+2,102,1.0,subject104_client0,0,lying,15
+2,102,1.0,subject104_client0,1,sitting,10
+2,102,1.0,subject104_client0,2,standing,43
+2,102,1.0,subject104_client0,3,walking,154
+2,102,1.0,subject104_client0,4,running,0
+2,102,1.0,subject104_client0,5,cycling,90
+2,102,1.0,subject104_client0,6,Nordic walking,52
+2,102,1.0,subject104_client0,7,ascending stairs,36
+2,102,1.0,subject104_client0,8,descending stairs,0
+2,102,1.0,subject104_client0,9,vacuum cleaning,36
+2,102,1.0,subject104_client0,10,ironing,57
+2,102,1.0,subject104_client0,11,rope jumping,0
+2,102,1.0,subject104_client1,0,lying,9
+2,102,1.0,subject104_client1,1,sitting,84
+2,102,1.0,subject104_client1,2,standing,96
+2,102,1.0,subject104_client1,3,walking,3
+2,102,1.0,subject104_client1,4,running,0
+2,102,1.0,subject104_client1,5,cycling,18
+2,102,1.0,subject104_client1,6,Nordic walking,1
+2,102,1.0,subject104_client1,7,ascending stairs,47
+2,102,1.0,subject104_client1,8,descending stairs,58
+2,102,1.0,subject104_client1,9,vacuum cleaning,8
+2,102,1.0,subject104_client1,10,ironing,47
+2,102,1.0,subject104_client1,11,rope jumping,0
+2,102,1.0,subject104_client2,0,lying,108
+2,102,1.0,subject104_client2,1,sitting,34
+2,102,1.0,subject104_client2,2,standing,23
+2,102,1.0,subject104_client2,3,walking,45
+2,102,1.0,subject104_client2,4,running,0
+2,102,1.0,subject104_client2,5,cycling,44
+2,102,1.0,subject104_client2,6,Nordic walking,68
+2,102,1.0,subject104_client2,7,ascending stairs,16
+2,102,1.0,subject104_client2,8,descending stairs,9
+2,102,1.0,subject104_client2,9,vacuum cleaning,102
+2,102,1.0,subject104_client2,10,ironing,16
+2,102,1.0,subject104_client2,11,rope jumping,0
+2,102,1.0,subject104_client3,0,lying,44
+2,102,1.0,subject104_client3,1,sitting,67
+2,102,1.0,subject104_client3,2,standing,27
+2,102,1.0,subject104_client3,3,walking,43
+2,102,1.0,subject104_client3,4,running,0
+2,102,1.0,subject104_client3,5,cycling,21
+2,102,1.0,subject104_client3,6,Nordic walking,90
+2,102,1.0,subject104_client3,7,ascending stairs,25
+2,102,1.0,subject104_client3,8,descending stairs,40
+2,102,1.0,subject104_client3,9,vacuum cleaning,6
+2,102,1.0,subject104_client3,10,ironing,71
+2,102,1.0,subject104_client3,11,rope jumping,0
+2,102,1.0,subject105_client0,0,lying,106
+2,102,1.0,subject105_client0,1,sitting,24
+2,102,1.0,subject105_client0,2,standing,73
+2,102,1.0,subject105_client0,3,walking,71
+2,102,1.0,subject105_client0,4,running,22
+2,102,1.0,subject105_client0,5,cycling,78
+2,102,1.0,subject105_client0,6,Nordic walking,56
+2,102,1.0,subject105_client0,7,ascending stairs,32
+2,102,1.0,subject105_client0,8,descending stairs,13
+2,102,1.0,subject105_client0,9,vacuum cleaning,75
+2,102,1.0,subject105_client0,10,ironing,44
+2,102,1.0,subject105_client0,11,rope jumping,3
+2,102,1.0,subject105_client1,0,lying,11
+2,102,1.0,subject105_client1,1,sitting,66
+2,102,1.0,subject105_client1,2,standing,18
+2,102,1.0,subject105_client1,3,walking,79
+2,102,1.0,subject105_client1,4,running,70
+2,102,1.0,subject105_client1,5,cycling,12
+2,102,1.0,subject105_client1,6,Nordic walking,58
+2,102,1.0,subject105_client1,7,ascending stairs,49
+2,102,1.0,subject105_client1,8,descending stairs,24
+2,102,1.0,subject105_client1,9,vacuum cleaning,49
+2,102,1.0,subject105_client1,10,ironing,84
+2,102,1.0,subject105_client1,11,rope jumping,3
+2,102,1.0,subject105_client2,0,lying,1
+2,102,1.0,subject105_client2,1,sitting,23
+2,102,1.0,subject105_client2,2,standing,1
+2,102,1.0,subject105_client2,3,walking,69
+2,102,1.0,subject105_client2,4,running,59
+2,102,1.0,subject105_client2,5,cycling,20
+2,102,1.0,subject105_client2,6,Nordic walking,29
+2,102,1.0,subject105_client2,7,ascending stairs,9
+2,102,1.0,subject105_client2,8,descending stairs,52
+2,102,1.0,subject105_client2,9,vacuum cleaning,43
+2,102,1.0,subject105_client2,10,ironing,37
+2,102,1.0,subject105_client2,11,rope jumping,39
+2,102,1.0,subject105_client3,0,lying,63
+2,102,1.0,subject105_client3,1,sitting,92
+2,102,1.0,subject105_client3,2,standing,76
+2,102,1.0,subject105_client3,3,walking,27
+2,102,1.0,subject105_client3,4,running,37
+2,102,1.0,subject105_client3,5,cycling,78
+2,102,1.0,subject105_client3,6,Nordic walking,58
+2,102,1.0,subject105_client3,7,ascending stairs,15
+2,102,1.0,subject105_client3,8,descending stairs,4
+2,102,1.0,subject105_client3,9,vacuum cleaning,19
+2,102,1.0,subject105_client3,10,ironing,89
+2,102,1.0,subject105_client3,11,rope jumping,11
+2,102,1.0,subject106_client0,0,lying,45
+2,102,1.0,subject106_client0,1,sitting,70
+2,102,1.0,subject106_client0,2,standing,33
+2,102,1.0,subject106_client0,3,walking,53
+2,102,1.0,subject106_client0,4,running,57
+2,102,1.0,subject106_client0,5,cycling,44
+2,102,1.0,subject106_client0,6,Nordic walking,100
+2,102,1.0,subject106_client0,7,ascending stairs,10
+2,102,1.0,subject106_client0,8,descending stairs,1
+2,102,1.0,subject106_client0,9,vacuum cleaning,38
+2,102,1.0,subject106_client0,10,ironing,142
+2,102,1.0,subject106_client0,11,rope jumping,0
+2,102,1.0,subject106_client1,0,lying,67
+2,102,1.0,subject106_client1,1,sitting,8
+2,102,1.0,subject106_client1,2,standing,8
+2,102,1.0,subject106_client1,3,walking,3
+2,102,1.0,subject106_client1,4,running,57
+2,102,1.0,subject106_client1,5,cycling,19
+2,102,1.0,subject106_client1,6,Nordic walking,13
+2,102,1.0,subject106_client1,7,ascending stairs,13
+2,102,1.0,subject106_client1,8,descending stairs,31
+2,102,1.0,subject106_client1,9,vacuum cleaning,22
+2,102,1.0,subject106_client1,10,ironing,16
+2,102,1.0,subject106_client1,11,rope jumping,0
+2,102,1.0,subject106_client2,0,lying,64
+2,102,1.0,subject106_client2,1,sitting,87
+2,102,1.0,subject106_client2,2,standing,38
+2,102,1.0,subject106_client2,3,walking,81
+2,102,1.0,subject106_client2,4,running,11
+2,102,1.0,subject106_client2,5,cycling,68
+2,102,1.0,subject106_client2,6,Nordic walking,81
+2,102,1.0,subject106_client2,7,ascending stairs,31
+2,102,1.0,subject106_client2,8,descending stairs,3
+2,102,1.0,subject106_client2,9,vacuum cleaning,92
+2,102,1.0,subject106_client2,10,ironing,87
+2,102,1.0,subject106_client2,11,rope jumping,1
+2,102,1.0,subject106_client3,0,lying,2
+2,102,1.0,subject106_client3,1,sitting,11
+2,102,1.0,subject106_client3,2,standing,107
+2,102,1.0,subject106_client3,3,walking,59
+2,102,1.0,subject106_client3,4,running,49
+2,102,1.0,subject106_client3,5,cycling,25
+2,102,1.0,subject106_client3,6,Nordic walking,10
+2,102,1.0,subject106_client3,7,ascending stairs,44
+2,102,1.0,subject106_client3,8,descending stairs,47
+2,102,1.0,subject106_client3,9,vacuum cleaning,8
+2,102,1.0,subject106_client3,10,ironing,44
+2,102,1.0,subject106_client3,11,rope jumping,0
+2,102,1.0,subject107_client0,0,lying,5
+2,102,1.0,subject107_client0,1,sitting,51
+2,102,1.0,subject107_client0,2,standing,38
+2,102,1.0,subject107_client0,3,walking,7
+2,102,1.0,subject107_client0,4,running,4
+2,102,1.0,subject107_client0,5,cycling,1
+2,102,1.0,subject107_client0,6,Nordic walking,20
+2,102,1.0,subject107_client0,7,ascending stairs,19
+2,102,1.0,subject107_client0,8,descending stairs,62
+2,102,1.0,subject107_client0,9,vacuum cleaning,0
+2,102,1.0,subject107_client0,10,ironing,47
+2,102,1.0,subject107_client0,11,rope jumping,0
+2,102,1.0,subject107_client1,0,lying,56
+2,102,1.0,subject107_client1,1,sitting,10
+2,102,1.0,subject107_client1,2,standing,22
+2,102,1.0,subject107_client1,3,walking,142
+2,102,1.0,subject107_client1,4,running,8
+2,102,1.0,subject107_client1,5,cycling,9
+2,102,1.0,subject107_client1,6,Nordic walking,39
+2,102,1.0,subject107_client1,7,ascending stairs,2
+2,102,1.0,subject107_client1,8,descending stairs,1
+2,102,1.0,subject107_client1,9,vacuum cleaning,35
+2,102,1.0,subject107_client1,10,ironing,93
+2,102,1.0,subject107_client1,11,rope jumping,0
+2,102,1.0,subject107_client2,0,lying,4
+2,102,1.0,subject107_client2,1,sitting,14
+2,102,1.0,subject107_client2,2,standing,125
+2,102,1.0,subject107_client2,3,walking,91
+2,102,1.0,subject107_client2,4,running,7
+2,102,1.0,subject107_client2,5,cycling,7
+2,102,1.0,subject107_client2,6,Nordic walking,107
+2,102,1.0,subject107_client2,7,ascending stairs,21
+2,102,1.0,subject107_client2,8,descending stairs,9
+2,102,1.0,subject107_client2,9,vacuum cleaning,43
+2,102,1.0,subject107_client2,10,ironing,39
+2,102,1.0,subject107_client2,11,rope jumping,0
+2,102,1.0,subject107_client3,0,lying,131
+2,102,1.0,subject107_client3,1,sitting,16
+2,102,1.0,subject107_client3,2,standing,12
+2,102,1.0,subject107_client3,3,walking,19
+2,102,1.0,subject107_client3,4,running,5
+2,102,1.0,subject107_client3,5,cycling,156
+2,102,1.0,subject107_client3,6,Nordic walking,54
+2,102,1.0,subject107_client3,7,ascending stairs,90
+2,102,1.0,subject107_client3,8,descending stairs,13
+2,102,1.0,subject107_client3,9,vacuum cleaning,87
+2,102,1.0,subject107_client3,10,ironing,47
+2,102,1.0,subject107_client3,11,rope jumping,0
+2,102,1.0,subject108_client0,0,lying,14
+2,102,1.0,subject108_client0,1,sitting,121
+2,102,1.0,subject108_client0,2,standing,38
+2,102,1.0,subject108_client0,3,walking,77
+2,102,1.0,subject108_client0,4,running,15
+2,102,1.0,subject108_client0,5,cycling,58
+2,102,1.0,subject108_client0,6,Nordic walking,21
+2,102,1.0,subject108_client0,7,ascending stairs,55
+2,102,1.0,subject108_client0,8,descending stairs,13
+2,102,1.0,subject108_client0,9,vacuum cleaning,54
+2,102,1.0,subject108_client0,10,ironing,143
+2,102,1.0,subject108_client0,11,rope jumping,47
+2,102,1.0,subject108_client1,0,lying,46
+2,102,1.0,subject108_client1,1,sitting,21
+2,102,1.0,subject108_client1,2,standing,38
+2,102,1.0,subject108_client1,3,walking,39
+2,102,1.0,subject108_client1,4,running,85
+2,102,1.0,subject108_client1,5,cycling,10
+2,102,1.0,subject108_client1,6,Nordic walking,71
+2,102,1.0,subject108_client1,7,ascending stairs,7
+2,102,1.0,subject108_client1,8,descending stairs,7
+2,102,1.0,subject108_client1,9,vacuum cleaning,23
+2,102,1.0,subject108_client1,10,ironing,26
+2,102,1.0,subject108_client1,11,rope jumping,2
+2,102,1.0,subject108_client2,0,lying,83
+2,102,1.0,subject108_client2,1,sitting,8
+2,102,1.0,subject108_client2,2,standing,56
+2,102,1.0,subject108_client2,3,walking,26
+2,102,1.0,subject108_client2,4,running,6
+2,102,1.0,subject108_client2,5,cycling,87
+2,102,1.0,subject108_client2,6,Nordic walking,74
+2,102,1.0,subject108_client2,7,ascending stairs,11
+2,102,1.0,subject108_client2,8,descending stairs,20
+2,102,1.0,subject108_client2,9,vacuum cleaning,18
+2,102,1.0,subject108_client2,10,ironing,28
+2,102,1.0,subject108_client2,11,rope jumping,1
+2,102,1.0,subject108_client3,0,lying,41
+2,102,1.0,subject108_client3,1,sitting,24
+2,102,1.0,subject108_client3,2,standing,60
+2,102,1.0,subject108_client3,3,walking,100
+2,102,1.0,subject108_client3,4,running,19
+2,102,1.0,subject108_client3,5,cycling,40
+2,102,1.0,subject108_client3,6,Nordic walking,55
+2,102,1.0,subject108_client3,7,ascending stairs,13
+2,102,1.0,subject108_client3,8,descending stairs,29
+2,102,1.0,subject108_client3,9,vacuum cleaning,90
+2,102,1.0,subject108_client3,10,ironing,56
+2,102,1.0,subject108_client3,11,rope jumping,14
+2,102,0.1,subject101_client0,0,lying,0
+2,102,0.1,subject101_client0,1,sitting,29
+2,102,0.1,subject101_client0,2,standing,0
+2,102,0.1,subject101_client0,3,walking,109
+2,102,0.1,subject101_client0,4,running,157
+2,102,0.1,subject101_client0,5,cycling,0
+2,102,0.1,subject101_client0,6,Nordic walking,115
+2,102,0.1,subject101_client0,7,ascending stairs,0
+2,102,0.1,subject101_client0,8,descending stairs,0
+2,102,0.1,subject101_client0,9,vacuum cleaning,9
+2,102,0.1,subject101_client0,10,ironing,4
+2,102,0.1,subject101_client0,11,rope jumping,4
+2,102,0.1,subject101_client1,0,lying,0
+2,102,0.1,subject101_client1,1,sitting,149
+2,102,0.1,subject101_client1,2,standing,0
+2,102,0.1,subject101_client1,3,walking,0
+2,102,0.1,subject101_client1,4,running,5
+2,102,0.1,subject101_client1,5,cycling,141
+2,102,0.1,subject101_client1,6,Nordic walking,0
+2,102,0.1,subject101_client1,7,ascending stairs,121
+2,102,0.1,subject101_client1,8,descending stairs,77
+2,102,0.1,subject101_client1,9,vacuum cleaning,119
+2,102,0.1,subject101_client1,10,ironing,3
+2,102,0.1,subject101_client1,11,rope jumping,45
+2,102,0.1,subject101_client2,0,lying,3
+2,102,0.1,subject101_client2,1,sitting,0
+2,102,0.1,subject101_client2,2,standing,168
+2,102,0.1,subject101_client2,3,walking,0
+2,102,0.1,subject101_client2,4,running,0
+2,102,0.1,subject101_client2,5,cycling,0
+2,102,0.1,subject101_client2,6,Nordic walking,41
+2,102,0.1,subject101_client2,7,ascending stairs,0
+2,102,0.1,subject101_client2,8,descending stairs,0
+2,102,0.1,subject101_client2,9,vacuum cleaning,48
+2,102,0.1,subject101_client2,10,ironing,155
+2,102,0.1,subject101_client2,11,rope jumping,15
+2,102,0.1,subject101_client3,0,lying,207
+2,102,0.1,subject101_client3,1,sitting,2
+2,102,0.1,subject101_client3,2,standing,0
+2,102,0.1,subject101_client3,3,walking,62
+2,102,0.1,subject101_client3,4,running,1
+2,102,0.1,subject101_client3,5,cycling,40
+2,102,0.1,subject101_client3,6,Nordic walking,0
+2,102,0.1,subject101_client3,7,ascending stairs,0
+2,102,0.1,subject101_client3,8,descending stairs,35
+2,102,0.1,subject101_client3,9,vacuum cleaning,0
+2,102,0.1,subject101_client3,10,ironing,18
+2,102,0.1,subject101_client3,11,rope jumping,32
+2,102,0.1,subject103_client0,0,lying,0
+2,102,0.1,subject103_client0,1,sitting,0
+2,102,0.1,subject103_client0,2,standing,0
+2,102,0.1,subject103_client0,3,walking,129
+2,102,0.1,subject103_client0,4,running,0
+2,102,0.1,subject103_client0,5,cycling,0
+2,102,0.1,subject103_client0,6,Nordic walking,0
+2,102,0.1,subject103_client0,7,ascending stairs,78
+2,102,0.1,subject103_client0,8,descending stairs,0
+2,102,0.1,subject103_client0,9,vacuum cleaning,131
+2,102,0.1,subject103_client0,10,ironing,216
+2,102,0.1,subject103_client0,11,rope jumping,0
+2,102,0.1,subject103_client1,0,lying,0
+2,102,0.1,subject103_client1,1,sitting,223
+2,102,0.1,subject103_client1,2,standing,0
+2,102,0.1,subject103_client1,3,walking,49
+2,102,0.1,subject103_client1,4,running,0
+2,102,0.1,subject103_client1,5,cycling,0
+2,102,0.1,subject103_client1,6,Nordic walking,0
+2,102,0.1,subject103_client1,7,ascending stairs,0
+2,102,0.1,subject103_client1,8,descending stairs,0
+2,102,0.1,subject103_client1,9,vacuum cleaning,23
+2,102,0.1,subject103_client1,10,ironing,0
+2,102,0.1,subject103_client1,11,rope jumping,0
+2,102,0.1,subject103_client2,0,lying,171
+2,102,0.1,subject103_client2,1,sitting,0
+2,102,0.1,subject103_client2,2,standing,0
+2,102,0.1,subject103_client2,3,walking,18
+2,102,0.1,subject103_client2,4,running,0
+2,102,0.1,subject103_client2,5,cycling,0
+2,102,0.1,subject103_client2,6,Nordic walking,0
+2,102,0.1,subject103_client2,7,ascending stairs,0
+2,102,0.1,subject103_client2,8,descending stairs,36
+2,102,0.1,subject103_client2,9,vacuum cleaning,1
+2,102,0.1,subject103_client2,10,ironing,0
+2,102,0.1,subject103_client2,11,rope jumping,0
+2,102,0.1,subject103_client3,0,lying,0
+2,102,0.1,subject103_client3,1,sitting,0
+2,102,0.1,subject103_client3,2,standing,159
+2,102,0.1,subject103_client3,3,walking,26
+2,102,0.1,subject103_client3,4,running,0
+2,102,0.1,subject103_client3,5,cycling,0
+2,102,0.1,subject103_client3,6,Nordic walking,0
+2,102,0.1,subject103_client3,7,ascending stairs,0
+2,102,0.1,subject103_client3,8,descending stairs,77
+2,102,0.1,subject103_client3,9,vacuum cleaning,0
+2,102,0.1,subject103_client3,10,ironing,0
+2,102,0.1,subject103_client3,11,rope jumping,0
+2,102,0.1,subject104_client0,0,lying,162
+2,102,0.1,subject104_client0,1,sitting,80
+2,102,0.1,subject104_client0,2,standing,192
+2,102,0.1,subject104_client0,3,walking,0
+2,102,0.1,subject104_client0,4,running,0
+2,102,0.1,subject104_client0,5,cycling,0
+2,102,0.1,subject104_client0,6,Nordic walking,211
+2,102,0.1,subject104_client0,7,ascending stairs,39
+2,102,0.1,subject104_client0,8,descending stairs,0
+2,102,0.1,subject104_client0,9,vacuum cleaning,0
+2,102,0.1,subject104_client0,10,ironing,194
+2,102,0.1,subject104_client0,11,rope jumping,0
+2,102,0.1,subject104_client1,0,lying,16
+2,102,0.1,subject104_client1,1,sitting,0
+2,102,0.1,subject104_client1,2,standing,0
+2,102,0.1,subject104_client1,3,walking,248
+2,102,0.1,subject104_client1,4,running,0
+2,102,0.1,subject104_client1,5,cycling,54
+2,102,0.1,subject104_client1,6,Nordic walking,0
+2,102,0.1,subject104_client1,7,ascending stairs,0
+2,102,0.1,subject104_client1,8,descending stairs,96
+2,102,0.1,subject104_client1,9,vacuum cleaning,1
+2,102,0.1,subject104_client1,10,ironing,0
+2,102,0.1,subject104_client1,11,rope jumping,0
+2,102,0.1,subject104_client2,0,lying,0
+2,102,0.1,subject104_client2,1,sitting,3
+2,102,0.1,subject104_client2,2,standing,0
+2,102,0.1,subject104_client2,3,walking,0
+2,102,0.1,subject104_client2,4,running,0
+2,102,0.1,subject104_client2,5,cycling,0
+2,102,0.1,subject104_client2,6,Nordic walking,0
+2,102,0.1,subject104_client2,7,ascending stairs,0
+2,102,0.1,subject104_client2,8,descending stairs,12
+2,102,0.1,subject104_client2,9,vacuum cleaning,153
+2,102,0.1,subject104_client2,10,ironing,0
+2,102,0.1,subject104_client2,11,rope jumping,0
+2,102,0.1,subject104_client3,0,lying,0
+2,102,0.1,subject104_client3,1,sitting,113
+2,102,0.1,subject104_client3,2,standing,0
+2,102,0.1,subject104_client3,3,walking,0
+2,102,0.1,subject104_client3,4,running,0
+2,102,0.1,subject104_client3,5,cycling,121
+2,102,0.1,subject104_client3,6,Nordic walking,2
+2,102,0.1,subject104_client3,7,ascending stairs,87
+2,102,0.1,subject104_client3,8,descending stairs,0
+2,102,0.1,subject104_client3,9,vacuum cleaning,0
+2,102,0.1,subject104_client3,10,ironing,0
+2,102,0.1,subject104_client3,11,rope jumping,0
+2,102,0.1,subject105_client0,0,lying,0
+2,102,0.1,subject105_client0,1,sitting,141
+2,102,0.1,subject105_client0,2,standing,0
+2,102,0.1,subject105_client0,3,walking,88
+2,102,0.1,subject105_client0,4,running,0
+2,102,0.1,subject105_client0,5,cycling,0
+2,102,0.1,subject105_client0,6,Nordic walking,132
+2,102,0.1,subject105_client0,7,ascending stairs,0
+2,102,0.1,subject105_client0,8,descending stairs,0
+2,102,0.1,subject105_client0,9,vacuum cleaning,0
+2,102,0.1,subject105_client0,10,ironing,6
+2,102,0.1,subject105_client0,11,rope jumping,0
+2,102,0.1,subject105_client1,0,lying,0
+2,102,0.1,subject105_client1,1,sitting,0
+2,102,0.1,subject105_client1,2,standing,0
+2,102,0.1,subject105_client1,3,walking,2
+2,102,0.1,subject105_client1,4,running,160
+2,102,0.1,subject105_client1,5,cycling,0
+2,102,0.1,subject105_client1,6,Nordic walking,14
+2,102,0.1,subject105_client1,7,ascending stairs,0
+2,102,0.1,subject105_client1,8,descending stairs,3
+2,102,0.1,subject105_client1,9,vacuum cleaning,0
+2,102,0.1,subject105_client1,10,ironing,245
+2,102,0.1,subject105_client1,11,rope jumping,0
+2,102,0.1,subject105_client2,0,lying,184
+2,102,0.1,subject105_client2,1,sitting,66
+2,102,0.1,subject105_client2,2,standing,4
+2,102,0.1,subject105_client2,3,walking,157
+2,102,0.1,subject105_client2,4,running,27
+2,102,0.1,subject105_client2,5,cycling,188
+2,102,0.1,subject105_client2,6,Nordic walking,0
+2,102,0.1,subject105_client2,7,ascending stairs,5
+2,102,0.1,subject105_client2,8,descending stairs,0
+2,102,0.1,subject105_client2,9,vacuum cleaning,188
+2,102,0.1,subject105_client2,10,ironing,1
+2,102,0.1,subject105_client2,11,rope jumping,45
+2,102,0.1,subject105_client3,0,lying,0
+2,102,0.1,subject105_client3,1,sitting,0
+2,102,0.1,subject105_client3,2,standing,166
+2,102,0.1,subject105_client3,3,walking,0
+2,102,0.1,subject105_client3,4,running,1
+2,102,0.1,subject105_client3,5,cycling,2
+2,102,0.1,subject105_client3,6,Nordic walking,56
+2,102,0.1,subject105_client3,7,ascending stairs,102
+2,102,0.1,subject105_client3,8,descending stairs,92
+2,102,0.1,subject105_client3,9,vacuum cleaning,0
+2,102,0.1,subject105_client3,10,ironing,2
+2,102,0.1,subject105_client3,11,rope jumping,13
+2,102,0.1,subject106_client0,0,lying,168
+2,102,0.1,subject106_client0,1,sitting,0
+2,102,0.1,subject106_client0,2,standing,0
+2,102,0.1,subject106_client0,3,walking,0
+2,102,0.1,subject106_client0,4,running,0
+2,102,0.1,subject106_client0,5,cycling,0
+2,102,0.1,subject106_client0,6,Nordic walking,207
+2,102,0.1,subject106_client0,7,ascending stairs,7
+2,102,0.1,subject106_client0,8,descending stairs,0
+2,102,0.1,subject106_client0,9,vacuum cleaning,0
+2,102,0.1,subject106_client0,10,ironing,0
+2,102,0.1,subject106_client0,11,rope jumping,0
+2,102,0.1,subject106_client1,0,lying,0
+2,102,0.1,subject106_client1,1,sitting,0
+2,102,0.1,subject106_client1,2,standing,1
+2,102,0.1,subject106_client1,3,walking,0
+2,102,0.1,subject106_client1,4,running,5
+2,102,0.1,subject106_client1,5,cycling,159
+2,102,0.1,subject106_client1,6,Nordic walking,0
+2,102,0.1,subject106_client1,7,ascending stairs,11
+2,102,0.1,subject106_client1,8,descending stairs,0
+2,102,0.1,subject106_client1,9,vacuum cleaning,0
+2,102,0.1,subject106_client1,10,ironing,0
+2,102,0.1,subject106_client1,11,rope jumping,0
+2,102,0.1,subject106_client2,0,lying,12
+2,102,0.1,subject106_client2,1,sitting,6
+2,102,0.1,subject106_client2,2,standing,187
+2,102,0.1,subject106_client2,3,walking,0
+2,102,0.1,subject106_client2,4,running,171
+2,102,0.1,subject106_client2,5,cycling,0
+2,102,0.1,subject106_client2,6,Nordic walking,0
+2,102,0.1,subject106_client2,7,ascending stairs,0
+2,102,0.1,subject106_client2,8,descending stairs,85
+2,102,0.1,subject106_client2,9,vacuum cleaning,0
+2,102,0.1,subject106_client2,10,ironing,0
+2,102,0.1,subject106_client2,11,rope jumping,0
+2,102,0.1,subject106_client3,0,lying,0
+2,102,0.1,subject106_client3,1,sitting,172
+2,102,0.1,subject106_client3,2,standing,0
+2,102,0.1,subject106_client3,3,walking,199
+2,102,0.1,subject106_client3,4,running,0
+2,102,0.1,subject106_client3,5,cycling,0
+2,102,0.1,subject106_client3,6,Nordic walking,0
+2,102,0.1,subject106_client3,7,ascending stairs,81
+2,102,0.1,subject106_client3,8,descending stairs,0
+2,102,0.1,subject106_client3,9,vacuum cleaning,163
+2,102,0.1,subject106_client3,10,ironing,292
+2,102,0.1,subject106_client3,11,rope jumping,1
+2,102,0.1,subject107_client0,0,lying,0
+2,102,0.1,subject107_client0,1,sitting,0
+2,102,0.1,subject107_client0,2,standing,0
+2,102,0.1,subject107_client0,3,walking,0
+2,102,0.1,subject107_client0,4,running,0
+2,102,0.1,subject107_client0,5,cycling,0
+2,102,0.1,subject107_client0,6,Nordic walking,82
+2,102,0.1,subject107_client0,7,ascending stairs,133
+2,102,0.1,subject107_client0,8,descending stairs,1
+2,102,0.1,subject107_client0,9,vacuum cleaning,1
+2,102,0.1,subject107_client0,10,ironing,0
+2,102,0.1,subject107_client0,11,rope jumping,0
+2,102,0.1,subject107_client1,0,lying,14
+2,102,0.1,subject107_client1,1,sitting,0
+2,102,0.1,subject107_client1,2,standing,129
+2,102,0.1,subject107_client1,3,walking,0
+2,102,0.1,subject107_client1,4,running,2
+2,102,0.1,subject107_client1,5,cycling,173
+2,102,0.1,subject107_client1,6,Nordic walking,0
+2,102,0.1,subject107_client1,7,ascending stairs,0
+2,102,0.1,subject107_client1,8,descending stairs,0
+2,102,0.1,subject107_client1,9,vacuum cleaning,3
+2,102,0.1,subject107_client1,10,ironing,0
+2,102,0.1,subject107_client1,11,rope jumping,0
+2,102,0.1,subject107_client2,0,lying,0
+2,102,0.1,subject107_client2,1,sitting,81
+2,102,0.1,subject107_client2,2,standing,70
+2,102,0.1,subject107_client2,3,walking,0
+2,102,0.1,subject107_client2,4,running,24
+2,102,0.1,subject107_client2,5,cycling,2
+2,102,0.1,subject107_client2,6,Nordic walking,15
+2,102,0.1,subject107_client2,7,ascending stairs,0
+2,102,0.1,subject107_client2,8,descending stairs,5
+2,102,0.1,subject107_client2,9,vacuum cleaning,11
+2,102,0.1,subject107_client2,10,ironing,216
+2,102,0.1,subject107_client2,11,rope jumping,0
+2,102,0.1,subject107_client3,0,lying,184
+2,102,0.1,subject107_client3,1,sitting,12
+2,102,0.1,subject107_client3,2,standing,0
+2,102,0.1,subject107_client3,3,walking,262
+2,102,0.1,subject107_client3,4,running,0
+2,102,0.1,subject107_client3,5,cycling,0
+2,102,0.1,subject107_client3,6,Nordic walking,124
+2,102,0.1,subject107_client3,7,ascending stairs,1
+2,102,0.1,subject107_client3,8,descending stairs,80
+2,102,0.1,subject107_client3,9,vacuum cleaning,149
+2,102,0.1,subject107_client3,10,ironing,12
+2,102,0.1,subject107_client3,11,rope jumping,0
+2,102,0.1,subject108_client0,0,lying,0
+2,102,0.1,subject108_client0,1,sitting,0
+2,102,0.1,subject108_client0,2,standing,23
+2,102,0.1,subject108_client0,3,walking,46
+2,102,0.1,subject108_client0,4,running,0
+2,102,0.1,subject108_client0,5,cycling,198
+2,102,0.1,subject108_client0,6,Nordic walking,0
+2,102,0.1,subject108_client0,7,ascending stairs,0
+2,102,0.1,subject108_client0,8,descending stairs,14
+2,102,0.1,subject108_client0,9,vacuum cleaning,167
+2,102,0.1,subject108_client0,10,ironing,47
+2,102,0.1,subject108_client0,11,rope jumping,67
+2,102,0.1,subject108_client1,0,lying,0
+2,102,0.1,subject108_client1,1,sitting,177
+2,102,0.1,subject108_client1,2,standing,0
+2,102,0.1,subject108_client1,3,walking,0
+2,102,0.1,subject108_client1,4,running,126
+2,102,0.1,subject108_client1,5,cycling,0
+2,102,0.1,subject108_client1,6,Nordic walking,0
+2,102,0.1,subject108_client1,7,ascending stairs,0
+2,102,0.1,subject108_client1,8,descending stairs,51
+2,102,0.1,subject108_client1,9,vacuum cleaning,0
+2,102,0.1,subject108_client1,10,ironing,0
+2,102,0.1,subject108_client1,11,rope jumping,0
+2,102,0.1,subject108_client2,0,lying,164
+2,102,0.1,subject108_client2,1,sitting,0
+2,102,0.1,subject108_client2,2,standing,171
+2,102,0.1,subject108_client2,3,walking,0
+2,102,0.1,subject108_client2,4,running,1
+2,102,0.1,subject108_client2,5,cycling,0
+2,102,0.1,subject108_client2,6,Nordic walking,20
+2,102,0.1,subject108_client2,7,ascending stairs,4
+2,102,0.1,subject108_client2,8,descending stairs,5
+2,102,0.1,subject108_client2,9,vacuum cleaning,20
+2,102,0.1,subject108_client2,10,ironing,208
+2,102,0.1,subject108_client2,11,rope jumping,0
+2,102,0.1,subject108_client3,0,lying,22
+2,102,0.1,subject108_client3,1,sitting,0
+2,102,0.1,subject108_client3,2,standing,0
+2,102,0.1,subject108_client3,3,walking,198
+2,102,0.1,subject108_client3,4,running,0
+2,102,0.1,subject108_client3,5,cycling,0
+2,102,0.1,subject108_client3,6,Nordic walking,202
+2,102,0.1,subject108_client3,7,ascending stairs,84
+2,102,0.1,subject108_client3,8,descending stairs,0
+2,102,0.1,subject108_client3,9,vacuum cleaning,0
+2,102,0.1,subject108_client3,10,ironing,0
+2,102,0.1,subject108_client3,11,rope jumping,0
+3,105,1.0,subject101_client0,0,lying,74
+3,105,1.0,subject101_client0,1,sitting,113
+3,105,1.0,subject101_client0,2,standing,85
+3,105,1.0,subject101_client0,3,walking,9
+3,105,1.0,subject101_client0,4,running,14
+3,105,1.0,subject101_client0,5,cycling,9
+3,105,1.0,subject101_client0,6,Nordic walking,47
+3,105,1.0,subject101_client0,7,ascending stairs,104
+3,105,1.0,subject101_client0,8,descending stairs,2
+3,105,1.0,subject101_client0,9,vacuum cleaning,62
+3,105,1.0,subject101_client0,10,ironing,73
+3,105,1.0,subject101_client0,11,rope jumping,21
+3,105,1.0,subject101_client1,0,lying,14
+3,105,1.0,subject101_client1,1,sitting,23
+3,105,1.0,subject101_client1,2,standing,21
+3,105,1.0,subject101_client1,3,walking,23
+3,105,1.0,subject101_client1,4,running,37
+3,105,1.0,subject101_client1,5,cycling,2
+3,105,1.0,subject101_client1,6,Nordic walking,36
+3,105,1.0,subject101_client1,7,ascending stairs,3
+3,105,1.0,subject101_client1,8,descending stairs,36
+3,105,1.0,subject101_client1,9,vacuum cleaning,23
+3,105,1.0,subject101_client1,10,ironing,70
+3,105,1.0,subject101_client1,11,rope jumping,20
+3,105,1.0,subject101_client2,0,lying,104
+3,105,1.0,subject101_client2,1,sitting,37
+3,105,1.0,subject101_client2,2,standing,53
+3,105,1.0,subject101_client2,3,walking,5
+3,105,1.0,subject101_client2,4,running,88
+3,105,1.0,subject101_client2,5,cycling,116
+3,105,1.0,subject101_client2,6,Nordic walking,10
+3,105,1.0,subject101_client2,7,ascending stairs,6
+3,105,1.0,subject101_client2,8,descending stairs,29
+3,105,1.0,subject101_client2,9,vacuum cleaning,43
+3,105,1.0,subject101_client2,10,ironing,11
+3,105,1.0,subject101_client2,11,rope jumping,40
+3,105,1.0,subject101_client3,0,lying,16
+3,105,1.0,subject101_client3,1,sitting,6
+3,105,1.0,subject101_client3,2,standing,6
+3,105,1.0,subject101_client3,3,walking,132
+3,105,1.0,subject101_client3,4,running,23
+3,105,1.0,subject101_client3,5,cycling,53
+3,105,1.0,subject101_client3,6,Nordic walking,61
+3,105,1.0,subject101_client3,7,ascending stairs,5
+3,105,1.0,subject101_client3,8,descending stairs,43
+3,105,1.0,subject101_client3,9,vacuum cleaning,47
+3,105,1.0,subject101_client3,10,ironing,26
+3,105,1.0,subject101_client3,11,rope jumping,15
+3,105,1.0,subject102_client0,0,lying,56
+3,105,1.0,subject102_client0,1,sitting,38
+3,105,1.0,subject102_client0,2,standing,29
+3,105,1.0,subject102_client0,3,walking,18
+3,105,1.0,subject102_client0,4,running,6
+3,105,1.0,subject102_client0,5,cycling,38
+3,105,1.0,subject102_client0,6,Nordic walking,16
+3,105,1.0,subject102_client0,7,ascending stairs,46
+3,105,1.0,subject102_client0,8,descending stairs,35
+3,105,1.0,subject102_client0,9,vacuum cleaning,43
+3,105,1.0,subject102_client0,10,ironing,74
+3,105,1.0,subject102_client0,11,rope jumping,43
+3,105,1.0,subject102_client1,0,lying,92
+3,105,1.0,subject102_client1,1,sitting,47
+3,105,1.0,subject102_client1,2,standing,61
+3,105,1.0,subject102_client1,3,walking,26
+3,105,1.0,subject102_client1,4,running,21
+3,105,1.0,subject102_client1,5,cycling,30
+3,105,1.0,subject102_client1,6,Nordic walking,140
+3,105,1.0,subject102_client1,7,ascending stairs,30
+3,105,1.0,subject102_client1,8,descending stairs,72
+3,105,1.0,subject102_client1,9,vacuum cleaning,3
+3,105,1.0,subject102_client1,10,ironing,75
+3,105,1.0,subject102_client1,11,rope jumping,16
+3,105,1.0,subject102_client2,0,lying,17
+3,105,1.0,subject102_client2,1,sitting,74
+3,105,1.0,subject102_client2,2,standing,43
+3,105,1.0,subject102_client2,3,walking,120
+3,105,1.0,subject102_client2,4,running,34
+3,105,1.0,subject102_client2,5,cycling,25
+3,105,1.0,subject102_client2,6,Nordic walking,3
+3,105,1.0,subject102_client2,7,ascending stairs,43
+3,105,1.0,subject102_client2,8,descending stairs,2
+3,105,1.0,subject102_client2,9,vacuum cleaning,12
+3,105,1.0,subject102_client2,10,ironing,12
+3,105,1.0,subject102_client2,11,rope jumping,15
+3,105,1.0,subject102_client3,0,lying,14
+3,105,1.0,subject102_client3,1,sitting,11
+3,105,1.0,subject102_client3,2,standing,62
+3,105,1.0,subject102_client3,3,walking,86
+3,105,1.0,subject102_client3,4,running,7
+3,105,1.0,subject102_client3,5,cycling,99
+3,105,1.0,subject102_client3,6,Nordic walking,69
+3,105,1.0,subject102_client3,7,ascending stairs,11
+3,105,1.0,subject102_client3,8,descending stairs,3
+3,105,1.0,subject102_client3,9,vacuum cleaning,99
+3,105,1.0,subject102_client3,10,ironing,60
+3,105,1.0,subject102_client3,11,rope jumping,25
+3,105,1.0,subject103_client0,0,lying,85
+3,105,1.0,subject103_client0,1,sitting,38
+3,105,1.0,subject103_client0,2,standing,102
+3,105,1.0,subject103_client0,3,walking,85
+3,105,1.0,subject103_client0,4,running,0
+3,105,1.0,subject103_client0,5,cycling,0
+3,105,1.0,subject103_client0,6,Nordic walking,0
+3,105,1.0,subject103_client0,7,ascending stairs,7
+3,105,1.0,subject103_client0,8,descending stairs,2
+3,105,1.0,subject103_client0,9,vacuum cleaning,51
+3,105,1.0,subject103_client0,10,ironing,191
+3,105,1.0,subject103_client0,11,rope jumping,0
+3,105,1.0,subject103_client1,0,lying,53
+3,105,1.0,subject103_client1,1,sitting,12
+3,105,1.0,subject103_client1,2,standing,5
+3,105,1.0,subject103_client1,3,walking,14
+3,105,1.0,subject103_client1,4,running,0
+3,105,1.0,subject103_client1,5,cycling,0
+3,105,1.0,subject103_client1,6,Nordic walking,0
+3,105,1.0,subject103_client1,7,ascending stairs,0
+3,105,1.0,subject103_client1,8,descending stairs,51
+3,105,1.0,subject103_client1,9,vacuum cleaning,79
+3,105,1.0,subject103_client1,10,ironing,1
+3,105,1.0,subject103_client1,11,rope jumping,0
+3,105,1.0,subject103_client2,0,lying,2
+3,105,1.0,subject103_client2,1,sitting,62
+3,105,1.0,subject103_client2,2,standing,32
+3,105,1.0,subject103_client2,3,walking,39
+3,105,1.0,subject103_client2,4,running,0
+3,105,1.0,subject103_client2,5,cycling,0
+3,105,1.0,subject103_client2,6,Nordic walking,0
+3,105,1.0,subject103_client2,7,ascending stairs,8
+3,105,1.0,subject103_client2,8,descending stairs,41
+3,105,1.0,subject103_client2,9,vacuum cleaning,2
+3,105,1.0,subject103_client2,10,ironing,17
+3,105,1.0,subject103_client2,11,rope jumping,0
+3,105,1.0,subject103_client3,0,lying,28
+3,105,1.0,subject103_client3,1,sitting,108
+3,105,1.0,subject103_client3,2,standing,17
+3,105,1.0,subject103_client3,3,walking,84
+3,105,1.0,subject103_client3,4,running,0
+3,105,1.0,subject103_client3,5,cycling,0
+3,105,1.0,subject103_client3,6,Nordic walking,0
+3,105,1.0,subject103_client3,7,ascending stairs,61
+3,105,1.0,subject103_client3,8,descending stairs,18
+3,105,1.0,subject103_client3,9,vacuum cleaning,22
+3,105,1.0,subject103_client3,10,ironing,5
+3,105,1.0,subject103_client3,11,rope jumping,0
+3,105,1.0,subject104_client0,0,lying,15
+3,105,1.0,subject104_client0,1,sitting,10
+3,105,1.0,subject104_client0,2,standing,43
+3,105,1.0,subject104_client0,3,walking,154
+3,105,1.0,subject104_client0,4,running,0
+3,105,1.0,subject104_client0,5,cycling,90
+3,105,1.0,subject104_client0,6,Nordic walking,52
+3,105,1.0,subject104_client0,7,ascending stairs,36
+3,105,1.0,subject104_client0,8,descending stairs,0
+3,105,1.0,subject104_client0,9,vacuum cleaning,36
+3,105,1.0,subject104_client0,10,ironing,57
+3,105,1.0,subject104_client0,11,rope jumping,0
+3,105,1.0,subject104_client1,0,lying,9
+3,105,1.0,subject104_client1,1,sitting,84
+3,105,1.0,subject104_client1,2,standing,96
+3,105,1.0,subject104_client1,3,walking,3
+3,105,1.0,subject104_client1,4,running,0
+3,105,1.0,subject104_client1,5,cycling,18
+3,105,1.0,subject104_client1,6,Nordic walking,1
+3,105,1.0,subject104_client1,7,ascending stairs,47
+3,105,1.0,subject104_client1,8,descending stairs,58
+3,105,1.0,subject104_client1,9,vacuum cleaning,8
+3,105,1.0,subject104_client1,10,ironing,47
+3,105,1.0,subject104_client1,11,rope jumping,0
+3,105,1.0,subject104_client2,0,lying,108
+3,105,1.0,subject104_client2,1,sitting,34
+3,105,1.0,subject104_client2,2,standing,23
+3,105,1.0,subject104_client2,3,walking,45
+3,105,1.0,subject104_client2,4,running,0
+3,105,1.0,subject104_client2,5,cycling,44
+3,105,1.0,subject104_client2,6,Nordic walking,68
+3,105,1.0,subject104_client2,7,ascending stairs,16
+3,105,1.0,subject104_client2,8,descending stairs,9
+3,105,1.0,subject104_client2,9,vacuum cleaning,102
+3,105,1.0,subject104_client2,10,ironing,16
+3,105,1.0,subject104_client2,11,rope jumping,0
+3,105,1.0,subject104_client3,0,lying,44
+3,105,1.0,subject104_client3,1,sitting,67
+3,105,1.0,subject104_client3,2,standing,27
+3,105,1.0,subject104_client3,3,walking,43
+3,105,1.0,subject104_client3,4,running,0
+3,105,1.0,subject104_client3,5,cycling,21
+3,105,1.0,subject104_client3,6,Nordic walking,90
+3,105,1.0,subject104_client3,7,ascending stairs,25
+3,105,1.0,subject104_client3,8,descending stairs,40
+3,105,1.0,subject104_client3,9,vacuum cleaning,6
+3,105,1.0,subject104_client3,10,ironing,71
+3,105,1.0,subject104_client3,11,rope jumping,0
+3,105,1.0,subject106_client0,0,lying,45
+3,105,1.0,subject106_client0,1,sitting,70
+3,105,1.0,subject106_client0,2,standing,33
+3,105,1.0,subject106_client0,3,walking,53
+3,105,1.0,subject106_client0,4,running,57
+3,105,1.0,subject106_client0,5,cycling,44
+3,105,1.0,subject106_client0,6,Nordic walking,100
+3,105,1.0,subject106_client0,7,ascending stairs,10
+3,105,1.0,subject106_client0,8,descending stairs,1
+3,105,1.0,subject106_client0,9,vacuum cleaning,38
+3,105,1.0,subject106_client0,10,ironing,142
+3,105,1.0,subject106_client0,11,rope jumping,0
+3,105,1.0,subject106_client1,0,lying,67
+3,105,1.0,subject106_client1,1,sitting,8
+3,105,1.0,subject106_client1,2,standing,8
+3,105,1.0,subject106_client1,3,walking,3
+3,105,1.0,subject106_client1,4,running,57
+3,105,1.0,subject106_client1,5,cycling,19
+3,105,1.0,subject106_client1,6,Nordic walking,13
+3,105,1.0,subject106_client1,7,ascending stairs,13
+3,105,1.0,subject106_client1,8,descending stairs,31
+3,105,1.0,subject106_client1,9,vacuum cleaning,22
+3,105,1.0,subject106_client1,10,ironing,16
+3,105,1.0,subject106_client1,11,rope jumping,0
+3,105,1.0,subject106_client2,0,lying,64
+3,105,1.0,subject106_client2,1,sitting,87
+3,105,1.0,subject106_client2,2,standing,38
+3,105,1.0,subject106_client2,3,walking,81
+3,105,1.0,subject106_client2,4,running,11
+3,105,1.0,subject106_client2,5,cycling,68
+3,105,1.0,subject106_client2,6,Nordic walking,81
+3,105,1.0,subject106_client2,7,ascending stairs,31
+3,105,1.0,subject106_client2,8,descending stairs,3
+3,105,1.0,subject106_client2,9,vacuum cleaning,92
+3,105,1.0,subject106_client2,10,ironing,87
+3,105,1.0,subject106_client2,11,rope jumping,1
+3,105,1.0,subject106_client3,0,lying,2
+3,105,1.0,subject106_client3,1,sitting,11
+3,105,1.0,subject106_client3,2,standing,107
+3,105,1.0,subject106_client3,3,walking,59
+3,105,1.0,subject106_client3,4,running,49
+3,105,1.0,subject106_client3,5,cycling,25
+3,105,1.0,subject106_client3,6,Nordic walking,10
+3,105,1.0,subject106_client3,7,ascending stairs,44
+3,105,1.0,subject106_client3,8,descending stairs,47
+3,105,1.0,subject106_client3,9,vacuum cleaning,8
+3,105,1.0,subject106_client3,10,ironing,44
+3,105,1.0,subject106_client3,11,rope jumping,0
+3,105,1.0,subject107_client0,0,lying,5
+3,105,1.0,subject107_client0,1,sitting,51
+3,105,1.0,subject107_client0,2,standing,38
+3,105,1.0,subject107_client0,3,walking,7
+3,105,1.0,subject107_client0,4,running,4
+3,105,1.0,subject107_client0,5,cycling,1
+3,105,1.0,subject107_client0,6,Nordic walking,20
+3,105,1.0,subject107_client0,7,ascending stairs,19
+3,105,1.0,subject107_client0,8,descending stairs,62
+3,105,1.0,subject107_client0,9,vacuum cleaning,0
+3,105,1.0,subject107_client0,10,ironing,47
+3,105,1.0,subject107_client0,11,rope jumping,0
+3,105,1.0,subject107_client1,0,lying,56
+3,105,1.0,subject107_client1,1,sitting,10
+3,105,1.0,subject107_client1,2,standing,22
+3,105,1.0,subject107_client1,3,walking,142
+3,105,1.0,subject107_client1,4,running,8
+3,105,1.0,subject107_client1,5,cycling,9
+3,105,1.0,subject107_client1,6,Nordic walking,39
+3,105,1.0,subject107_client1,7,ascending stairs,2
+3,105,1.0,subject107_client1,8,descending stairs,1
+3,105,1.0,subject107_client1,9,vacuum cleaning,35
+3,105,1.0,subject107_client1,10,ironing,93
+3,105,1.0,subject107_client1,11,rope jumping,0
+3,105,1.0,subject107_client2,0,lying,4
+3,105,1.0,subject107_client2,1,sitting,14
+3,105,1.0,subject107_client2,2,standing,125
+3,105,1.0,subject107_client2,3,walking,91
+3,105,1.0,subject107_client2,4,running,7
+3,105,1.0,subject107_client2,5,cycling,7
+3,105,1.0,subject107_client2,6,Nordic walking,107
+3,105,1.0,subject107_client2,7,ascending stairs,21
+3,105,1.0,subject107_client2,8,descending stairs,9
+3,105,1.0,subject107_client2,9,vacuum cleaning,43
+3,105,1.0,subject107_client2,10,ironing,39
+3,105,1.0,subject107_client2,11,rope jumping,0
+3,105,1.0,subject107_client3,0,lying,131
+3,105,1.0,subject107_client3,1,sitting,16
+3,105,1.0,subject107_client3,2,standing,12
+3,105,1.0,subject107_client3,3,walking,19
+3,105,1.0,subject107_client3,4,running,5
+3,105,1.0,subject107_client3,5,cycling,156
+3,105,1.0,subject107_client3,6,Nordic walking,54
+3,105,1.0,subject107_client3,7,ascending stairs,90
+3,105,1.0,subject107_client3,8,descending stairs,13
+3,105,1.0,subject107_client3,9,vacuum cleaning,87
+3,105,1.0,subject107_client3,10,ironing,47
+3,105,1.0,subject107_client3,11,rope jumping,0
+3,105,1.0,subject108_client0,0,lying,14
+3,105,1.0,subject108_client0,1,sitting,121
+3,105,1.0,subject108_client0,2,standing,38
+3,105,1.0,subject108_client0,3,walking,77
+3,105,1.0,subject108_client0,4,running,15
+3,105,1.0,subject108_client0,5,cycling,58
+3,105,1.0,subject108_client0,6,Nordic walking,21
+3,105,1.0,subject108_client0,7,ascending stairs,55
+3,105,1.0,subject108_client0,8,descending stairs,13
+3,105,1.0,subject108_client0,9,vacuum cleaning,54
+3,105,1.0,subject108_client0,10,ironing,143
+3,105,1.0,subject108_client0,11,rope jumping,47
+3,105,1.0,subject108_client1,0,lying,46
+3,105,1.0,subject108_client1,1,sitting,21
+3,105,1.0,subject108_client1,2,standing,38
+3,105,1.0,subject108_client1,3,walking,39
+3,105,1.0,subject108_client1,4,running,85
+3,105,1.0,subject108_client1,5,cycling,10
+3,105,1.0,subject108_client1,6,Nordic walking,71
+3,105,1.0,subject108_client1,7,ascending stairs,7
+3,105,1.0,subject108_client1,8,descending stairs,7
+3,105,1.0,subject108_client1,9,vacuum cleaning,23
+3,105,1.0,subject108_client1,10,ironing,26
+3,105,1.0,subject108_client1,11,rope jumping,2
+3,105,1.0,subject108_client2,0,lying,83
+3,105,1.0,subject108_client2,1,sitting,8
+3,105,1.0,subject108_client2,2,standing,56
+3,105,1.0,subject108_client2,3,walking,26
+3,105,1.0,subject108_client2,4,running,6
+3,105,1.0,subject108_client2,5,cycling,87
+3,105,1.0,subject108_client2,6,Nordic walking,74
+3,105,1.0,subject108_client2,7,ascending stairs,11
+3,105,1.0,subject108_client2,8,descending stairs,20
+3,105,1.0,subject108_client2,9,vacuum cleaning,18
+3,105,1.0,subject108_client2,10,ironing,28
+3,105,1.0,subject108_client2,11,rope jumping,1
+3,105,1.0,subject108_client3,0,lying,41
+3,105,1.0,subject108_client3,1,sitting,24
+3,105,1.0,subject108_client3,2,standing,60
+3,105,1.0,subject108_client3,3,walking,100
+3,105,1.0,subject108_client3,4,running,19
+3,105,1.0,subject108_client3,5,cycling,40
+3,105,1.0,subject108_client3,6,Nordic walking,55
+3,105,1.0,subject108_client3,7,ascending stairs,13
+3,105,1.0,subject108_client3,8,descending stairs,29
+3,105,1.0,subject108_client3,9,vacuum cleaning,90
+3,105,1.0,subject108_client3,10,ironing,56
+3,105,1.0,subject108_client3,11,rope jumping,14
+3,105,0.1,subject101_client0,0,lying,0
+3,105,0.1,subject101_client0,1,sitting,29
+3,105,0.1,subject101_client0,2,standing,0
+3,105,0.1,subject101_client0,3,walking,109
+3,105,0.1,subject101_client0,4,running,157
+3,105,0.1,subject101_client0,5,cycling,0
+3,105,0.1,subject101_client0,6,Nordic walking,115
+3,105,0.1,subject101_client0,7,ascending stairs,0
+3,105,0.1,subject101_client0,8,descending stairs,0
+3,105,0.1,subject101_client0,9,vacuum cleaning,9
+3,105,0.1,subject101_client0,10,ironing,4
+3,105,0.1,subject101_client0,11,rope jumping,4
+3,105,0.1,subject101_client1,0,lying,0
+3,105,0.1,subject101_client1,1,sitting,149
+3,105,0.1,subject101_client1,2,standing,0
+3,105,0.1,subject101_client1,3,walking,0
+3,105,0.1,subject101_client1,4,running,5
+3,105,0.1,subject101_client1,5,cycling,141
+3,105,0.1,subject101_client1,6,Nordic walking,0
+3,105,0.1,subject101_client1,7,ascending stairs,121
+3,105,0.1,subject101_client1,8,descending stairs,77
+3,105,0.1,subject101_client1,9,vacuum cleaning,119
+3,105,0.1,subject101_client1,10,ironing,3
+3,105,0.1,subject101_client1,11,rope jumping,45
+3,105,0.1,subject101_client2,0,lying,3
+3,105,0.1,subject101_client2,1,sitting,0
+3,105,0.1,subject101_client2,2,standing,168
+3,105,0.1,subject101_client2,3,walking,0
+3,105,0.1,subject101_client2,4,running,0
+3,105,0.1,subject101_client2,5,cycling,0
+3,105,0.1,subject101_client2,6,Nordic walking,41
+3,105,0.1,subject101_client2,7,ascending stairs,0
+3,105,0.1,subject101_client2,8,descending stairs,0
+3,105,0.1,subject101_client2,9,vacuum cleaning,48
+3,105,0.1,subject101_client2,10,ironing,155
+3,105,0.1,subject101_client2,11,rope jumping,15
+3,105,0.1,subject101_client3,0,lying,207
+3,105,0.1,subject101_client3,1,sitting,2
+3,105,0.1,subject101_client3,2,standing,0
+3,105,0.1,subject101_client3,3,walking,62
+3,105,0.1,subject101_client3,4,running,1
+3,105,0.1,subject101_client3,5,cycling,40
+3,105,0.1,subject101_client3,6,Nordic walking,0
+3,105,0.1,subject101_client3,7,ascending stairs,0
+3,105,0.1,subject101_client3,8,descending stairs,35
+3,105,0.1,subject101_client3,9,vacuum cleaning,0
+3,105,0.1,subject101_client3,10,ironing,18
+3,105,0.1,subject101_client3,11,rope jumping,32
+3,105,0.1,subject102_client0,0,lying,0
+3,105,0.1,subject102_client0,1,sitting,0
+3,105,0.1,subject102_client0,2,standing,0
+3,105,0.1,subject102_client0,3,walking,22
+3,105,0.1,subject102_client0,4,running,0
+3,105,0.1,subject102_client0,5,cycling,1
+3,105,0.1,subject102_client0,6,Nordic walking,1
+3,105,0.1,subject102_client0,7,ascending stairs,0
+3,105,0.1,subject102_client0,8,descending stairs,0
+3,105,0.1,subject102_client0,9,vacuum cleaning,0
+3,105,0.1,subject102_client0,10,ironing,9
+3,105,0.1,subject102_client0,11,rope jumping,98
+3,105,0.1,subject102_client1,0,lying,0
+3,105,0.1,subject102_client1,1,sitting,0
+3,105,0.1,subject102_client1,2,standing,177
+3,105,0.1,subject102_client1,3,walking,0
+3,105,0.1,subject102_client1,4,running,4
+3,105,0.1,subject102_client1,5,cycling,143
+3,105,0.1,subject102_client1,6,Nordic walking,0
+3,105,0.1,subject102_client1,7,ascending stairs,13
+3,105,0.1,subject102_client1,8,descending stairs,115
+3,105,0.1,subject102_client1,9,vacuum cleaning,157
+3,105,0.1,subject102_client1,10,ironing,191
+3,105,0.1,subject102_client1,11,rope jumping,0
+3,105,0.1,subject102_client2,0,lying,154
+3,105,0.1,subject102_client2,1,sitting,0
+3,105,0.1,subject102_client2,2,standing,3
+3,105,0.1,subject102_client2,3,walking,228
+3,105,0.1,subject102_client2,4,running,0
+3,105,0.1,subject102_client2,5,cycling,0
+3,105,0.1,subject102_client2,6,Nordic walking,121
+3,105,0.1,subject102_client2,7,ascending stairs,119
+3,105,0.1,subject102_client2,8,descending stairs,0
+3,105,0.1,subject102_client2,9,vacuum cleaning,2
+3,105,0.1,subject102_client2,10,ironing,22
+3,105,0.1,subject102_client2,11,rope jumping,3
+3,105,0.1,subject102_client3,0,lying,27
+3,105,0.1,subject102_client3,1,sitting,173
+3,105,0.1,subject102_client3,2,standing,15
+3,105,0.1,subject102_client3,3,walking,1
+3,105,0.1,subject102_client3,4,running,66
+3,105,0.1,subject102_client3,5,cycling,49
+3,105,0.1,subject102_client3,6,Nordic walking,107
+3,105,0.1,subject102_client3,7,ascending stairs,0
+3,105,0.1,subject102_client3,8,descending stairs,0
+3,105,0.1,subject102_client3,9,vacuum cleaning,0
+3,105,0.1,subject102_client3,10,ironing,0
+3,105,0.1,subject102_client3,11,rope jumping,0
+3,105,0.1,subject103_client0,0,lying,0
+3,105,0.1,subject103_client0,1,sitting,0
+3,105,0.1,subject103_client0,2,standing,0
+3,105,0.1,subject103_client0,3,walking,129
+3,105,0.1,subject103_client0,4,running,0
+3,105,0.1,subject103_client0,5,cycling,0
+3,105,0.1,subject103_client0,6,Nordic walking,0
+3,105,0.1,subject103_client0,7,ascending stairs,78
+3,105,0.1,subject103_client0,8,descending stairs,0
+3,105,0.1,subject103_client0,9,vacuum cleaning,131
+3,105,0.1,subject103_client0,10,ironing,216
+3,105,0.1,subject103_client0,11,rope jumping,0
+3,105,0.1,subject103_client1,0,lying,0
+3,105,0.1,subject103_client1,1,sitting,223
+3,105,0.1,subject103_client1,2,standing,0
+3,105,0.1,subject103_client1,3,walking,49
+3,105,0.1,subject103_client1,4,running,0
+3,105,0.1,subject103_client1,5,cycling,0
+3,105,0.1,subject103_client1,6,Nordic walking,0
+3,105,0.1,subject103_client1,7,ascending stairs,0
+3,105,0.1,subject103_client1,8,descending stairs,0
+3,105,0.1,subject103_client1,9,vacuum cleaning,23
+3,105,0.1,subject103_client1,10,ironing,0
+3,105,0.1,subject103_client1,11,rope jumping,0
+3,105,0.1,subject103_client2,0,lying,171
+3,105,0.1,subject103_client2,1,sitting,0
+3,105,0.1,subject103_client2,2,standing,0
+3,105,0.1,subject103_client2,3,walking,18
+3,105,0.1,subject103_client2,4,running,0
+3,105,0.1,subject103_client2,5,cycling,0
+3,105,0.1,subject103_client2,6,Nordic walking,0
+3,105,0.1,subject103_client2,7,ascending stairs,0
+3,105,0.1,subject103_client2,8,descending stairs,36
+3,105,0.1,subject103_client2,9,vacuum cleaning,1
+3,105,0.1,subject103_client2,10,ironing,0
+3,105,0.1,subject103_client2,11,rope jumping,0
+3,105,0.1,subject103_client3,0,lying,0
+3,105,0.1,subject103_client3,1,sitting,0
+3,105,0.1,subject103_client3,2,standing,159
+3,105,0.1,subject103_client3,3,walking,26
+3,105,0.1,subject103_client3,4,running,0
+3,105,0.1,subject103_client3,5,cycling,0
+3,105,0.1,subject103_client3,6,Nordic walking,0
+3,105,0.1,subject103_client3,7,ascending stairs,0
+3,105,0.1,subject103_client3,8,descending stairs,77
+3,105,0.1,subject103_client3,9,vacuum cleaning,0
+3,105,0.1,subject103_client3,10,ironing,0
+3,105,0.1,subject103_client3,11,rope jumping,0
+3,105,0.1,subject104_client0,0,lying,162
+3,105,0.1,subject104_client0,1,sitting,80
+3,105,0.1,subject104_client0,2,standing,192
+3,105,0.1,subject104_client0,3,walking,0
+3,105,0.1,subject104_client0,4,running,0
+3,105,0.1,subject104_client0,5,cycling,0
+3,105,0.1,subject104_client0,6,Nordic walking,211
+3,105,0.1,subject104_client0,7,ascending stairs,39
+3,105,0.1,subject104_client0,8,descending stairs,0
+3,105,0.1,subject104_client0,9,vacuum cleaning,0
+3,105,0.1,subject104_client0,10,ironing,194
+3,105,0.1,subject104_client0,11,rope jumping,0
+3,105,0.1,subject104_client1,0,lying,16
+3,105,0.1,subject104_client1,1,sitting,0
+3,105,0.1,subject104_client1,2,standing,0
+3,105,0.1,subject104_client1,3,walking,248
+3,105,0.1,subject104_client1,4,running,0
+3,105,0.1,subject104_client1,5,cycling,54
+3,105,0.1,subject104_client1,6,Nordic walking,0
+3,105,0.1,subject104_client1,7,ascending stairs,0
+3,105,0.1,subject104_client1,8,descending stairs,96
+3,105,0.1,subject104_client1,9,vacuum cleaning,1
+3,105,0.1,subject104_client1,10,ironing,0
+3,105,0.1,subject104_client1,11,rope jumping,0
+3,105,0.1,subject104_client2,0,lying,0
+3,105,0.1,subject104_client2,1,sitting,3
+3,105,0.1,subject104_client2,2,standing,0
+3,105,0.1,subject104_client2,3,walking,0
+3,105,0.1,subject104_client2,4,running,0
+3,105,0.1,subject104_client2,5,cycling,0
+3,105,0.1,subject104_client2,6,Nordic walking,0
+3,105,0.1,subject104_client2,7,ascending stairs,0
+3,105,0.1,subject104_client2,8,descending stairs,12
+3,105,0.1,subject104_client2,9,vacuum cleaning,153
+3,105,0.1,subject104_client2,10,ironing,0
+3,105,0.1,subject104_client2,11,rope jumping,0
+3,105,0.1,subject104_client3,0,lying,0
+3,105,0.1,subject104_client3,1,sitting,113
+3,105,0.1,subject104_client3,2,standing,0
+3,105,0.1,subject104_client3,3,walking,0
+3,105,0.1,subject104_client3,4,running,0
+3,105,0.1,subject104_client3,5,cycling,121
+3,105,0.1,subject104_client3,6,Nordic walking,2
+3,105,0.1,subject104_client3,7,ascending stairs,87
+3,105,0.1,subject104_client3,8,descending stairs,0
+3,105,0.1,subject104_client3,9,vacuum cleaning,0
+3,105,0.1,subject104_client3,10,ironing,0
+3,105,0.1,subject104_client3,11,rope jumping,0
+3,105,0.1,subject106_client0,0,lying,168
+3,105,0.1,subject106_client0,1,sitting,0
+3,105,0.1,subject106_client0,2,standing,0
+3,105,0.1,subject106_client0,3,walking,0
+3,105,0.1,subject106_client0,4,running,0
+3,105,0.1,subject106_client0,5,cycling,0
+3,105,0.1,subject106_client0,6,Nordic walking,207
+3,105,0.1,subject106_client0,7,ascending stairs,7
+3,105,0.1,subject106_client0,8,descending stairs,0
+3,105,0.1,subject106_client0,9,vacuum cleaning,0
+3,105,0.1,subject106_client0,10,ironing,0
+3,105,0.1,subject106_client0,11,rope jumping,0
+3,105,0.1,subject106_client1,0,lying,0
+3,105,0.1,subject106_client1,1,sitting,0
+3,105,0.1,subject106_client1,2,standing,1
+3,105,0.1,subject106_client1,3,walking,0
+3,105,0.1,subject106_client1,4,running,5
+3,105,0.1,subject106_client1,5,cycling,159
+3,105,0.1,subject106_client1,6,Nordic walking,0
+3,105,0.1,subject106_client1,7,ascending stairs,11
+3,105,0.1,subject106_client1,8,descending stairs,0
+3,105,0.1,subject106_client1,9,vacuum cleaning,0
+3,105,0.1,subject106_client1,10,ironing,0
+3,105,0.1,subject106_client1,11,rope jumping,0
+3,105,0.1,subject106_client2,0,lying,12
+3,105,0.1,subject106_client2,1,sitting,6
+3,105,0.1,subject106_client2,2,standing,187
+3,105,0.1,subject106_client2,3,walking,0
+3,105,0.1,subject106_client2,4,running,171
+3,105,0.1,subject106_client2,5,cycling,0
+3,105,0.1,subject106_client2,6,Nordic walking,0
+3,105,0.1,subject106_client2,7,ascending stairs,0
+3,105,0.1,subject106_client2,8,descending stairs,85
+3,105,0.1,subject106_client2,9,vacuum cleaning,0
+3,105,0.1,subject106_client2,10,ironing,0
+3,105,0.1,subject106_client2,11,rope jumping,0
+3,105,0.1,subject106_client3,0,lying,0
+3,105,0.1,subject106_client3,1,sitting,172
+3,105,0.1,subject106_client3,2,standing,0
+3,105,0.1,subject106_client3,3,walking,199
+3,105,0.1,subject106_client3,4,running,0
+3,105,0.1,subject106_client3,5,cycling,0
+3,105,0.1,subject106_client3,6,Nordic walking,0
+3,105,0.1,subject106_client3,7,ascending stairs,81
+3,105,0.1,subject106_client3,8,descending stairs,0
+3,105,0.1,subject106_client3,9,vacuum cleaning,163
+3,105,0.1,subject106_client3,10,ironing,292
+3,105,0.1,subject106_client3,11,rope jumping,1
+3,105,0.1,subject107_client0,0,lying,0
+3,105,0.1,subject107_client0,1,sitting,0
+3,105,0.1,subject107_client0,2,standing,0
+3,105,0.1,subject107_client0,3,walking,0
+3,105,0.1,subject107_client0,4,running,0
+3,105,0.1,subject107_client0,5,cycling,0
+3,105,0.1,subject107_client0,6,Nordic walking,82
+3,105,0.1,subject107_client0,7,ascending stairs,133
+3,105,0.1,subject107_client0,8,descending stairs,1
+3,105,0.1,subject107_client0,9,vacuum cleaning,1
+3,105,0.1,subject107_client0,10,ironing,0
+3,105,0.1,subject107_client0,11,rope jumping,0
+3,105,0.1,subject107_client1,0,lying,14
+3,105,0.1,subject107_client1,1,sitting,0
+3,105,0.1,subject107_client1,2,standing,129
+3,105,0.1,subject107_client1,3,walking,0
+3,105,0.1,subject107_client1,4,running,2
+3,105,0.1,subject107_client1,5,cycling,173
+3,105,0.1,subject107_client1,6,Nordic walking,0
+3,105,0.1,subject107_client1,7,ascending stairs,0
+3,105,0.1,subject107_client1,8,descending stairs,0
+3,105,0.1,subject107_client1,9,vacuum cleaning,3
+3,105,0.1,subject107_client1,10,ironing,0
+3,105,0.1,subject107_client1,11,rope jumping,0
+3,105,0.1,subject107_client2,0,lying,0
+3,105,0.1,subject107_client2,1,sitting,81
+3,105,0.1,subject107_client2,2,standing,70
+3,105,0.1,subject107_client2,3,walking,0
+3,105,0.1,subject107_client2,4,running,24
+3,105,0.1,subject107_client2,5,cycling,2
+3,105,0.1,subject107_client2,6,Nordic walking,15
+3,105,0.1,subject107_client2,7,ascending stairs,0
+3,105,0.1,subject107_client2,8,descending stairs,5
+3,105,0.1,subject107_client2,9,vacuum cleaning,11
+3,105,0.1,subject107_client2,10,ironing,216
+3,105,0.1,subject107_client2,11,rope jumping,0
+3,105,0.1,subject107_client3,0,lying,184
+3,105,0.1,subject107_client3,1,sitting,12
+3,105,0.1,subject107_client3,2,standing,0
+3,105,0.1,subject107_client3,3,walking,262
+3,105,0.1,subject107_client3,4,running,0
+3,105,0.1,subject107_client3,5,cycling,0
+3,105,0.1,subject107_client3,6,Nordic walking,124
+3,105,0.1,subject107_client3,7,ascending stairs,1
+3,105,0.1,subject107_client3,8,descending stairs,80
+3,105,0.1,subject107_client3,9,vacuum cleaning,149
+3,105,0.1,subject107_client3,10,ironing,12
+3,105,0.1,subject107_client3,11,rope jumping,0
+3,105,0.1,subject108_client0,0,lying,0
+3,105,0.1,subject108_client0,1,sitting,0
+3,105,0.1,subject108_client0,2,standing,23
+3,105,0.1,subject108_client0,3,walking,46
+3,105,0.1,subject108_client0,4,running,0
+3,105,0.1,subject108_client0,5,cycling,198
+3,105,0.1,subject108_client0,6,Nordic walking,0
+3,105,0.1,subject108_client0,7,ascending stairs,0
+3,105,0.1,subject108_client0,8,descending stairs,14
+3,105,0.1,subject108_client0,9,vacuum cleaning,167
+3,105,0.1,subject108_client0,10,ironing,47
+3,105,0.1,subject108_client0,11,rope jumping,67
+3,105,0.1,subject108_client1,0,lying,0
+3,105,0.1,subject108_client1,1,sitting,177
+3,105,0.1,subject108_client1,2,standing,0
+3,105,0.1,subject108_client1,3,walking,0
+3,105,0.1,subject108_client1,4,running,126
+3,105,0.1,subject108_client1,5,cycling,0
+3,105,0.1,subject108_client1,6,Nordic walking,0
+3,105,0.1,subject108_client1,7,ascending stairs,0
+3,105,0.1,subject108_client1,8,descending stairs,51
+3,105,0.1,subject108_client1,9,vacuum cleaning,0
+3,105,0.1,subject108_client1,10,ironing,0
+3,105,0.1,subject108_client1,11,rope jumping,0
+3,105,0.1,subject108_client2,0,lying,164
+3,105,0.1,subject108_client2,1,sitting,0
+3,105,0.1,subject108_client2,2,standing,171
+3,105,0.1,subject108_client2,3,walking,0
+3,105,0.1,subject108_client2,4,running,1
+3,105,0.1,subject108_client2,5,cycling,0
+3,105,0.1,subject108_client2,6,Nordic walking,20
+3,105,0.1,subject108_client2,7,ascending stairs,4
+3,105,0.1,subject108_client2,8,descending stairs,5
+3,105,0.1,subject108_client2,9,vacuum cleaning,20
+3,105,0.1,subject108_client2,10,ironing,208
+3,105,0.1,subject108_client2,11,rope jumping,0
+3,105,0.1,subject108_client3,0,lying,22
+3,105,0.1,subject108_client3,1,sitting,0
+3,105,0.1,subject108_client3,2,standing,0
+3,105,0.1,subject108_client3,3,walking,198
+3,105,0.1,subject108_client3,4,running,0
+3,105,0.1,subject108_client3,5,cycling,0
+3,105,0.1,subject108_client3,6,Nordic walking,202
+3,105,0.1,subject108_client3,7,ascending stairs,84
+3,105,0.1,subject108_client3,8,descending stairs,0
+3,105,0.1,subject108_client3,9,vacuum cleaning,0
+3,105,0.1,subject108_client3,10,ironing,0
+3,105,0.1,subject108_client3,11,rope jumping,0
+4,106,1.0,subject101_client0,0,lying,74
+4,106,1.0,subject101_client0,1,sitting,113
+4,106,1.0,subject101_client0,2,standing,85
+4,106,1.0,subject101_client0,3,walking,9
+4,106,1.0,subject101_client0,4,running,14
+4,106,1.0,subject101_client0,5,cycling,9
+4,106,1.0,subject101_client0,6,Nordic walking,47
+4,106,1.0,subject101_client0,7,ascending stairs,104
+4,106,1.0,subject101_client0,8,descending stairs,2
+4,106,1.0,subject101_client0,9,vacuum cleaning,62
+4,106,1.0,subject101_client0,10,ironing,73
+4,106,1.0,subject101_client0,11,rope jumping,21
+4,106,1.0,subject101_client1,0,lying,14
+4,106,1.0,subject101_client1,1,sitting,23
+4,106,1.0,subject101_client1,2,standing,21
+4,106,1.0,subject101_client1,3,walking,23
+4,106,1.0,subject101_client1,4,running,37
+4,106,1.0,subject101_client1,5,cycling,2
+4,106,1.0,subject101_client1,6,Nordic walking,36
+4,106,1.0,subject101_client1,7,ascending stairs,3
+4,106,1.0,subject101_client1,8,descending stairs,36
+4,106,1.0,subject101_client1,9,vacuum cleaning,23
+4,106,1.0,subject101_client1,10,ironing,70
+4,106,1.0,subject101_client1,11,rope jumping,20
+4,106,1.0,subject101_client2,0,lying,104
+4,106,1.0,subject101_client2,1,sitting,37
+4,106,1.0,subject101_client2,2,standing,53
+4,106,1.0,subject101_client2,3,walking,5
+4,106,1.0,subject101_client2,4,running,88
+4,106,1.0,subject101_client2,5,cycling,116
+4,106,1.0,subject101_client2,6,Nordic walking,10
+4,106,1.0,subject101_client2,7,ascending stairs,6
+4,106,1.0,subject101_client2,8,descending stairs,29
+4,106,1.0,subject101_client2,9,vacuum cleaning,43
+4,106,1.0,subject101_client2,10,ironing,11
+4,106,1.0,subject101_client2,11,rope jumping,40
+4,106,1.0,subject101_client3,0,lying,16
+4,106,1.0,subject101_client3,1,sitting,6
+4,106,1.0,subject101_client3,2,standing,6
+4,106,1.0,subject101_client3,3,walking,132
+4,106,1.0,subject101_client3,4,running,23
+4,106,1.0,subject101_client3,5,cycling,53
+4,106,1.0,subject101_client3,6,Nordic walking,61
+4,106,1.0,subject101_client3,7,ascending stairs,5
+4,106,1.0,subject101_client3,8,descending stairs,43
+4,106,1.0,subject101_client3,9,vacuum cleaning,47
+4,106,1.0,subject101_client3,10,ironing,26
+4,106,1.0,subject101_client3,11,rope jumping,15
+4,106,1.0,subject102_client0,0,lying,56
+4,106,1.0,subject102_client0,1,sitting,38
+4,106,1.0,subject102_client0,2,standing,29
+4,106,1.0,subject102_client0,3,walking,18
+4,106,1.0,subject102_client0,4,running,6
+4,106,1.0,subject102_client0,5,cycling,38
+4,106,1.0,subject102_client0,6,Nordic walking,16
+4,106,1.0,subject102_client0,7,ascending stairs,46
+4,106,1.0,subject102_client0,8,descending stairs,35
+4,106,1.0,subject102_client0,9,vacuum cleaning,43
+4,106,1.0,subject102_client0,10,ironing,74
+4,106,1.0,subject102_client0,11,rope jumping,43
+4,106,1.0,subject102_client1,0,lying,92
+4,106,1.0,subject102_client1,1,sitting,47
+4,106,1.0,subject102_client1,2,standing,61
+4,106,1.0,subject102_client1,3,walking,26
+4,106,1.0,subject102_client1,4,running,21
+4,106,1.0,subject102_client1,5,cycling,30
+4,106,1.0,subject102_client1,6,Nordic walking,140
+4,106,1.0,subject102_client1,7,ascending stairs,30
+4,106,1.0,subject102_client1,8,descending stairs,72
+4,106,1.0,subject102_client1,9,vacuum cleaning,3
+4,106,1.0,subject102_client1,10,ironing,75
+4,106,1.0,subject102_client1,11,rope jumping,16
+4,106,1.0,subject102_client2,0,lying,17
+4,106,1.0,subject102_client2,1,sitting,74
+4,106,1.0,subject102_client2,2,standing,43
+4,106,1.0,subject102_client2,3,walking,120
+4,106,1.0,subject102_client2,4,running,34
+4,106,1.0,subject102_client2,5,cycling,25
+4,106,1.0,subject102_client2,6,Nordic walking,3
+4,106,1.0,subject102_client2,7,ascending stairs,43
+4,106,1.0,subject102_client2,8,descending stairs,2
+4,106,1.0,subject102_client2,9,vacuum cleaning,12
+4,106,1.0,subject102_client2,10,ironing,12
+4,106,1.0,subject102_client2,11,rope jumping,15
+4,106,1.0,subject102_client3,0,lying,14
+4,106,1.0,subject102_client3,1,sitting,11
+4,106,1.0,subject102_client3,2,standing,62
+4,106,1.0,subject102_client3,3,walking,86
+4,106,1.0,subject102_client3,4,running,7
+4,106,1.0,subject102_client3,5,cycling,99
+4,106,1.0,subject102_client3,6,Nordic walking,69
+4,106,1.0,subject102_client3,7,ascending stairs,11
+4,106,1.0,subject102_client3,8,descending stairs,3
+4,106,1.0,subject102_client3,9,vacuum cleaning,99
+4,106,1.0,subject102_client3,10,ironing,60
+4,106,1.0,subject102_client3,11,rope jumping,25
+4,106,1.0,subject103_client0,0,lying,85
+4,106,1.0,subject103_client0,1,sitting,38
+4,106,1.0,subject103_client0,2,standing,102
+4,106,1.0,subject103_client0,3,walking,85
+4,106,1.0,subject103_client0,4,running,0
+4,106,1.0,subject103_client0,5,cycling,0
+4,106,1.0,subject103_client0,6,Nordic walking,0
+4,106,1.0,subject103_client0,7,ascending stairs,7
+4,106,1.0,subject103_client0,8,descending stairs,2
+4,106,1.0,subject103_client0,9,vacuum cleaning,51
+4,106,1.0,subject103_client0,10,ironing,191
+4,106,1.0,subject103_client0,11,rope jumping,0
+4,106,1.0,subject103_client1,0,lying,53
+4,106,1.0,subject103_client1,1,sitting,12
+4,106,1.0,subject103_client1,2,standing,5
+4,106,1.0,subject103_client1,3,walking,14
+4,106,1.0,subject103_client1,4,running,0
+4,106,1.0,subject103_client1,5,cycling,0
+4,106,1.0,subject103_client1,6,Nordic walking,0
+4,106,1.0,subject103_client1,7,ascending stairs,0
+4,106,1.0,subject103_client1,8,descending stairs,51
+4,106,1.0,subject103_client1,9,vacuum cleaning,79
+4,106,1.0,subject103_client1,10,ironing,1
+4,106,1.0,subject103_client1,11,rope jumping,0
+4,106,1.0,subject103_client2,0,lying,2
+4,106,1.0,subject103_client2,1,sitting,62
+4,106,1.0,subject103_client2,2,standing,32
+4,106,1.0,subject103_client2,3,walking,39
+4,106,1.0,subject103_client2,4,running,0
+4,106,1.0,subject103_client2,5,cycling,0
+4,106,1.0,subject103_client2,6,Nordic walking,0
+4,106,1.0,subject103_client2,7,ascending stairs,8
+4,106,1.0,subject103_client2,8,descending stairs,41
+4,106,1.0,subject103_client2,9,vacuum cleaning,2
+4,106,1.0,subject103_client2,10,ironing,17
+4,106,1.0,subject103_client2,11,rope jumping,0
+4,106,1.0,subject103_client3,0,lying,28
+4,106,1.0,subject103_client3,1,sitting,108
+4,106,1.0,subject103_client3,2,standing,17
+4,106,1.0,subject103_client3,3,walking,84
+4,106,1.0,subject103_client3,4,running,0
+4,106,1.0,subject103_client3,5,cycling,0
+4,106,1.0,subject103_client3,6,Nordic walking,0
+4,106,1.0,subject103_client3,7,ascending stairs,61
+4,106,1.0,subject103_client3,8,descending stairs,18
+4,106,1.0,subject103_client3,9,vacuum cleaning,22
+4,106,1.0,subject103_client3,10,ironing,5
+4,106,1.0,subject103_client3,11,rope jumping,0
+4,106,1.0,subject104_client0,0,lying,15
+4,106,1.0,subject104_client0,1,sitting,10
+4,106,1.0,subject104_client0,2,standing,43
+4,106,1.0,subject104_client0,3,walking,154
+4,106,1.0,subject104_client0,4,running,0
+4,106,1.0,subject104_client0,5,cycling,90
+4,106,1.0,subject104_client0,6,Nordic walking,52
+4,106,1.0,subject104_client0,7,ascending stairs,36
+4,106,1.0,subject104_client0,8,descending stairs,0
+4,106,1.0,subject104_client0,9,vacuum cleaning,36
+4,106,1.0,subject104_client0,10,ironing,57
+4,106,1.0,subject104_client0,11,rope jumping,0
+4,106,1.0,subject104_client1,0,lying,9
+4,106,1.0,subject104_client1,1,sitting,84
+4,106,1.0,subject104_client1,2,standing,96
+4,106,1.0,subject104_client1,3,walking,3
+4,106,1.0,subject104_client1,4,running,0
+4,106,1.0,subject104_client1,5,cycling,18
+4,106,1.0,subject104_client1,6,Nordic walking,1
+4,106,1.0,subject104_client1,7,ascending stairs,47
+4,106,1.0,subject104_client1,8,descending stairs,58
+4,106,1.0,subject104_client1,9,vacuum cleaning,8
+4,106,1.0,subject104_client1,10,ironing,47
+4,106,1.0,subject104_client1,11,rope jumping,0
+4,106,1.0,subject104_client2,0,lying,108
+4,106,1.0,subject104_client2,1,sitting,34
+4,106,1.0,subject104_client2,2,standing,23
+4,106,1.0,subject104_client2,3,walking,45
+4,106,1.0,subject104_client2,4,running,0
+4,106,1.0,subject104_client2,5,cycling,44
+4,106,1.0,subject104_client2,6,Nordic walking,68
+4,106,1.0,subject104_client2,7,ascending stairs,16
+4,106,1.0,subject104_client2,8,descending stairs,9
+4,106,1.0,subject104_client2,9,vacuum cleaning,102
+4,106,1.0,subject104_client2,10,ironing,16
+4,106,1.0,subject104_client2,11,rope jumping,0
+4,106,1.0,subject104_client3,0,lying,44
+4,106,1.0,subject104_client3,1,sitting,67
+4,106,1.0,subject104_client3,2,standing,27
+4,106,1.0,subject104_client3,3,walking,43
+4,106,1.0,subject104_client3,4,running,0
+4,106,1.0,subject104_client3,5,cycling,21
+4,106,1.0,subject104_client3,6,Nordic walking,90
+4,106,1.0,subject104_client3,7,ascending stairs,25
+4,106,1.0,subject104_client3,8,descending stairs,40
+4,106,1.0,subject104_client3,9,vacuum cleaning,6
+4,106,1.0,subject104_client3,10,ironing,71
+4,106,1.0,subject104_client3,11,rope jumping,0
+4,106,1.0,subject105_client0,0,lying,106
+4,106,1.0,subject105_client0,1,sitting,24
+4,106,1.0,subject105_client0,2,standing,73
+4,106,1.0,subject105_client0,3,walking,71
+4,106,1.0,subject105_client0,4,running,22
+4,106,1.0,subject105_client0,5,cycling,78
+4,106,1.0,subject105_client0,6,Nordic walking,56
+4,106,1.0,subject105_client0,7,ascending stairs,32
+4,106,1.0,subject105_client0,8,descending stairs,13
+4,106,1.0,subject105_client0,9,vacuum cleaning,75
+4,106,1.0,subject105_client0,10,ironing,44
+4,106,1.0,subject105_client0,11,rope jumping,3
+4,106,1.0,subject105_client1,0,lying,11
+4,106,1.0,subject105_client1,1,sitting,66
+4,106,1.0,subject105_client1,2,standing,18
+4,106,1.0,subject105_client1,3,walking,79
+4,106,1.0,subject105_client1,4,running,70
+4,106,1.0,subject105_client1,5,cycling,12
+4,106,1.0,subject105_client1,6,Nordic walking,58
+4,106,1.0,subject105_client1,7,ascending stairs,49
+4,106,1.0,subject105_client1,8,descending stairs,24
+4,106,1.0,subject105_client1,9,vacuum cleaning,49
+4,106,1.0,subject105_client1,10,ironing,84
+4,106,1.0,subject105_client1,11,rope jumping,3
+4,106,1.0,subject105_client2,0,lying,1
+4,106,1.0,subject105_client2,1,sitting,23
+4,106,1.0,subject105_client2,2,standing,1
+4,106,1.0,subject105_client2,3,walking,69
+4,106,1.0,subject105_client2,4,running,59
+4,106,1.0,subject105_client2,5,cycling,20
+4,106,1.0,subject105_client2,6,Nordic walking,29
+4,106,1.0,subject105_client2,7,ascending stairs,9
+4,106,1.0,subject105_client2,8,descending stairs,52
+4,106,1.0,subject105_client2,9,vacuum cleaning,43
+4,106,1.0,subject105_client2,10,ironing,37
+4,106,1.0,subject105_client2,11,rope jumping,39
+4,106,1.0,subject105_client3,0,lying,63
+4,106,1.0,subject105_client3,1,sitting,92
+4,106,1.0,subject105_client3,2,standing,76
+4,106,1.0,subject105_client3,3,walking,27
+4,106,1.0,subject105_client3,4,running,37
+4,106,1.0,subject105_client3,5,cycling,78
+4,106,1.0,subject105_client3,6,Nordic walking,58
+4,106,1.0,subject105_client3,7,ascending stairs,15
+4,106,1.0,subject105_client3,8,descending stairs,4
+4,106,1.0,subject105_client3,9,vacuum cleaning,19
+4,106,1.0,subject105_client3,10,ironing,89
+4,106,1.0,subject105_client3,11,rope jumping,11
+4,106,1.0,subject107_client0,0,lying,5
+4,106,1.0,subject107_client0,1,sitting,51
+4,106,1.0,subject107_client0,2,standing,38
+4,106,1.0,subject107_client0,3,walking,7
+4,106,1.0,subject107_client0,4,running,4
+4,106,1.0,subject107_client0,5,cycling,1
+4,106,1.0,subject107_client0,6,Nordic walking,20
+4,106,1.0,subject107_client0,7,ascending stairs,19
+4,106,1.0,subject107_client0,8,descending stairs,62
+4,106,1.0,subject107_client0,9,vacuum cleaning,0
+4,106,1.0,subject107_client0,10,ironing,47
+4,106,1.0,subject107_client0,11,rope jumping,0
+4,106,1.0,subject107_client1,0,lying,56
+4,106,1.0,subject107_client1,1,sitting,10
+4,106,1.0,subject107_client1,2,standing,22
+4,106,1.0,subject107_client1,3,walking,142
+4,106,1.0,subject107_client1,4,running,8
+4,106,1.0,subject107_client1,5,cycling,9
+4,106,1.0,subject107_client1,6,Nordic walking,39
+4,106,1.0,subject107_client1,7,ascending stairs,2
+4,106,1.0,subject107_client1,8,descending stairs,1
+4,106,1.0,subject107_client1,9,vacuum cleaning,35
+4,106,1.0,subject107_client1,10,ironing,93
+4,106,1.0,subject107_client1,11,rope jumping,0
+4,106,1.0,subject107_client2,0,lying,4
+4,106,1.0,subject107_client2,1,sitting,14
+4,106,1.0,subject107_client2,2,standing,125
+4,106,1.0,subject107_client2,3,walking,91
+4,106,1.0,subject107_client2,4,running,7
+4,106,1.0,subject107_client2,5,cycling,7
+4,106,1.0,subject107_client2,6,Nordic walking,107
+4,106,1.0,subject107_client2,7,ascending stairs,21
+4,106,1.0,subject107_client2,8,descending stairs,9
+4,106,1.0,subject107_client2,9,vacuum cleaning,43
+4,106,1.0,subject107_client2,10,ironing,39
+4,106,1.0,subject107_client2,11,rope jumping,0
+4,106,1.0,subject107_client3,0,lying,131
+4,106,1.0,subject107_client3,1,sitting,16
+4,106,1.0,subject107_client3,2,standing,12
+4,106,1.0,subject107_client3,3,walking,19
+4,106,1.0,subject107_client3,4,running,5
+4,106,1.0,subject107_client3,5,cycling,156
+4,106,1.0,subject107_client3,6,Nordic walking,54
+4,106,1.0,subject107_client3,7,ascending stairs,90
+4,106,1.0,subject107_client3,8,descending stairs,13
+4,106,1.0,subject107_client3,9,vacuum cleaning,87
+4,106,1.0,subject107_client3,10,ironing,47
+4,106,1.0,subject107_client3,11,rope jumping,0
+4,106,1.0,subject108_client0,0,lying,14
+4,106,1.0,subject108_client0,1,sitting,121
+4,106,1.0,subject108_client0,2,standing,38
+4,106,1.0,subject108_client0,3,walking,77
+4,106,1.0,subject108_client0,4,running,15
+4,106,1.0,subject108_client0,5,cycling,58
+4,106,1.0,subject108_client0,6,Nordic walking,21
+4,106,1.0,subject108_client0,7,ascending stairs,55
+4,106,1.0,subject108_client0,8,descending stairs,13
+4,106,1.0,subject108_client0,9,vacuum cleaning,54
+4,106,1.0,subject108_client0,10,ironing,143
+4,106,1.0,subject108_client0,11,rope jumping,47
+4,106,1.0,subject108_client1,0,lying,46
+4,106,1.0,subject108_client1,1,sitting,21
+4,106,1.0,subject108_client1,2,standing,38
+4,106,1.0,subject108_client1,3,walking,39
+4,106,1.0,subject108_client1,4,running,85
+4,106,1.0,subject108_client1,5,cycling,10
+4,106,1.0,subject108_client1,6,Nordic walking,71
+4,106,1.0,subject108_client1,7,ascending stairs,7
+4,106,1.0,subject108_client1,8,descending stairs,7
+4,106,1.0,subject108_client1,9,vacuum cleaning,23
+4,106,1.0,subject108_client1,10,ironing,26
+4,106,1.0,subject108_client1,11,rope jumping,2
+4,106,1.0,subject108_client2,0,lying,83
+4,106,1.0,subject108_client2,1,sitting,8
+4,106,1.0,subject108_client2,2,standing,56
+4,106,1.0,subject108_client2,3,walking,26
+4,106,1.0,subject108_client2,4,running,6
+4,106,1.0,subject108_client2,5,cycling,87
+4,106,1.0,subject108_client2,6,Nordic walking,74
+4,106,1.0,subject108_client2,7,ascending stairs,11
+4,106,1.0,subject108_client2,8,descending stairs,20
+4,106,1.0,subject108_client2,9,vacuum cleaning,18
+4,106,1.0,subject108_client2,10,ironing,28
+4,106,1.0,subject108_client2,11,rope jumping,1
+4,106,1.0,subject108_client3,0,lying,41
+4,106,1.0,subject108_client3,1,sitting,24
+4,106,1.0,subject108_client3,2,standing,60
+4,106,1.0,subject108_client3,3,walking,100
+4,106,1.0,subject108_client3,4,running,19
+4,106,1.0,subject108_client3,5,cycling,40
+4,106,1.0,subject108_client3,6,Nordic walking,55
+4,106,1.0,subject108_client3,7,ascending stairs,13
+4,106,1.0,subject108_client3,8,descending stairs,29
+4,106,1.0,subject108_client3,9,vacuum cleaning,90
+4,106,1.0,subject108_client3,10,ironing,56
+4,106,1.0,subject108_client3,11,rope jumping,14
+4,106,0.1,subject101_client0,0,lying,0
+4,106,0.1,subject101_client0,1,sitting,29
+4,106,0.1,subject101_client0,2,standing,0
+4,106,0.1,subject101_client0,3,walking,109
+4,106,0.1,subject101_client0,4,running,157
+4,106,0.1,subject101_client0,5,cycling,0
+4,106,0.1,subject101_client0,6,Nordic walking,115
+4,106,0.1,subject101_client0,7,ascending stairs,0
+4,106,0.1,subject101_client0,8,descending stairs,0
+4,106,0.1,subject101_client0,9,vacuum cleaning,9
+4,106,0.1,subject101_client0,10,ironing,4
+4,106,0.1,subject101_client0,11,rope jumping,4
+4,106,0.1,subject101_client1,0,lying,0
+4,106,0.1,subject101_client1,1,sitting,149
+4,106,0.1,subject101_client1,2,standing,0
+4,106,0.1,subject101_client1,3,walking,0
+4,106,0.1,subject101_client1,4,running,5
+4,106,0.1,subject101_client1,5,cycling,141
+4,106,0.1,subject101_client1,6,Nordic walking,0
+4,106,0.1,subject101_client1,7,ascending stairs,121
+4,106,0.1,subject101_client1,8,descending stairs,77
+4,106,0.1,subject101_client1,9,vacuum cleaning,119
+4,106,0.1,subject101_client1,10,ironing,3
+4,106,0.1,subject101_client1,11,rope jumping,45
+4,106,0.1,subject101_client2,0,lying,3
+4,106,0.1,subject101_client2,1,sitting,0
+4,106,0.1,subject101_client2,2,standing,168
+4,106,0.1,subject101_client2,3,walking,0
+4,106,0.1,subject101_client2,4,running,0
+4,106,0.1,subject101_client2,5,cycling,0
+4,106,0.1,subject101_client2,6,Nordic walking,41
+4,106,0.1,subject101_client2,7,ascending stairs,0
+4,106,0.1,subject101_client2,8,descending stairs,0
+4,106,0.1,subject101_client2,9,vacuum cleaning,48
+4,106,0.1,subject101_client2,10,ironing,155
+4,106,0.1,subject101_client2,11,rope jumping,15
+4,106,0.1,subject101_client3,0,lying,207
+4,106,0.1,subject101_client3,1,sitting,2
+4,106,0.1,subject101_client3,2,standing,0
+4,106,0.1,subject101_client3,3,walking,62
+4,106,0.1,subject101_client3,4,running,1
+4,106,0.1,subject101_client3,5,cycling,40
+4,106,0.1,subject101_client3,6,Nordic walking,0
+4,106,0.1,subject101_client3,7,ascending stairs,0
+4,106,0.1,subject101_client3,8,descending stairs,35
+4,106,0.1,subject101_client3,9,vacuum cleaning,0
+4,106,0.1,subject101_client3,10,ironing,18
+4,106,0.1,subject101_client3,11,rope jumping,32
+4,106,0.1,subject102_client0,0,lying,0
+4,106,0.1,subject102_client0,1,sitting,0
+4,106,0.1,subject102_client0,2,standing,0
+4,106,0.1,subject102_client0,3,walking,22
+4,106,0.1,subject102_client0,4,running,0
+4,106,0.1,subject102_client0,5,cycling,1
+4,106,0.1,subject102_client0,6,Nordic walking,1
+4,106,0.1,subject102_client0,7,ascending stairs,0
+4,106,0.1,subject102_client0,8,descending stairs,0
+4,106,0.1,subject102_client0,9,vacuum cleaning,0
+4,106,0.1,subject102_client0,10,ironing,9
+4,106,0.1,subject102_client0,11,rope jumping,98
+4,106,0.1,subject102_client1,0,lying,0
+4,106,0.1,subject102_client1,1,sitting,0
+4,106,0.1,subject102_client1,2,standing,177
+4,106,0.1,subject102_client1,3,walking,0
+4,106,0.1,subject102_client1,4,running,4
+4,106,0.1,subject102_client1,5,cycling,143
+4,106,0.1,subject102_client1,6,Nordic walking,0
+4,106,0.1,subject102_client1,7,ascending stairs,13
+4,106,0.1,subject102_client1,8,descending stairs,115
+4,106,0.1,subject102_client1,9,vacuum cleaning,157
+4,106,0.1,subject102_client1,10,ironing,191
+4,106,0.1,subject102_client1,11,rope jumping,0
+4,106,0.1,subject102_client2,0,lying,154
+4,106,0.1,subject102_client2,1,sitting,0
+4,106,0.1,subject102_client2,2,standing,3
+4,106,0.1,subject102_client2,3,walking,228
+4,106,0.1,subject102_client2,4,running,0
+4,106,0.1,subject102_client2,5,cycling,0
+4,106,0.1,subject102_client2,6,Nordic walking,121
+4,106,0.1,subject102_client2,7,ascending stairs,119
+4,106,0.1,subject102_client2,8,descending stairs,0
+4,106,0.1,subject102_client2,9,vacuum cleaning,2
+4,106,0.1,subject102_client2,10,ironing,22
+4,106,0.1,subject102_client2,11,rope jumping,3
+4,106,0.1,subject102_client3,0,lying,27
+4,106,0.1,subject102_client3,1,sitting,173
+4,106,0.1,subject102_client3,2,standing,15
+4,106,0.1,subject102_client3,3,walking,1
+4,106,0.1,subject102_client3,4,running,66
+4,106,0.1,subject102_client3,5,cycling,49
+4,106,0.1,subject102_client3,6,Nordic walking,107
+4,106,0.1,subject102_client3,7,ascending stairs,0
+4,106,0.1,subject102_client3,8,descending stairs,0
+4,106,0.1,subject102_client3,9,vacuum cleaning,0
+4,106,0.1,subject102_client3,10,ironing,0
+4,106,0.1,subject102_client3,11,rope jumping,0
+4,106,0.1,subject103_client0,0,lying,0
+4,106,0.1,subject103_client0,1,sitting,0
+4,106,0.1,subject103_client0,2,standing,0
+4,106,0.1,subject103_client0,3,walking,129
+4,106,0.1,subject103_client0,4,running,0
+4,106,0.1,subject103_client0,5,cycling,0
+4,106,0.1,subject103_client0,6,Nordic walking,0
+4,106,0.1,subject103_client0,7,ascending stairs,78
+4,106,0.1,subject103_client0,8,descending stairs,0
+4,106,0.1,subject103_client0,9,vacuum cleaning,131
+4,106,0.1,subject103_client0,10,ironing,216
+4,106,0.1,subject103_client0,11,rope jumping,0
+4,106,0.1,subject103_client1,0,lying,0
+4,106,0.1,subject103_client1,1,sitting,223
+4,106,0.1,subject103_client1,2,standing,0
+4,106,0.1,subject103_client1,3,walking,49
+4,106,0.1,subject103_client1,4,running,0
+4,106,0.1,subject103_client1,5,cycling,0
+4,106,0.1,subject103_client1,6,Nordic walking,0
+4,106,0.1,subject103_client1,7,ascending stairs,0
+4,106,0.1,subject103_client1,8,descending stairs,0
+4,106,0.1,subject103_client1,9,vacuum cleaning,23
+4,106,0.1,subject103_client1,10,ironing,0
+4,106,0.1,subject103_client1,11,rope jumping,0
+4,106,0.1,subject103_client2,0,lying,171
+4,106,0.1,subject103_client2,1,sitting,0
+4,106,0.1,subject103_client2,2,standing,0
+4,106,0.1,subject103_client2,3,walking,18
+4,106,0.1,subject103_client2,4,running,0
+4,106,0.1,subject103_client2,5,cycling,0
+4,106,0.1,subject103_client2,6,Nordic walking,0
+4,106,0.1,subject103_client2,7,ascending stairs,0
+4,106,0.1,subject103_client2,8,descending stairs,36
+4,106,0.1,subject103_client2,9,vacuum cleaning,1
+4,106,0.1,subject103_client2,10,ironing,0
+4,106,0.1,subject103_client2,11,rope jumping,0
+4,106,0.1,subject103_client3,0,lying,0
+4,106,0.1,subject103_client3,1,sitting,0
+4,106,0.1,subject103_client3,2,standing,159
+4,106,0.1,subject103_client3,3,walking,26
+4,106,0.1,subject103_client3,4,running,0
+4,106,0.1,subject103_client3,5,cycling,0
+4,106,0.1,subject103_client3,6,Nordic walking,0
+4,106,0.1,subject103_client3,7,ascending stairs,0
+4,106,0.1,subject103_client3,8,descending stairs,77
+4,106,0.1,subject103_client3,9,vacuum cleaning,0
+4,106,0.1,subject103_client3,10,ironing,0
+4,106,0.1,subject103_client3,11,rope jumping,0
+4,106,0.1,subject104_client0,0,lying,162
+4,106,0.1,subject104_client0,1,sitting,80
+4,106,0.1,subject104_client0,2,standing,192
+4,106,0.1,subject104_client0,3,walking,0
+4,106,0.1,subject104_client0,4,running,0
+4,106,0.1,subject104_client0,5,cycling,0
+4,106,0.1,subject104_client0,6,Nordic walking,211
+4,106,0.1,subject104_client0,7,ascending stairs,39
+4,106,0.1,subject104_client0,8,descending stairs,0
+4,106,0.1,subject104_client0,9,vacuum cleaning,0
+4,106,0.1,subject104_client0,10,ironing,194
+4,106,0.1,subject104_client0,11,rope jumping,0
+4,106,0.1,subject104_client1,0,lying,16
+4,106,0.1,subject104_client1,1,sitting,0
+4,106,0.1,subject104_client1,2,standing,0
+4,106,0.1,subject104_client1,3,walking,248
+4,106,0.1,subject104_client1,4,running,0
+4,106,0.1,subject104_client1,5,cycling,54
+4,106,0.1,subject104_client1,6,Nordic walking,0
+4,106,0.1,subject104_client1,7,ascending stairs,0
+4,106,0.1,subject104_client1,8,descending stairs,96
+4,106,0.1,subject104_client1,9,vacuum cleaning,1
+4,106,0.1,subject104_client1,10,ironing,0
+4,106,0.1,subject104_client1,11,rope jumping,0
+4,106,0.1,subject104_client2,0,lying,0
+4,106,0.1,subject104_client2,1,sitting,3
+4,106,0.1,subject104_client2,2,standing,0
+4,106,0.1,subject104_client2,3,walking,0
+4,106,0.1,subject104_client2,4,running,0
+4,106,0.1,subject104_client2,5,cycling,0
+4,106,0.1,subject104_client2,6,Nordic walking,0
+4,106,0.1,subject104_client2,7,ascending stairs,0
+4,106,0.1,subject104_client2,8,descending stairs,12
+4,106,0.1,subject104_client2,9,vacuum cleaning,153
+4,106,0.1,subject104_client2,10,ironing,0
+4,106,0.1,subject104_client2,11,rope jumping,0
+4,106,0.1,subject104_client3,0,lying,0
+4,106,0.1,subject104_client3,1,sitting,113
+4,106,0.1,subject104_client3,2,standing,0
+4,106,0.1,subject104_client3,3,walking,0
+4,106,0.1,subject104_client3,4,running,0
+4,106,0.1,subject104_client3,5,cycling,121
+4,106,0.1,subject104_client3,6,Nordic walking,2
+4,106,0.1,subject104_client3,7,ascending stairs,87
+4,106,0.1,subject104_client3,8,descending stairs,0
+4,106,0.1,subject104_client3,9,vacuum cleaning,0
+4,106,0.1,subject104_client3,10,ironing,0
+4,106,0.1,subject104_client3,11,rope jumping,0
+4,106,0.1,subject105_client0,0,lying,0
+4,106,0.1,subject105_client0,1,sitting,141
+4,106,0.1,subject105_client0,2,standing,0
+4,106,0.1,subject105_client0,3,walking,88
+4,106,0.1,subject105_client0,4,running,0
+4,106,0.1,subject105_client0,5,cycling,0
+4,106,0.1,subject105_client0,6,Nordic walking,132
+4,106,0.1,subject105_client0,7,ascending stairs,0
+4,106,0.1,subject105_client0,8,descending stairs,0
+4,106,0.1,subject105_client0,9,vacuum cleaning,0
+4,106,0.1,subject105_client0,10,ironing,6
+4,106,0.1,subject105_client0,11,rope jumping,0
+4,106,0.1,subject105_client1,0,lying,0
+4,106,0.1,subject105_client1,1,sitting,0
+4,106,0.1,subject105_client1,2,standing,0
+4,106,0.1,subject105_client1,3,walking,2
+4,106,0.1,subject105_client1,4,running,160
+4,106,0.1,subject105_client1,5,cycling,0
+4,106,0.1,subject105_client1,6,Nordic walking,14
+4,106,0.1,subject105_client1,7,ascending stairs,0
+4,106,0.1,subject105_client1,8,descending stairs,3
+4,106,0.1,subject105_client1,9,vacuum cleaning,0
+4,106,0.1,subject105_client1,10,ironing,245
+4,106,0.1,subject105_client1,11,rope jumping,0
+4,106,0.1,subject105_client2,0,lying,184
+4,106,0.1,subject105_client2,1,sitting,66
+4,106,0.1,subject105_client2,2,standing,4
+4,106,0.1,subject105_client2,3,walking,157
+4,106,0.1,subject105_client2,4,running,27
+4,106,0.1,subject105_client2,5,cycling,188
+4,106,0.1,subject105_client2,6,Nordic walking,0
+4,106,0.1,subject105_client2,7,ascending stairs,5
+4,106,0.1,subject105_client2,8,descending stairs,0
+4,106,0.1,subject105_client2,9,vacuum cleaning,188
+4,106,0.1,subject105_client2,10,ironing,1
+4,106,0.1,subject105_client2,11,rope jumping,45
+4,106,0.1,subject105_client3,0,lying,0
+4,106,0.1,subject105_client3,1,sitting,0
+4,106,0.1,subject105_client3,2,standing,166
+4,106,0.1,subject105_client3,3,walking,0
+4,106,0.1,subject105_client3,4,running,1
+4,106,0.1,subject105_client3,5,cycling,2
+4,106,0.1,subject105_client3,6,Nordic walking,56
+4,106,0.1,subject105_client3,7,ascending stairs,102
+4,106,0.1,subject105_client3,8,descending stairs,92
+4,106,0.1,subject105_client3,9,vacuum cleaning,0
+4,106,0.1,subject105_client3,10,ironing,2
+4,106,0.1,subject105_client3,11,rope jumping,13
+4,106,0.1,subject107_client0,0,lying,0
+4,106,0.1,subject107_client0,1,sitting,0
+4,106,0.1,subject107_client0,2,standing,0
+4,106,0.1,subject107_client0,3,walking,0
+4,106,0.1,subject107_client0,4,running,0
+4,106,0.1,subject107_client0,5,cycling,0
+4,106,0.1,subject107_client0,6,Nordic walking,82
+4,106,0.1,subject107_client0,7,ascending stairs,133
+4,106,0.1,subject107_client0,8,descending stairs,1
+4,106,0.1,subject107_client0,9,vacuum cleaning,1
+4,106,0.1,subject107_client0,10,ironing,0
+4,106,0.1,subject107_client0,11,rope jumping,0
+4,106,0.1,subject107_client1,0,lying,14
+4,106,0.1,subject107_client1,1,sitting,0
+4,106,0.1,subject107_client1,2,standing,129
+4,106,0.1,subject107_client1,3,walking,0
+4,106,0.1,subject107_client1,4,running,2
+4,106,0.1,subject107_client1,5,cycling,173
+4,106,0.1,subject107_client1,6,Nordic walking,0
+4,106,0.1,subject107_client1,7,ascending stairs,0
+4,106,0.1,subject107_client1,8,descending stairs,0
+4,106,0.1,subject107_client1,9,vacuum cleaning,3
+4,106,0.1,subject107_client1,10,ironing,0
+4,106,0.1,subject107_client1,11,rope jumping,0
+4,106,0.1,subject107_client2,0,lying,0
+4,106,0.1,subject107_client2,1,sitting,81
+4,106,0.1,subject107_client2,2,standing,70
+4,106,0.1,subject107_client2,3,walking,0
+4,106,0.1,subject107_client2,4,running,24
+4,106,0.1,subject107_client2,5,cycling,2
+4,106,0.1,subject107_client2,6,Nordic walking,15
+4,106,0.1,subject107_client2,7,ascending stairs,0
+4,106,0.1,subject107_client2,8,descending stairs,5
+4,106,0.1,subject107_client2,9,vacuum cleaning,11
+4,106,0.1,subject107_client2,10,ironing,216
+4,106,0.1,subject107_client2,11,rope jumping,0
+4,106,0.1,subject107_client3,0,lying,184
+4,106,0.1,subject107_client3,1,sitting,12
+4,106,0.1,subject107_client3,2,standing,0
+4,106,0.1,subject107_client3,3,walking,262
+4,106,0.1,subject107_client3,4,running,0
+4,106,0.1,subject107_client3,5,cycling,0
+4,106,0.1,subject107_client3,6,Nordic walking,124
+4,106,0.1,subject107_client3,7,ascending stairs,1
+4,106,0.1,subject107_client3,8,descending stairs,80
+4,106,0.1,subject107_client3,9,vacuum cleaning,149
+4,106,0.1,subject107_client3,10,ironing,12
+4,106,0.1,subject107_client3,11,rope jumping,0
+4,106,0.1,subject108_client0,0,lying,0
+4,106,0.1,subject108_client0,1,sitting,0
+4,106,0.1,subject108_client0,2,standing,23
+4,106,0.1,subject108_client0,3,walking,46
+4,106,0.1,subject108_client0,4,running,0
+4,106,0.1,subject108_client0,5,cycling,198
+4,106,0.1,subject108_client0,6,Nordic walking,0
+4,106,0.1,subject108_client0,7,ascending stairs,0
+4,106,0.1,subject108_client0,8,descending stairs,14
+4,106,0.1,subject108_client0,9,vacuum cleaning,167
+4,106,0.1,subject108_client0,10,ironing,47
+4,106,0.1,subject108_client0,11,rope jumping,67
+4,106,0.1,subject108_client1,0,lying,0
+4,106,0.1,subject108_client1,1,sitting,177
+4,106,0.1,subject108_client1,2,standing,0
+4,106,0.1,subject108_client1,3,walking,0
+4,106,0.1,subject108_client1,4,running,126
+4,106,0.1,subject108_client1,5,cycling,0
+4,106,0.1,subject108_client1,6,Nordic walking,0
+4,106,0.1,subject108_client1,7,ascending stairs,0
+4,106,0.1,subject108_client1,8,descending stairs,51
+4,106,0.1,subject108_client1,9,vacuum cleaning,0
+4,106,0.1,subject108_client1,10,ironing,0
+4,106,0.1,subject108_client1,11,rope jumping,0
+4,106,0.1,subject108_client2,0,lying,164
+4,106,0.1,subject108_client2,1,sitting,0
+4,106,0.1,subject108_client2,2,standing,171
+4,106,0.1,subject108_client2,3,walking,0
+4,106,0.1,subject108_client2,4,running,1
+4,106,0.1,subject108_client2,5,cycling,0
+4,106,0.1,subject108_client2,6,Nordic walking,20
+4,106,0.1,subject108_client2,7,ascending stairs,4
+4,106,0.1,subject108_client2,8,descending stairs,5
+4,106,0.1,subject108_client2,9,vacuum cleaning,20
+4,106,0.1,subject108_client2,10,ironing,208
+4,106,0.1,subject108_client2,11,rope jumping,0
+4,106,0.1,subject108_client3,0,lying,22
+4,106,0.1,subject108_client3,1,sitting,0
+4,106,0.1,subject108_client3,2,standing,0
+4,106,0.1,subject108_client3,3,walking,198
+4,106,0.1,subject108_client3,4,running,0
+4,106,0.1,subject108_client3,5,cycling,0
+4,106,0.1,subject108_client3,6,Nordic walking,202
+4,106,0.1,subject108_client3,7,ascending stairs,84
+4,106,0.1,subject108_client3,8,descending stairs,0
+4,106,0.1,subject108_client3,9,vacuum cleaning,0
+4,106,0.1,subject108_client3,10,ironing,0
+4,106,0.1,subject108_client3,11,rope jumping,0
+5,108,1.0,subject101_client0,0,lying,74
+5,108,1.0,subject101_client0,1,sitting,113
+5,108,1.0,subject101_client0,2,standing,85
+5,108,1.0,subject101_client0,3,walking,9
+5,108,1.0,subject101_client0,4,running,14
+5,108,1.0,subject101_client0,5,cycling,9
+5,108,1.0,subject101_client0,6,Nordic walking,47
+5,108,1.0,subject101_client0,7,ascending stairs,104
+5,108,1.0,subject101_client0,8,descending stairs,2
+5,108,1.0,subject101_client0,9,vacuum cleaning,62
+5,108,1.0,subject101_client0,10,ironing,73
+5,108,1.0,subject101_client0,11,rope jumping,21
+5,108,1.0,subject101_client1,0,lying,14
+5,108,1.0,subject101_client1,1,sitting,23
+5,108,1.0,subject101_client1,2,standing,21
+5,108,1.0,subject101_client1,3,walking,23
+5,108,1.0,subject101_client1,4,running,37
+5,108,1.0,subject101_client1,5,cycling,2
+5,108,1.0,subject101_client1,6,Nordic walking,36
+5,108,1.0,subject101_client1,7,ascending stairs,3
+5,108,1.0,subject101_client1,8,descending stairs,36
+5,108,1.0,subject101_client1,9,vacuum cleaning,23
+5,108,1.0,subject101_client1,10,ironing,70
+5,108,1.0,subject101_client1,11,rope jumping,20
+5,108,1.0,subject101_client2,0,lying,104
+5,108,1.0,subject101_client2,1,sitting,37
+5,108,1.0,subject101_client2,2,standing,53
+5,108,1.0,subject101_client2,3,walking,5
+5,108,1.0,subject101_client2,4,running,88
+5,108,1.0,subject101_client2,5,cycling,116
+5,108,1.0,subject101_client2,6,Nordic walking,10
+5,108,1.0,subject101_client2,7,ascending stairs,6
+5,108,1.0,subject101_client2,8,descending stairs,29
+5,108,1.0,subject101_client2,9,vacuum cleaning,43
+5,108,1.0,subject101_client2,10,ironing,11
+5,108,1.0,subject101_client2,11,rope jumping,40
+5,108,1.0,subject101_client3,0,lying,16
+5,108,1.0,subject101_client3,1,sitting,6
+5,108,1.0,subject101_client3,2,standing,6
+5,108,1.0,subject101_client3,3,walking,132
+5,108,1.0,subject101_client3,4,running,23
+5,108,1.0,subject101_client3,5,cycling,53
+5,108,1.0,subject101_client3,6,Nordic walking,61
+5,108,1.0,subject101_client3,7,ascending stairs,5
+5,108,1.0,subject101_client3,8,descending stairs,43
+5,108,1.0,subject101_client3,9,vacuum cleaning,47
+5,108,1.0,subject101_client3,10,ironing,26
+5,108,1.0,subject101_client3,11,rope jumping,15
+5,108,1.0,subject102_client0,0,lying,56
+5,108,1.0,subject102_client0,1,sitting,38
+5,108,1.0,subject102_client0,2,standing,29
+5,108,1.0,subject102_client0,3,walking,18
+5,108,1.0,subject102_client0,4,running,6
+5,108,1.0,subject102_client0,5,cycling,38
+5,108,1.0,subject102_client0,6,Nordic walking,16
+5,108,1.0,subject102_client0,7,ascending stairs,46
+5,108,1.0,subject102_client0,8,descending stairs,35
+5,108,1.0,subject102_client0,9,vacuum cleaning,43
+5,108,1.0,subject102_client0,10,ironing,74
+5,108,1.0,subject102_client0,11,rope jumping,43
+5,108,1.0,subject102_client1,0,lying,92
+5,108,1.0,subject102_client1,1,sitting,47
+5,108,1.0,subject102_client1,2,standing,61
+5,108,1.0,subject102_client1,3,walking,26
+5,108,1.0,subject102_client1,4,running,21
+5,108,1.0,subject102_client1,5,cycling,30
+5,108,1.0,subject102_client1,6,Nordic walking,140
+5,108,1.0,subject102_client1,7,ascending stairs,30
+5,108,1.0,subject102_client1,8,descending stairs,72
+5,108,1.0,subject102_client1,9,vacuum cleaning,3
+5,108,1.0,subject102_client1,10,ironing,75
+5,108,1.0,subject102_client1,11,rope jumping,16
+5,108,1.0,subject102_client2,0,lying,17
+5,108,1.0,subject102_client2,1,sitting,74
+5,108,1.0,subject102_client2,2,standing,43
+5,108,1.0,subject102_client2,3,walking,120
+5,108,1.0,subject102_client2,4,running,34
+5,108,1.0,subject102_client2,5,cycling,25
+5,108,1.0,subject102_client2,6,Nordic walking,3
+5,108,1.0,subject102_client2,7,ascending stairs,43
+5,108,1.0,subject102_client2,8,descending stairs,2
+5,108,1.0,subject102_client2,9,vacuum cleaning,12
+5,108,1.0,subject102_client2,10,ironing,12
+5,108,1.0,subject102_client2,11,rope jumping,15
+5,108,1.0,subject102_client3,0,lying,14
+5,108,1.0,subject102_client3,1,sitting,11
+5,108,1.0,subject102_client3,2,standing,62
+5,108,1.0,subject102_client3,3,walking,86
+5,108,1.0,subject102_client3,4,running,7
+5,108,1.0,subject102_client3,5,cycling,99
+5,108,1.0,subject102_client3,6,Nordic walking,69
+5,108,1.0,subject102_client3,7,ascending stairs,11
+5,108,1.0,subject102_client3,8,descending stairs,3
+5,108,1.0,subject102_client3,9,vacuum cleaning,99
+5,108,1.0,subject102_client3,10,ironing,60
+5,108,1.0,subject102_client3,11,rope jumping,25
+5,108,1.0,subject103_client0,0,lying,85
+5,108,1.0,subject103_client0,1,sitting,38
+5,108,1.0,subject103_client0,2,standing,102
+5,108,1.0,subject103_client0,3,walking,85
+5,108,1.0,subject103_client0,4,running,0
+5,108,1.0,subject103_client0,5,cycling,0
+5,108,1.0,subject103_client0,6,Nordic walking,0
+5,108,1.0,subject103_client0,7,ascending stairs,7
+5,108,1.0,subject103_client0,8,descending stairs,2
+5,108,1.0,subject103_client0,9,vacuum cleaning,51
+5,108,1.0,subject103_client0,10,ironing,191
+5,108,1.0,subject103_client0,11,rope jumping,0
+5,108,1.0,subject103_client1,0,lying,53
+5,108,1.0,subject103_client1,1,sitting,12
+5,108,1.0,subject103_client1,2,standing,5
+5,108,1.0,subject103_client1,3,walking,14
+5,108,1.0,subject103_client1,4,running,0
+5,108,1.0,subject103_client1,5,cycling,0
+5,108,1.0,subject103_client1,6,Nordic walking,0
+5,108,1.0,subject103_client1,7,ascending stairs,0
+5,108,1.0,subject103_client1,8,descending stairs,51
+5,108,1.0,subject103_client1,9,vacuum cleaning,79
+5,108,1.0,subject103_client1,10,ironing,1
+5,108,1.0,subject103_client1,11,rope jumping,0
+5,108,1.0,subject103_client2,0,lying,2
+5,108,1.0,subject103_client2,1,sitting,62
+5,108,1.0,subject103_client2,2,standing,32
+5,108,1.0,subject103_client2,3,walking,39
+5,108,1.0,subject103_client2,4,running,0
+5,108,1.0,subject103_client2,5,cycling,0
+5,108,1.0,subject103_client2,6,Nordic walking,0
+5,108,1.0,subject103_client2,7,ascending stairs,8
+5,108,1.0,subject103_client2,8,descending stairs,41
+5,108,1.0,subject103_client2,9,vacuum cleaning,2
+5,108,1.0,subject103_client2,10,ironing,17
+5,108,1.0,subject103_client2,11,rope jumping,0
+5,108,1.0,subject103_client3,0,lying,28
+5,108,1.0,subject103_client3,1,sitting,108
+5,108,1.0,subject103_client3,2,standing,17
+5,108,1.0,subject103_client3,3,walking,84
+5,108,1.0,subject103_client3,4,running,0
+5,108,1.0,subject103_client3,5,cycling,0
+5,108,1.0,subject103_client3,6,Nordic walking,0
+5,108,1.0,subject103_client3,7,ascending stairs,61
+5,108,1.0,subject103_client3,8,descending stairs,18
+5,108,1.0,subject103_client3,9,vacuum cleaning,22
+5,108,1.0,subject103_client3,10,ironing,5
+5,108,1.0,subject103_client3,11,rope jumping,0
+5,108,1.0,subject104_client0,0,lying,15
+5,108,1.0,subject104_client0,1,sitting,10
+5,108,1.0,subject104_client0,2,standing,43
+5,108,1.0,subject104_client0,3,walking,154
+5,108,1.0,subject104_client0,4,running,0
+5,108,1.0,subject104_client0,5,cycling,90
+5,108,1.0,subject104_client0,6,Nordic walking,52
+5,108,1.0,subject104_client0,7,ascending stairs,36
+5,108,1.0,subject104_client0,8,descending stairs,0
+5,108,1.0,subject104_client0,9,vacuum cleaning,36
+5,108,1.0,subject104_client0,10,ironing,57
+5,108,1.0,subject104_client0,11,rope jumping,0
+5,108,1.0,subject104_client1,0,lying,9
+5,108,1.0,subject104_client1,1,sitting,84
+5,108,1.0,subject104_client1,2,standing,96
+5,108,1.0,subject104_client1,3,walking,3
+5,108,1.0,subject104_client1,4,running,0
+5,108,1.0,subject104_client1,5,cycling,18
+5,108,1.0,subject104_client1,6,Nordic walking,1
+5,108,1.0,subject104_client1,7,ascending stairs,47
+5,108,1.0,subject104_client1,8,descending stairs,58
+5,108,1.0,subject104_client1,9,vacuum cleaning,8
+5,108,1.0,subject104_client1,10,ironing,47
+5,108,1.0,subject104_client1,11,rope jumping,0
+5,108,1.0,subject104_client2,0,lying,108
+5,108,1.0,subject104_client2,1,sitting,34
+5,108,1.0,subject104_client2,2,standing,23
+5,108,1.0,subject104_client2,3,walking,45
+5,108,1.0,subject104_client2,4,running,0
+5,108,1.0,subject104_client2,5,cycling,44
+5,108,1.0,subject104_client2,6,Nordic walking,68
+5,108,1.0,subject104_client2,7,ascending stairs,16
+5,108,1.0,subject104_client2,8,descending stairs,9
+5,108,1.0,subject104_client2,9,vacuum cleaning,102
+5,108,1.0,subject104_client2,10,ironing,16
+5,108,1.0,subject104_client2,11,rope jumping,0
+5,108,1.0,subject104_client3,0,lying,44
+5,108,1.0,subject104_client3,1,sitting,67
+5,108,1.0,subject104_client3,2,standing,27
+5,108,1.0,subject104_client3,3,walking,43
+5,108,1.0,subject104_client3,4,running,0
+5,108,1.0,subject104_client3,5,cycling,21
+5,108,1.0,subject104_client3,6,Nordic walking,90
+5,108,1.0,subject104_client3,7,ascending stairs,25
+5,108,1.0,subject104_client3,8,descending stairs,40
+5,108,1.0,subject104_client3,9,vacuum cleaning,6
+5,108,1.0,subject104_client3,10,ironing,71
+5,108,1.0,subject104_client3,11,rope jumping,0
+5,108,1.0,subject105_client0,0,lying,106
+5,108,1.0,subject105_client0,1,sitting,24
+5,108,1.0,subject105_client0,2,standing,73
+5,108,1.0,subject105_client0,3,walking,71
+5,108,1.0,subject105_client0,4,running,22
+5,108,1.0,subject105_client0,5,cycling,78
+5,108,1.0,subject105_client0,6,Nordic walking,56
+5,108,1.0,subject105_client0,7,ascending stairs,32
+5,108,1.0,subject105_client0,8,descending stairs,13
+5,108,1.0,subject105_client0,9,vacuum cleaning,75
+5,108,1.0,subject105_client0,10,ironing,44
+5,108,1.0,subject105_client0,11,rope jumping,3
+5,108,1.0,subject105_client1,0,lying,11
+5,108,1.0,subject105_client1,1,sitting,66
+5,108,1.0,subject105_client1,2,standing,18
+5,108,1.0,subject105_client1,3,walking,79
+5,108,1.0,subject105_client1,4,running,70
+5,108,1.0,subject105_client1,5,cycling,12
+5,108,1.0,subject105_client1,6,Nordic walking,58
+5,108,1.0,subject105_client1,7,ascending stairs,49
+5,108,1.0,subject105_client1,8,descending stairs,24
+5,108,1.0,subject105_client1,9,vacuum cleaning,49
+5,108,1.0,subject105_client1,10,ironing,84
+5,108,1.0,subject105_client1,11,rope jumping,3
+5,108,1.0,subject105_client2,0,lying,1
+5,108,1.0,subject105_client2,1,sitting,23
+5,108,1.0,subject105_client2,2,standing,1
+5,108,1.0,subject105_client2,3,walking,69
+5,108,1.0,subject105_client2,4,running,59
+5,108,1.0,subject105_client2,5,cycling,20
+5,108,1.0,subject105_client2,6,Nordic walking,29
+5,108,1.0,subject105_client2,7,ascending stairs,9
+5,108,1.0,subject105_client2,8,descending stairs,52
+5,108,1.0,subject105_client2,9,vacuum cleaning,43
+5,108,1.0,subject105_client2,10,ironing,37
+5,108,1.0,subject105_client2,11,rope jumping,39
+5,108,1.0,subject105_client3,0,lying,63
+5,108,1.0,subject105_client3,1,sitting,92
+5,108,1.0,subject105_client3,2,standing,76
+5,108,1.0,subject105_client3,3,walking,27
+5,108,1.0,subject105_client3,4,running,37
+5,108,1.0,subject105_client3,5,cycling,78
+5,108,1.0,subject105_client3,6,Nordic walking,58
+5,108,1.0,subject105_client3,7,ascending stairs,15
+5,108,1.0,subject105_client3,8,descending stairs,4
+5,108,1.0,subject105_client3,9,vacuum cleaning,19
+5,108,1.0,subject105_client3,10,ironing,89
+5,108,1.0,subject105_client3,11,rope jumping,11
+5,108,1.0,subject106_client0,0,lying,45
+5,108,1.0,subject106_client0,1,sitting,70
+5,108,1.0,subject106_client0,2,standing,33
+5,108,1.0,subject106_client0,3,walking,53
+5,108,1.0,subject106_client0,4,running,57
+5,108,1.0,subject106_client0,5,cycling,44
+5,108,1.0,subject106_client0,6,Nordic walking,100
+5,108,1.0,subject106_client0,7,ascending stairs,10
+5,108,1.0,subject106_client0,8,descending stairs,1
+5,108,1.0,subject106_client0,9,vacuum cleaning,38
+5,108,1.0,subject106_client0,10,ironing,142
+5,108,1.0,subject106_client0,11,rope jumping,0
+5,108,1.0,subject106_client1,0,lying,67
+5,108,1.0,subject106_client1,1,sitting,8
+5,108,1.0,subject106_client1,2,standing,8
+5,108,1.0,subject106_client1,3,walking,3
+5,108,1.0,subject106_client1,4,running,57
+5,108,1.0,subject106_client1,5,cycling,19
+5,108,1.0,subject106_client1,6,Nordic walking,13
+5,108,1.0,subject106_client1,7,ascending stairs,13
+5,108,1.0,subject106_client1,8,descending stairs,31
+5,108,1.0,subject106_client1,9,vacuum cleaning,22
+5,108,1.0,subject106_client1,10,ironing,16
+5,108,1.0,subject106_client1,11,rope jumping,0
+5,108,1.0,subject106_client2,0,lying,64
+5,108,1.0,subject106_client2,1,sitting,87
+5,108,1.0,subject106_client2,2,standing,38
+5,108,1.0,subject106_client2,3,walking,81
+5,108,1.0,subject106_client2,4,running,11
+5,108,1.0,subject106_client2,5,cycling,68
+5,108,1.0,subject106_client2,6,Nordic walking,81
+5,108,1.0,subject106_client2,7,ascending stairs,31
+5,108,1.0,subject106_client2,8,descending stairs,3
+5,108,1.0,subject106_client2,9,vacuum cleaning,92
+5,108,1.0,subject106_client2,10,ironing,87
+5,108,1.0,subject106_client2,11,rope jumping,1
+5,108,1.0,subject106_client3,0,lying,2
+5,108,1.0,subject106_client3,1,sitting,11
+5,108,1.0,subject106_client3,2,standing,107
+5,108,1.0,subject106_client3,3,walking,59
+5,108,1.0,subject106_client3,4,running,49
+5,108,1.0,subject106_client3,5,cycling,25
+5,108,1.0,subject106_client3,6,Nordic walking,10
+5,108,1.0,subject106_client3,7,ascending stairs,44
+5,108,1.0,subject106_client3,8,descending stairs,47
+5,108,1.0,subject106_client3,9,vacuum cleaning,8
+5,108,1.0,subject106_client3,10,ironing,44
+5,108,1.0,subject106_client3,11,rope jumping,0
+5,108,1.0,subject107_client0,0,lying,5
+5,108,1.0,subject107_client0,1,sitting,51
+5,108,1.0,subject107_client0,2,standing,38
+5,108,1.0,subject107_client0,3,walking,7
+5,108,1.0,subject107_client0,4,running,4
+5,108,1.0,subject107_client0,5,cycling,1
+5,108,1.0,subject107_client0,6,Nordic walking,20
+5,108,1.0,subject107_client0,7,ascending stairs,19
+5,108,1.0,subject107_client0,8,descending stairs,62
+5,108,1.0,subject107_client0,9,vacuum cleaning,0
+5,108,1.0,subject107_client0,10,ironing,47
+5,108,1.0,subject107_client0,11,rope jumping,0
+5,108,1.0,subject107_client1,0,lying,56
+5,108,1.0,subject107_client1,1,sitting,10
+5,108,1.0,subject107_client1,2,standing,22
+5,108,1.0,subject107_client1,3,walking,142
+5,108,1.0,subject107_client1,4,running,8
+5,108,1.0,subject107_client1,5,cycling,9
+5,108,1.0,subject107_client1,6,Nordic walking,39
+5,108,1.0,subject107_client1,7,ascending stairs,2
+5,108,1.0,subject107_client1,8,descending stairs,1
+5,108,1.0,subject107_client1,9,vacuum cleaning,35
+5,108,1.0,subject107_client1,10,ironing,93
+5,108,1.0,subject107_client1,11,rope jumping,0
+5,108,1.0,subject107_client2,0,lying,4
+5,108,1.0,subject107_client2,1,sitting,14
+5,108,1.0,subject107_client2,2,standing,125
+5,108,1.0,subject107_client2,3,walking,91
+5,108,1.0,subject107_client2,4,running,7
+5,108,1.0,subject107_client2,5,cycling,7
+5,108,1.0,subject107_client2,6,Nordic walking,107
+5,108,1.0,subject107_client2,7,ascending stairs,21
+5,108,1.0,subject107_client2,8,descending stairs,9
+5,108,1.0,subject107_client2,9,vacuum cleaning,43
+5,108,1.0,subject107_client2,10,ironing,39
+5,108,1.0,subject107_client2,11,rope jumping,0
+5,108,1.0,subject107_client3,0,lying,131
+5,108,1.0,subject107_client3,1,sitting,16
+5,108,1.0,subject107_client3,2,standing,12
+5,108,1.0,subject107_client3,3,walking,19
+5,108,1.0,subject107_client3,4,running,5
+5,108,1.0,subject107_client3,5,cycling,156
+5,108,1.0,subject107_client3,6,Nordic walking,54
+5,108,1.0,subject107_client3,7,ascending stairs,90
+5,108,1.0,subject107_client3,8,descending stairs,13
+5,108,1.0,subject107_client3,9,vacuum cleaning,87
+5,108,1.0,subject107_client3,10,ironing,47
+5,108,1.0,subject107_client3,11,rope jumping,0
+5,108,0.1,subject101_client0,0,lying,0
+5,108,0.1,subject101_client0,1,sitting,29
+5,108,0.1,subject101_client0,2,standing,0
+5,108,0.1,subject101_client0,3,walking,109
+5,108,0.1,subject101_client0,4,running,157
+5,108,0.1,subject101_client0,5,cycling,0
+5,108,0.1,subject101_client0,6,Nordic walking,115
+5,108,0.1,subject101_client0,7,ascending stairs,0
+5,108,0.1,subject101_client0,8,descending stairs,0
+5,108,0.1,subject101_client0,9,vacuum cleaning,9
+5,108,0.1,subject101_client0,10,ironing,4
+5,108,0.1,subject101_client0,11,rope jumping,4
+5,108,0.1,subject101_client1,0,lying,0
+5,108,0.1,subject101_client1,1,sitting,149
+5,108,0.1,subject101_client1,2,standing,0
+5,108,0.1,subject101_client1,3,walking,0
+5,108,0.1,subject101_client1,4,running,5
+5,108,0.1,subject101_client1,5,cycling,141
+5,108,0.1,subject101_client1,6,Nordic walking,0
+5,108,0.1,subject101_client1,7,ascending stairs,121
+5,108,0.1,subject101_client1,8,descending stairs,77
+5,108,0.1,subject101_client1,9,vacuum cleaning,119
+5,108,0.1,subject101_client1,10,ironing,3
+5,108,0.1,subject101_client1,11,rope jumping,45
+5,108,0.1,subject101_client2,0,lying,3
+5,108,0.1,subject101_client2,1,sitting,0
+5,108,0.1,subject101_client2,2,standing,168
+5,108,0.1,subject101_client2,3,walking,0
+5,108,0.1,subject101_client2,4,running,0
+5,108,0.1,subject101_client2,5,cycling,0
+5,108,0.1,subject101_client2,6,Nordic walking,41
+5,108,0.1,subject101_client2,7,ascending stairs,0
+5,108,0.1,subject101_client2,8,descending stairs,0
+5,108,0.1,subject101_client2,9,vacuum cleaning,48
+5,108,0.1,subject101_client2,10,ironing,155
+5,108,0.1,subject101_client2,11,rope jumping,15
+5,108,0.1,subject101_client3,0,lying,207
+5,108,0.1,subject101_client3,1,sitting,2
+5,108,0.1,subject101_client3,2,standing,0
+5,108,0.1,subject101_client3,3,walking,62
+5,108,0.1,subject101_client3,4,running,1
+5,108,0.1,subject101_client3,5,cycling,40
+5,108,0.1,subject101_client3,6,Nordic walking,0
+5,108,0.1,subject101_client3,7,ascending stairs,0
+5,108,0.1,subject101_client3,8,descending stairs,35
+5,108,0.1,subject101_client3,9,vacuum cleaning,0
+5,108,0.1,subject101_client3,10,ironing,18
+5,108,0.1,subject101_client3,11,rope jumping,32
+5,108,0.1,subject102_client0,0,lying,0
+5,108,0.1,subject102_client0,1,sitting,0
+5,108,0.1,subject102_client0,2,standing,0
+5,108,0.1,subject102_client0,3,walking,22
+5,108,0.1,subject102_client0,4,running,0
+5,108,0.1,subject102_client0,5,cycling,1
+5,108,0.1,subject102_client0,6,Nordic walking,1
+5,108,0.1,subject102_client0,7,ascending stairs,0
+5,108,0.1,subject102_client0,8,descending stairs,0
+5,108,0.1,subject102_client0,9,vacuum cleaning,0
+5,108,0.1,subject102_client0,10,ironing,9
+5,108,0.1,subject102_client0,11,rope jumping,98
+5,108,0.1,subject102_client1,0,lying,0
+5,108,0.1,subject102_client1,1,sitting,0
+5,108,0.1,subject102_client1,2,standing,177
+5,108,0.1,subject102_client1,3,walking,0
+5,108,0.1,subject102_client1,4,running,4
+5,108,0.1,subject102_client1,5,cycling,143
+5,108,0.1,subject102_client1,6,Nordic walking,0
+5,108,0.1,subject102_client1,7,ascending stairs,13
+5,108,0.1,subject102_client1,8,descending stairs,115
+5,108,0.1,subject102_client1,9,vacuum cleaning,157
+5,108,0.1,subject102_client1,10,ironing,191
+5,108,0.1,subject102_client1,11,rope jumping,0
+5,108,0.1,subject102_client2,0,lying,154
+5,108,0.1,subject102_client2,1,sitting,0
+5,108,0.1,subject102_client2,2,standing,3
+5,108,0.1,subject102_client2,3,walking,228
+5,108,0.1,subject102_client2,4,running,0
+5,108,0.1,subject102_client2,5,cycling,0
+5,108,0.1,subject102_client2,6,Nordic walking,121
+5,108,0.1,subject102_client2,7,ascending stairs,119
+5,108,0.1,subject102_client2,8,descending stairs,0
+5,108,0.1,subject102_client2,9,vacuum cleaning,2
+5,108,0.1,subject102_client2,10,ironing,22
+5,108,0.1,subject102_client2,11,rope jumping,3
+5,108,0.1,subject102_client3,0,lying,27
+5,108,0.1,subject102_client3,1,sitting,173
+5,108,0.1,subject102_client3,2,standing,15
+5,108,0.1,subject102_client3,3,walking,1
+5,108,0.1,subject102_client3,4,running,66
+5,108,0.1,subject102_client3,5,cycling,49
+5,108,0.1,subject102_client3,6,Nordic walking,107
+5,108,0.1,subject102_client3,7,ascending stairs,0
+5,108,0.1,subject102_client3,8,descending stairs,0
+5,108,0.1,subject102_client3,9,vacuum cleaning,0
+5,108,0.1,subject102_client3,10,ironing,0
+5,108,0.1,subject102_client3,11,rope jumping,0
+5,108,0.1,subject103_client0,0,lying,0
+5,108,0.1,subject103_client0,1,sitting,0
+5,108,0.1,subject103_client0,2,standing,0
+5,108,0.1,subject103_client0,3,walking,129
+5,108,0.1,subject103_client0,4,running,0
+5,108,0.1,subject103_client0,5,cycling,0
+5,108,0.1,subject103_client0,6,Nordic walking,0
+5,108,0.1,subject103_client0,7,ascending stairs,78
+5,108,0.1,subject103_client0,8,descending stairs,0
+5,108,0.1,subject103_client0,9,vacuum cleaning,131
+5,108,0.1,subject103_client0,10,ironing,216
+5,108,0.1,subject103_client0,11,rope jumping,0
+5,108,0.1,subject103_client1,0,lying,0
+5,108,0.1,subject103_client1,1,sitting,223
+5,108,0.1,subject103_client1,2,standing,0
+5,108,0.1,subject103_client1,3,walking,49
+5,108,0.1,subject103_client1,4,running,0
+5,108,0.1,subject103_client1,5,cycling,0
+5,108,0.1,subject103_client1,6,Nordic walking,0
+5,108,0.1,subject103_client1,7,ascending stairs,0
+5,108,0.1,subject103_client1,8,descending stairs,0
+5,108,0.1,subject103_client1,9,vacuum cleaning,23
+5,108,0.1,subject103_client1,10,ironing,0
+5,108,0.1,subject103_client1,11,rope jumping,0
+5,108,0.1,subject103_client2,0,lying,171
+5,108,0.1,subject103_client2,1,sitting,0
+5,108,0.1,subject103_client2,2,standing,0
+5,108,0.1,subject103_client2,3,walking,18
+5,108,0.1,subject103_client2,4,running,0
+5,108,0.1,subject103_client2,5,cycling,0
+5,108,0.1,subject103_client2,6,Nordic walking,0
+5,108,0.1,subject103_client2,7,ascending stairs,0
+5,108,0.1,subject103_client2,8,descending stairs,36
+5,108,0.1,subject103_client2,9,vacuum cleaning,1
+5,108,0.1,subject103_client2,10,ironing,0
+5,108,0.1,subject103_client2,11,rope jumping,0
+5,108,0.1,subject103_client3,0,lying,0
+5,108,0.1,subject103_client3,1,sitting,0
+5,108,0.1,subject103_client3,2,standing,159
+5,108,0.1,subject103_client3,3,walking,26
+5,108,0.1,subject103_client3,4,running,0
+5,108,0.1,subject103_client3,5,cycling,0
+5,108,0.1,subject103_client3,6,Nordic walking,0
+5,108,0.1,subject103_client3,7,ascending stairs,0
+5,108,0.1,subject103_client3,8,descending stairs,77
+5,108,0.1,subject103_client3,9,vacuum cleaning,0
+5,108,0.1,subject103_client3,10,ironing,0
+5,108,0.1,subject103_client3,11,rope jumping,0
+5,108,0.1,subject104_client0,0,lying,162
+5,108,0.1,subject104_client0,1,sitting,80
+5,108,0.1,subject104_client0,2,standing,192
+5,108,0.1,subject104_client0,3,walking,0
+5,108,0.1,subject104_client0,4,running,0
+5,108,0.1,subject104_client0,5,cycling,0
+5,108,0.1,subject104_client0,6,Nordic walking,211
+5,108,0.1,subject104_client0,7,ascending stairs,39
+5,108,0.1,subject104_client0,8,descending stairs,0
+5,108,0.1,subject104_client0,9,vacuum cleaning,0
+5,108,0.1,subject104_client0,10,ironing,194
+5,108,0.1,subject104_client0,11,rope jumping,0
+5,108,0.1,subject104_client1,0,lying,16
+5,108,0.1,subject104_client1,1,sitting,0
+5,108,0.1,subject104_client1,2,standing,0
+5,108,0.1,subject104_client1,3,walking,248
+5,108,0.1,subject104_client1,4,running,0
+5,108,0.1,subject104_client1,5,cycling,54
+5,108,0.1,subject104_client1,6,Nordic walking,0
+5,108,0.1,subject104_client1,7,ascending stairs,0
+5,108,0.1,subject104_client1,8,descending stairs,96
+5,108,0.1,subject104_client1,9,vacuum cleaning,1
+5,108,0.1,subject104_client1,10,ironing,0
+5,108,0.1,subject104_client1,11,rope jumping,0
+5,108,0.1,subject104_client2,0,lying,0
+5,108,0.1,subject104_client2,1,sitting,3
+5,108,0.1,subject104_client2,2,standing,0
+5,108,0.1,subject104_client2,3,walking,0
+5,108,0.1,subject104_client2,4,running,0
+5,108,0.1,subject104_client2,5,cycling,0
+5,108,0.1,subject104_client2,6,Nordic walking,0
+5,108,0.1,subject104_client2,7,ascending stairs,0
+5,108,0.1,subject104_client2,8,descending stairs,12
+5,108,0.1,subject104_client2,9,vacuum cleaning,153
+5,108,0.1,subject104_client2,10,ironing,0
+5,108,0.1,subject104_client2,11,rope jumping,0
+5,108,0.1,subject104_client3,0,lying,0
+5,108,0.1,subject104_client3,1,sitting,113
+5,108,0.1,subject104_client3,2,standing,0
+5,108,0.1,subject104_client3,3,walking,0
+5,108,0.1,subject104_client3,4,running,0
+5,108,0.1,subject104_client3,5,cycling,121
+5,108,0.1,subject104_client3,6,Nordic walking,2
+5,108,0.1,subject104_client3,7,ascending stairs,87
+5,108,0.1,subject104_client3,8,descending stairs,0
+5,108,0.1,subject104_client3,9,vacuum cleaning,0
+5,108,0.1,subject104_client3,10,ironing,0
+5,108,0.1,subject104_client3,11,rope jumping,0
+5,108,0.1,subject105_client0,0,lying,0
+5,108,0.1,subject105_client0,1,sitting,141
+5,108,0.1,subject105_client0,2,standing,0
+5,108,0.1,subject105_client0,3,walking,88
+5,108,0.1,subject105_client0,4,running,0
+5,108,0.1,subject105_client0,5,cycling,0
+5,108,0.1,subject105_client0,6,Nordic walking,132
+5,108,0.1,subject105_client0,7,ascending stairs,0
+5,108,0.1,subject105_client0,8,descending stairs,0
+5,108,0.1,subject105_client0,9,vacuum cleaning,0
+5,108,0.1,subject105_client0,10,ironing,6
+5,108,0.1,subject105_client0,11,rope jumping,0
+5,108,0.1,subject105_client1,0,lying,0
+5,108,0.1,subject105_client1,1,sitting,0
+5,108,0.1,subject105_client1,2,standing,0
+5,108,0.1,subject105_client1,3,walking,2
+5,108,0.1,subject105_client1,4,running,160
+5,108,0.1,subject105_client1,5,cycling,0
+5,108,0.1,subject105_client1,6,Nordic walking,14
+5,108,0.1,subject105_client1,7,ascending stairs,0
+5,108,0.1,subject105_client1,8,descending stairs,3
+5,108,0.1,subject105_client1,9,vacuum cleaning,0
+5,108,0.1,subject105_client1,10,ironing,245
+5,108,0.1,subject105_client1,11,rope jumping,0
+5,108,0.1,subject105_client2,0,lying,184
+5,108,0.1,subject105_client2,1,sitting,66
+5,108,0.1,subject105_client2,2,standing,4
+5,108,0.1,subject105_client2,3,walking,157
+5,108,0.1,subject105_client2,4,running,27
+5,108,0.1,subject105_client2,5,cycling,188
+5,108,0.1,subject105_client2,6,Nordic walking,0
+5,108,0.1,subject105_client2,7,ascending stairs,5
+5,108,0.1,subject105_client2,8,descending stairs,0
+5,108,0.1,subject105_client2,9,vacuum cleaning,188
+5,108,0.1,subject105_client2,10,ironing,1
+5,108,0.1,subject105_client2,11,rope jumping,45
+5,108,0.1,subject105_client3,0,lying,0
+5,108,0.1,subject105_client3,1,sitting,0
+5,108,0.1,subject105_client3,2,standing,166
+5,108,0.1,subject105_client3,3,walking,0
+5,108,0.1,subject105_client3,4,running,1
+5,108,0.1,subject105_client3,5,cycling,2
+5,108,0.1,subject105_client3,6,Nordic walking,56
+5,108,0.1,subject105_client3,7,ascending stairs,102
+5,108,0.1,subject105_client3,8,descending stairs,92
+5,108,0.1,subject105_client3,9,vacuum cleaning,0
+5,108,0.1,subject105_client3,10,ironing,2
+5,108,0.1,subject105_client3,11,rope jumping,13
+5,108,0.1,subject106_client0,0,lying,168
+5,108,0.1,subject106_client0,1,sitting,0
+5,108,0.1,subject106_client0,2,standing,0
+5,108,0.1,subject106_client0,3,walking,0
+5,108,0.1,subject106_client0,4,running,0
+5,108,0.1,subject106_client0,5,cycling,0
+5,108,0.1,subject106_client0,6,Nordic walking,207
+5,108,0.1,subject106_client0,7,ascending stairs,7
+5,108,0.1,subject106_client0,8,descending stairs,0
+5,108,0.1,subject106_client0,9,vacuum cleaning,0
+5,108,0.1,subject106_client0,10,ironing,0
+5,108,0.1,subject106_client0,11,rope jumping,0
+5,108,0.1,subject106_client1,0,lying,0
+5,108,0.1,subject106_client1,1,sitting,0
+5,108,0.1,subject106_client1,2,standing,1
+5,108,0.1,subject106_client1,3,walking,0
+5,108,0.1,subject106_client1,4,running,5
+5,108,0.1,subject106_client1,5,cycling,159
+5,108,0.1,subject106_client1,6,Nordic walking,0
+5,108,0.1,subject106_client1,7,ascending stairs,11
+5,108,0.1,subject106_client1,8,descending stairs,0
+5,108,0.1,subject106_client1,9,vacuum cleaning,0
+5,108,0.1,subject106_client1,10,ironing,0
+5,108,0.1,subject106_client1,11,rope jumping,0
+5,108,0.1,subject106_client2,0,lying,12
+5,108,0.1,subject106_client2,1,sitting,6
+5,108,0.1,subject106_client2,2,standing,187
+5,108,0.1,subject106_client2,3,walking,0
+5,108,0.1,subject106_client2,4,running,171
+5,108,0.1,subject106_client2,5,cycling,0
+5,108,0.1,subject106_client2,6,Nordic walking,0
+5,108,0.1,subject106_client2,7,ascending stairs,0
+5,108,0.1,subject106_client2,8,descending stairs,85
+5,108,0.1,subject106_client2,9,vacuum cleaning,0
+5,108,0.1,subject106_client2,10,ironing,0
+5,108,0.1,subject106_client2,11,rope jumping,0
+5,108,0.1,subject106_client3,0,lying,0
+5,108,0.1,subject106_client3,1,sitting,172
+5,108,0.1,subject106_client3,2,standing,0
+5,108,0.1,subject106_client3,3,walking,199
+5,108,0.1,subject106_client3,4,running,0
+5,108,0.1,subject106_client3,5,cycling,0
+5,108,0.1,subject106_client3,6,Nordic walking,0
+5,108,0.1,subject106_client3,7,ascending stairs,81
+5,108,0.1,subject106_client3,8,descending stairs,0
+5,108,0.1,subject106_client3,9,vacuum cleaning,163
+5,108,0.1,subject106_client3,10,ironing,292
+5,108,0.1,subject106_client3,11,rope jumping,1
+5,108,0.1,subject107_client0,0,lying,0
+5,108,0.1,subject107_client0,1,sitting,0
+5,108,0.1,subject107_client0,2,standing,0
+5,108,0.1,subject107_client0,3,walking,0
+5,108,0.1,subject107_client0,4,running,0
+5,108,0.1,subject107_client0,5,cycling,0
+5,108,0.1,subject107_client0,6,Nordic walking,82
+5,108,0.1,subject107_client0,7,ascending stairs,133
+5,108,0.1,subject107_client0,8,descending stairs,1
+5,108,0.1,subject107_client0,9,vacuum cleaning,1
+5,108,0.1,subject107_client0,10,ironing,0
+5,108,0.1,subject107_client0,11,rope jumping,0
+5,108,0.1,subject107_client1,0,lying,14
+5,108,0.1,subject107_client1,1,sitting,0
+5,108,0.1,subject107_client1,2,standing,129
+5,108,0.1,subject107_client1,3,walking,0
+5,108,0.1,subject107_client1,4,running,2
+5,108,0.1,subject107_client1,5,cycling,173
+5,108,0.1,subject107_client1,6,Nordic walking,0
+5,108,0.1,subject107_client1,7,ascending stairs,0
+5,108,0.1,subject107_client1,8,descending stairs,0
+5,108,0.1,subject107_client1,9,vacuum cleaning,3
+5,108,0.1,subject107_client1,10,ironing,0
+5,108,0.1,subject107_client1,11,rope jumping,0
+5,108,0.1,subject107_client2,0,lying,0
+5,108,0.1,subject107_client2,1,sitting,81
+5,108,0.1,subject107_client2,2,standing,70
+5,108,0.1,subject107_client2,3,walking,0
+5,108,0.1,subject107_client2,4,running,24
+5,108,0.1,subject107_client2,5,cycling,2
+5,108,0.1,subject107_client2,6,Nordic walking,15
+5,108,0.1,subject107_client2,7,ascending stairs,0
+5,108,0.1,subject107_client2,8,descending stairs,5
+5,108,0.1,subject107_client2,9,vacuum cleaning,11
+5,108,0.1,subject107_client2,10,ironing,216
+5,108,0.1,subject107_client2,11,rope jumping,0
+5,108,0.1,subject107_client3,0,lying,184
+5,108,0.1,subject107_client3,1,sitting,12
+5,108,0.1,subject107_client3,2,standing,0
+5,108,0.1,subject107_client3,3,walking,262
+5,108,0.1,subject107_client3,4,running,0
+5,108,0.1,subject107_client3,5,cycling,0
+5,108,0.1,subject107_client3,6,Nordic walking,124
+5,108,0.1,subject107_client3,7,ascending stairs,1
+5,108,0.1,subject107_client3,8,descending stairs,80
+5,108,0.1,subject107_client3,9,vacuum cleaning,149
+5,108,0.1,subject107_client3,10,ironing,12
+5,108,0.1,subject107_client3,11,rope jumping,0

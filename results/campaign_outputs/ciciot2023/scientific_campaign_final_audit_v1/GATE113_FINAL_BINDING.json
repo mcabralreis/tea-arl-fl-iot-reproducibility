@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "gate_id": "GATE113",
+  "scope": "FINAL_180_RUN_POST_AUDIT_AND_RESULTS_EXTRACTION_ONLY",
+  "scientific_training_executed_by_gate113": false,
+  "optimizer_steps_executed_by_gate113": 0,
+  "pamap2_600_run_campaign_started": false,
+  "campaign_root": "C:\\teste\\tets\\outputs\\ciciot2023\\scientific_campaign_180runs_v1",
+  "complete_scientific_runs": 180,
+  "experimental_matrix_cells": 180,
+  "unique_run_result_bindings": 180,
+  "six_file_inventories_verified": 180,
+  "twenty_round_metric_chains_verified": 180,
+  "result_binding_replays_verified": 180,
+  "accepted_complete_run_optimizer_steps": 6480000,
+  "preserved_failed_partial_optimizer_steps": 1801,
+  "total_scientific_optimizer_steps_including_failed_partials": 6481801,
+  "technical_optimizer_steps": 825,
+  "runner_generation_counts": {
+    "RUNNER_V4_INITIAL_ACCEPTED": 4,
+    "RUNNER_V5_FEDPROX_REPAIR_ACCEPTED": 3,
+    "RUNNER_V6R1_CONTEXT_BRIDGE_ACCEPTED": 173
+  },
+  "run_state_status_counts": {
+    "IN_PROGRESS": 180
+  },
+  "note_run_state": "RUN_STATE.json remains an in-run checkpoint record. IN_PROGRESS with completed_round=20 is accepted only when RUN_COMPLETE.json and its canonical result binding pass.",
+  "frozen_runner_sha256": "38F2047D95802F625FE9C597EAC46407F26A3A2874902D6BC3515F798D850CA1",
+  "context_bridge_sha256": "A745D35AD96CA98BF251963ECFB18A53D3CAFE00C3441E49A46B63097B9DF7D6",
+  "gate110r_final_binding_sha256": "0C28C742B71130899F30BF10685A9DE58C4CCDC0D1A6AD2A166E4BAABB8771A8",
+  "gate111_final_binding_sha256": "E0541D9009D08BCBE591F5E99BC76733FDE3D68024A80C81DCCD77B7741942AF",
+  "gate112_final_binding_sha256": "EBA8926B48B6A744AEE0BC7C23197C8EE14899362165CA0D79AD49B2697F78D9",
+  "gate112_remaining_authorization_binding_sha256": "8BBE6B5E1F53E60AC0649676C732EE5CEF9D31DC691165D1CF04C3475350D1A1",
+  "final_completion_record_sha256": "A35D88F658A3D064383AC748A8390F0AB5267C1733685C80ED00A6BA5B60609A",
+  "gate_script_sha256": "C9897D429B79C64FC4302B395E328FE409E8B1A540FE6673FC7A563556292674",
+  "analysis_script_sha256": "2BC7A359295CB82F98127644ACED94EB79E072FAFCACE69A70F02788ED161851",
+  "output_file_sha256": {
+    "MASTER_RUN_RESULTS.csv": "DDA8CDF17513203FA748733DFA4071791341312868658A7242A48D510DF7E7CF",
+    "RUN_FILE_SHA256.csv": "9CA8205262CB53D719AE0510A6E56AD983ED0CA54C30C04C583E1A1DA2E768D2",
+    "DESCRIPTIVE_SUMMARY_BY_ALPHA_METHOD_SCENARIO.csv": "3133EEDB857DA223A7EF6742B3A4DE436AD851058507FF02E50B9133B98C47FA",
+    "DESCRIPTIVE_SUMMARY_BY_METHOD_SCENARIO.csv": "57BED52A7C6F4BDE3E2979142D2205C197447200E76C8DAA765D4026539A65D7",
+    "GATE113_AUDIT.json": "3188DDA05366A4EAD95C17698452808634CB281282F2087265BE002CE3D80FB6"
+  },
+  "gate113_final_binding_sha256": "7649BB9E5EA9452C53D26948D3A45D057C85A693A06896D6D556E6D6952BCE6A"
+}

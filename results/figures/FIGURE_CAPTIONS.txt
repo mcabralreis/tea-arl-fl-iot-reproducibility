@@ -1,0 +1,21 @@
+Applied Sciences Results Figures
+
+Figure 3. Overall PAMAP2 Macro-F1 versus total normalized energy consumed. Points represent method means across the complete set of heterogeneity and scenario conditions. Higher Macro-F1 and lower energy consumption indicate a preferable effectiveness-energy trade-off.
+
+Figure 4A. Mean PAMAP2 Macro-F1 trajectories under moderate sign-flip attack (mu = 0.2) with alpha = 1.0. The dashed vertical line indicates attack activation at round 20. Shaded regions represent 95% confidence intervals across five folds and two federated seeds.
+
+Figure 4B. Mean PAMAP2 Macro-F1 trajectories under strong sign-flip attack (mu = 0.4) with alpha = 1.0. The dashed vertical line indicates attack activation at round 20. Shaded regions represent 95% confidence intervals across five folds and two federated seeds.
+
+Figure 5A. Paired PAMAP2 component effects on Macro-F1. Positive values favor the complete method. Error bars represent deterministic 95% paired bootstrap confidence intervals.
+
+Figure 5B. Paired PAMAP2 component effects on total normalized energy consumption. Positive values indicate lower consumption by the complete method. Error bars represent deterministic 95% paired bootstrap confidence intervals.
+
+Figure 6A. CICIoT2023 mean test Macro-F1 under clean, moderate sign-flip, and strong sign-flip conditions for alpha = 0.1. Error bars represent standard deviations across five experimental seeds.
+
+Figure 6B. CICIoT2023 mean test Macro-F1 under clean, moderate sign-flip, and strong sign-flip conditions for alpha = 1.0. Error bars represent standard deviations across five experimental seeds.
+
+Figure 7A. CICIoT2023 Macro-F1 retention relative to matched clean runs for alpha = 0.1. A value of one denotes complete retention of clean-condition performance. Error bars represent standard deviations across five experimental seeds.
+
+Figure 7B. CICIoT2023 Macro-F1 retention relative to matched clean runs for alpha = 1.0. A value of one denotes complete retention of clean-condition performance. Error bars represent standard deviations across five experimental seeds.
+
+Figure S1. PAMAP2 mean per-activity F1 scores for the six federated methods across all heterogeneity and scenario conditions.

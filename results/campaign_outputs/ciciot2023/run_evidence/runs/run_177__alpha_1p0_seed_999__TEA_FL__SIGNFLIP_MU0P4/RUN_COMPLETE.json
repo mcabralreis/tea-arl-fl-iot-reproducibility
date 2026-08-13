@@ -1,0 +1,31 @@
+{
+  "status": "SCIENTIFIC_RUN_COMPLETE",
+  "run_contract": {
+    "runner_id": "CICIoT2023_FROZEN_180_RUN_SCIENTIFIC_CAMPAIGN_RUNNER_V1",
+    "runner_sha256": "38F2047D95802F625FE9C597EAC46407F26A3A2874902D6BC3515F798D850CA1",
+    "build_binding_sha256": "D9BE0D1FF33073102A32B2092E8A5ACD0FDD3A36FEBB9142D88DEAF81E64D611",
+    "run_index": 177,
+    "config_id": "alpha_1p0_seed_999",
+    "experimental_seed": 999,
+    "method_id": "TEA_FL",
+    "scenario_id": "SIGNFLIP_MU0P4",
+    "scientific_run": true
+  },
+  "best_validation": {
+    "loss": 0.10470959362971272,
+    "accuracy": 0.9605703805824266,
+    "macro_f1": 0.5459571992898968,
+    "balanced_accuracy": 0.5493193600061634,
+    "round": 4
+  },
+  "test_metrics": {
+    "loss": 0.10464836709242846,
+    "accuracy": 0.960607118204265,
+    "macro_f1": 0.546400703172547,
+    "balanced_accuracy": 0.5496677108792555
+  },
+  "scientific_optimizer_steps_expected": 36000,
+  "scientific_training_started": true,
+  "scientific_metrics_computed": true,
+  "run_result_binding_sha256": "0DD1999EC4BD7A9C65E36AC0CFF62F12B68A570AB2E55154E927FF6BCAC2BC69"
+}

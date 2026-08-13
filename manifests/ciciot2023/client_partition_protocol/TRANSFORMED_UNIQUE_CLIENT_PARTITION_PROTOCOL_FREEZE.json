@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_TRANSFORMED_UNIQUE_K30_PARTITION_PROTOCOL_FREEZE_V2",
+  "protocol_id": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_CAPACITY_BALANCED_DIRICHLET_ALPHA_0P1_1P0_5SEEDS_V2",
+  "count_plan_set_id": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_EXACT_COUNT_PLAN_SET_V2",
+  "capacity_vector_sha256": "4876137D26ADE608583DE67560E3788E8ED8C3AA8327CB825C8AFCF16F0B11F0",
+  "count_plan_set_sha256": "CAD5F8DB2C71CC17614D039E39F792C31F6B1F2C5F8CB3E23EE28FF2BD0BD705",
+  "frozen_client_partition_protocol_artifact_manifest_sha256": "7FF24F0A50C283EDC41053F81E7F8DB38A2864411C7E85B97BD8E9BEEEA7BB32",
+  "materialization_boundary": {
+    "physical_assignment_algorithm_frozen": false,
+    "physical_client_assignments_materialized": false,
+    "scientific_training_started": false
+  }
+}

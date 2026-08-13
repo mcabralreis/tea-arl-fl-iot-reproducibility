@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_TRANSFORMED_UNIQUE_SPLIT_PROTOCOL_FREEZE_V1",
+  "split_protocol_id": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_F32_SPLIT_80_10_10_V1",
+  "effective_dataset_fingerprint_sha256": "5708EFE6C08C91CF3637FA8F89F53C4459933F94C7CC0BF819A590CBE9EF8E5D",
+  "frozen_split_protocol_artifact_manifest_sha256": "C3E938C506BB3342566694A3227FF5B9734E721C5BAF7AB8E9A02E559AD21AD5",
+  "materialization_boundary": {
+    "split_materialized": false,
+    "client_assignments_materialized": false,
+    "scientific_training_started": false
+  }
+}

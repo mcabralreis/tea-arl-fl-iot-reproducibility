@@ -1,0 +1,7 @@
+candidate_index,representation,input_channels,representation_definition,normalization_layer,loss,model_family,model_channels,dropout
+1,core27_axes,27,"raw-axis 16g accelerometer + gyroscope + magnetometer from hand, chest and ankle",batchnorm,cross_entropy,LightweightCNN1D,32-64-96,0.2
+2,core27_axes,27,"raw-axis 16g accelerometer + gyroscope + magnetometer from hand, chest and ankle",groupnorm,cross_entropy,LightweightCNN1D,32-64-96,0.2
+3,magnitude6_acc16_gyro,6,per-location vector magnitudes of 16g acceleration and gyroscope: 3 body locations x 2 modalities,batchnorm,cross_entropy,LightweightCNN1D,32-64-96,0.2
+4,magnitude6_acc16_gyro,6,per-location vector magnitudes of 16g acceleration and gyroscope: 3 body locations x 2 modalities,groupnorm,cross_entropy,LightweightCNN1D,32-64-96,0.2
+5,magnitude9_all,9,"per-location vector magnitudes of 16g acceleration, gyroscope and magnetometer: 3 locations x 3 modalities",batchnorm,cross_entropy,LightweightCNN1D,32-64-96,0.2
+6,magnitude9_all,9,"per-location vector magnitudes of 16g acceleration, gyroscope and magnetometer: 3 locations x 3 modalities",groupnorm,cross_entropy,LightweightCNN1D,32-64-96,0.2

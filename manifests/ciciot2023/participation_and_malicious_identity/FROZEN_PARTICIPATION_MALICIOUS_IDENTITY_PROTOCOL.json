@@ -1,0 +1,80 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_TRANSFORMED_UNIQUE_PARTICIPATION_MALICIOUS_IDENTITY_FREEZE_V2",
+  "participation_protocol_id": "CICIoT2023_K30_R20_M9_SEED_PAIRED_SIX_EPOCH_EXACT_EXPOSURE_V2",
+  "malicious_identity_id": "CICIoT2023_K30_SEED_PAIRED_FIXED_HASH_RANK_NESTED_PREFIX_V2",
+  "immutable_binding": {
+    "assignment_set_content_sha256": "6161DDCA8874F3A079B3D61C19C62A0C1A60389ECFF2B2028E043FFC38B36E98",
+    "assignment_artifact_manifest_sha256": "61A3B010B58CB6BEF199C6EA521D6014D68310DB95B867C66B2183226CA2EC5D",
+    "physical_assignment_audit_artifact_manifest_sha256": "E04148B061539804DF6928544707E47DFB84A3FCAE5544D55428719569DA67D5"
+  },
+  "frozen_pairing": {
+    "alpha_pairing_policy_id": "SAME_EXPERIMENTAL_SEED_SHARED_ACROSS_ALPHA_0P1_AND_1P0_V1",
+    "cross_method_scenario_pairing_id": "SAME_SEED_SCHEDULE_AND_RANKING_SHARED_ACROSS_METHODS_AND_SCENARIOS_V1",
+    "same_seed_schedule_shared_across_alpha_0p1_and_1p0": true,
+    "same_seed_malicious_ranking_shared_across_alpha_0p1_and_1p0": true,
+    "same_seed_schedule_to_be_shared_across_all_methods": true,
+    "same_seed_schedule_to_be_shared_across_clean_and_attack_scenarios": true,
+    "same_seed_malicious_ranking_to_be_shared_across_all_methods": true,
+    "same_seed_malicious_ranking_to_be_shared_across_attack_severities": true
+  },
+  "frozen_participation_geometry": {
+    "clients": 30,
+    "rounds": 20,
+    "selected_per_round": 9,
+    "total_selections_per_schedule": 180,
+    "exact_participations_per_client": 6,
+    "experimental_seeds": [
+      42,
+      123,
+      456,
+      789,
+      999
+    ],
+    "schedule_family_count": 5,
+    "participation_algorithm_id": "SIX_EPOCH_HASH_PERMUTATION_WITH_DETERMINISTIC_BOUNDARY_REPAIR_V2"
+  },
+  "frozen_malicious_identity_geometry": {
+    "ranking_family_count": 5,
+    "ranking_fixed_across_rounds": true,
+    "malicious_ranking_algorithm_id": "HASH_RANK_FIXED_CLIENTS_NESTED_PREFIX_SEED_PAIRED_V2",
+    "nested_prefixes": {
+      "0.1": 3,
+      "0.2": 6,
+      "0.4": 12
+    }
+  },
+  "frozen_scientific_fingerprints": {
+    "config_mapping_hash_id": "SORTED_CONFIG_ID_PLUS_EXPERIMENTAL_SEED_LF_V1",
+    "config_mapping_sha256": "444E14F821630F3814E939A3B9A0F493B86D7E25BA245B8BDCDD7EE32A77FF9E",
+    "schedule_set_hash_id": "SORTED_EXPERIMENTAL_SEED_PLUS_SCHEDULE_SHA256_LF_V1",
+    "schedule_set_sha256": "072DE9493641E92D8A450A61E02E5C211AC818F80309041CD7F4CA5C6D50CE66",
+    "ranking_set_hash_id": "SORTED_EXPERIMENTAL_SEED_PLUS_RANKING_SHA256_LF_V1",
+    "ranking_set_sha256": "65ADA6C60BCF1D5E7FCCF4A3874BD296AEAF1CF69B2D3C50087D5BC449CE491D",
+    "combined_preattack_identity_hash_id": "CONFIG_MAPPING_PLUS_SCHEDULE_SET_PLUS_RANKING_SET_SHA256_LF_V1",
+    "combined_preattack_identity_sha256": "81057E395366BA10088F4455897446945556325756CA18BBF39B5F5A6A1198E2"
+  },
+  "reference_exposure_diagnostic": {
+    "status": "DIAGNOSTIC_ONLY_ATTACK_NOT_REBOUND",
+    "reference_rounds": "5_TO_20",
+    "mu_0p4_presence_every_reference_round_all_seeds": true,
+    "mu_0p2_zero_malicious_rounds_allowed_under_partial_participation": true,
+    "mu_0p1_zero_malicious_rounds_allowed_under_partial_participation": true
+  },
+  "prohibited_identity_inputs": [
+    "ModelResults",
+    "AttackResults",
+    "ValidationMetrics",
+    "TestMetrics",
+    "FeatureValues",
+    "RawMultiplicity",
+    "Provenance"
+  ],
+  "scientific_boundary": {
+    "participation_protocol_frozen": true,
+    "malicious_client_identity_frozen": true,
+    "attack_protocol_rebound": false,
+    "scientific_optimizer_steps_executed": 0,
+    "scientific_training_started": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN_PROVENANCE",
+  "protocol_id": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_CAPACITY_BALANCED_DIRICHLET_ALPHA_0P1_1P0_5SEEDS_V2",
+  "count_plan_set_id": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_EXACT_COUNT_PLAN_SET_V2",
+  "generator_environment_observed_at_gate74": {
+    "python": "3.14.0",
+    "numpy": "2.5.1",
+    "numpy_bit_generator": "PCG64"
+  },
+  "rng_binding_id": "SHA256_BOUND_PCG64_DIRICHLET_V1",
+  "continuous_balancing_id": "CLASSWISE_DIRICHLET_PLUS_IPF_RAS_V1",
+  "ipf_absolute_tolerance": 1e-06,
+  "ipf_max_iterations": 100000,
+  "integerisation_id": "DETERMINISTIC_MIN_COST_BIPARTITE_RESIDUAL_ROUNDING_V1",
+  "fraction_score_scale": 1000000000000,
+  "count_plans_are_primary_immutable_outputs": true,
+  "regeneration_required_for_scientific_use": false
+}

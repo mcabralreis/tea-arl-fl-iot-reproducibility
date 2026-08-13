@@ -1,0 +1,32 @@
+{
+  "title": "TEA-FL and ARL-FL IoT reproducibility package",
+  "upload_type": "software",
+  "access_right": "open",
+  "description": "Frozen source code, experimental protocols, manifests, run-level evidence, revised statistical analyses, and publication figures for the TEA-FL and ARL-FL evaluation on PAMAP2 and CICIoT2023.",
+  "creators": [
+    {
+      "name": "Reis, Manuel J. C. S.",
+      "orcid": "0000-0002-8872-5721",
+      "affiliation": "University of Trás-os-Montes e Alto Douro"
+    },
+    {
+      "name": "Serôdio, Carlos",
+      "affiliation": "University of Trás-os-Montes e Alto Douro"
+    },
+    {
+      "name": "Branco, Frederico",
+      "affiliation": "University of Trás-os-Montes e Alto Douro"
+    }
+  ],
+  "keywords": [
+    "federated learning",
+    "Internet of Things",
+    "trust-aware aggregation",
+    "energy-aware client selection",
+    "Byzantine robustness",
+    "PAMAP2",
+    "CICIoT2023"
+  ],
+  "language": "eng"
+}
+

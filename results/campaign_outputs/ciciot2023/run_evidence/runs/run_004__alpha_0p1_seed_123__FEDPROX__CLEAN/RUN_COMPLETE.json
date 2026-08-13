@@ -1,0 +1,31 @@
+{
+  "status": "SCIENTIFIC_RUN_COMPLETE",
+  "run_contract": {
+    "runner_id": "CICIoT2023_FROZEN_180_RUN_SCIENTIFIC_CAMPAIGN_RUNNER_V1",
+    "runner_sha256": "38F2047D95802F625FE9C597EAC46407F26A3A2874902D6BC3515F798D850CA1",
+    "build_binding_sha256": "4093D90C4BE87B4008237EB7CA16B0EBC9F0DDD08EF42EC443C8A5E494187274",
+    "run_index": 4,
+    "config_id": "alpha_0p1_seed_123",
+    "experimental_seed": 123,
+    "method_id": "FEDPROX",
+    "scenario_id": "CLEAN",
+    "scientific_run": true
+  },
+  "best_validation": {
+    "loss": 0.18068266721447843,
+    "accuracy": 0.9266001651259423,
+    "macro_f1": 0.5170440795519248,
+    "balanced_accuracy": 0.5147841099697628,
+    "round": 17
+  },
+  "test_metrics": {
+    "loss": 0.18076668735056461,
+    "accuracy": 0.9262936960174485,
+    "macro_f1": 0.5164078342745072,
+    "balanced_accuracy": 0.5144058260156316
+  },
+  "scientific_optimizer_steps_expected": 36000,
+  "scientific_training_started": true,
+  "scientific_metrics_computed": true,
+  "run_result_binding_sha256": "140C9B310FC49BBFA81D28C6ED580C4B9919EEA195BA96276937203ABEB3C77B"
+}

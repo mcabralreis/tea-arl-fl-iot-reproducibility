@@ -1,0 +1,52 @@
+PAMAP2 FEDERATED CLIENT PARTITION AUDIT
+==============================================================================
+Processed dataset: C:\teste\tets\data\processed\pamap2\protocol_v1_w256_s128
+Outer protocol: C:\teste\tets\outputs\protocols\pamap2_evaluation_v2
+
+STATUS
+------------------------------------------------------------------------------
+PASS
+Partitions frozen before any FL training.
+
+CLIENT DESIGN
+------------------------------------------------------------------------------
+4 pseudo-clients per physical training subject.
+7 training subjects per outer fold.
+28 clients per outer fold.
+Every client contains data from exactly one physical subject.
+
+HETEROGENEITY REGIMES
+------------------------------------------------------------------------------
+alpha=1.0: moderate label skew
+alpha=0.1: strong label skew
+
+ALPHA-LEVEL AUDIT
+------------------------------------------------------------------------------
+alpha=1.0: mean classes/client=10.81; mean normalized entropy=0.826; mean dominant-class fraction=0.244; mean JSD=0.139
+alpha=0.1: mean classes/client=5.55; mean normalized entropy=0.478; mean dominant-class fraction=0.481; mean JSD=0.463
+
+SIZE AND OVERLAP CONTROLS
+------------------------------------------------------------------------------
+Minimum allowed client windows: 128
+Observed minimum client windows: 131
+Guard windows dropped across both alpha masters: 359
+Dropped fraction of subject-alpha rows: 1.1989%
+No overlapping windows from one subject are assigned to different clients.
+
+LEAKAGE CONTROLS
+------------------------------------------------------------------------------
+Outer test subject excluded from all 28 training clients in its fold.
+Master client assignments are subject-local and reused across outer folds.
+No client mixes physical subjects.
+
+FILES
+------------------------------------------------------------------------------
+FL_PARTITION_PROTOCOL.json
+PARTITION_AUDIT_REPORT.txt
+master_assignments_alpha1p0.csv
+master_assignments_alpha0p1.csv
+dropped_guard_windows.csv
+outer_fold_client_manifest.csv
+outer_fold_client_class_counts.csv
+outer_fold_partition_summary.csv
+alpha_partition_summary.csv

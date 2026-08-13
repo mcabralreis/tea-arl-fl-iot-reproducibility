@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_TRANSFORMED_UNIQUE_ATTACK_TRAINING_EXECUTION_PROTOCOL_FREEZE_V1",
+  "common_protocol_id": "CICIoT2023_TASK7_COMMON_ATTACK_TRAINING_EXECUTION_PROTOCOL_V1",
+  "common_protocol_binding_sha256": "0DA3146E8195CA630EE9F4DEDDC3D665F2BE9C08E3906677E5F79E6D1C602570",
+  "frozen_attack_training_execution_artifact_manifest_sha256": "DB39208DA367B5DC53DD33832D14746517EE82058C8DB07117806922BB8F86CA",
+  "scientific_boundary": {
+    "common_attack_protocol_frozen": true,
+    "common_core_training_protocol_frozen": true,
+    "deterministic_seed_protocol_frozen": true,
+    "exact_execution_detail_protocol_frozen": true,
+    "main_campaign_matrix_frozen": true,
+    "method_specific_algorithm_parameters_rebound": false,
+    "end_to_end_method_validation_started": false,
+    "scientific_optimizer_steps_executed": 0,
+    "scientific_training_started": false
+  }
+}

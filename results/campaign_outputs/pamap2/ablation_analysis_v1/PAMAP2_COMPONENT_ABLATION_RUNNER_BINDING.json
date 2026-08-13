@@ -1,0 +1,77 @@
+{
+  "runner_id": "PAMAP2_FROZEN_COMPONENT_ABLATION_RUNNER_V1",
+  "status": "FROZEN_BEFORE_COMPONENT_ABLATION_TRAINING",
+  "scope": "PAMAP2_COMPONENT_ABLATION_240_RUNS_ONLY",
+  "runner_sha256": "33F1D5BCA13056ED5394BF83792AC7057F4771E21EBF7B651691292806B02283",
+  "gate151_final_binding_sha256": "3ECB12E02890E852C0C02BA50F3F6F29976853B1E5B101B5F09095EE377A7DBB",
+  "original_scientific_runner_sha256": "7B43B8023DFC7D80C1BE409FA0EEF21E7BBA3024996FDB7A342638E5EE9B0108",
+  "original_scientific_runner_build_binding_sha256": "F26B90B821B08C5CF031A6A205FB3DDAD313BF769DF390E2995BE8AD6B1BDBFA",
+  "original_runner_binding_file_sha256": "AA2E7771736E10EFDD97A681B9886EE8A38E6090D9632DF9CDC25770CB3837ED",
+  "original_campaign_matrix_sha256": "180D40FEB68F8B9940998751CFCADF4F9AF96040FFC7AFD7AF92732D84339347",
+  "original_condition_manifest_sha256": "70A32930321997F50D1C2BF7E70719C2E6A8E3F5D8A103C929A8483815F5D25A",
+  "frozen_source_manifest_sha256": "F23941B3C3F648E3019B8B26DFA1715C6ADD3A192F80677A64AFD92022D7E182",
+  "frozen_input_manifest_sha256": "1E0F1B99445500057E2462665E471B230B3E6023CFAA5E9981FD091B5AAE29B5",
+  "ablation_matrix_sha256": "B380432D5ED1D3C265D995C8BB29429C2D215C81B4C11FA094A0C888EDA09F7F",
+  "total_ablation_runs": 240,
+  "selected_conditions": [
+    {
+      "alpha": 0.1,
+      "scenario": "clean",
+      "rationale": "No attack under strong non-IID heterogeneity"
+    },
+    {
+      "alpha": 1.0,
+      "scenario": "labelflip_mu0p4",
+      "rationale": "Strong label-flip condition where proposed methods remain competitive"
+    },
+    {
+      "alpha": 0.1,
+      "scenario": "signflip_mu0p2",
+      "rationale": "Moderate sign-flip under strong non-IID heterogeneity"
+    },
+    {
+      "alpha": 1.0,
+      "scenario": "signflip_mu0p2",
+      "rationale": "Moderate sign-flip under milder heterogeneity"
+    },
+    {
+      "alpha": 0.1,
+      "scenario": "signflip_mu0p4",
+      "rationale": "Strong sign-flip under strong non-IID heterogeneity"
+    },
+    {
+      "alpha": 1.0,
+      "scenario": "signflip_mu0p4",
+      "rationale": "Strong sign-flip under milder heterogeneity"
+    }
+  ],
+  "variants": [
+    {
+      "variant": "tea_trust_only",
+      "method_family": "tea_fl",
+      "label": "TEA-FL trust-only",
+      "rationale": "Full TEA-FL minus this variant estimates the energy-awareness contribution"
+    },
+    {
+      "variant": "tea_energy_only",
+      "method_family": "tea_fl",
+      "label": "TEA-FL energy-only",
+      "rationale": "Full TEA-FL minus this variant estimates the trust contribution"
+    },
+    {
+      "variant": "arl_no_energy",
+      "method_family": "arl_fl",
+      "label": "ARL-FL without energy-aware selection",
+      "rationale": "Full ARL-FL minus this variant estimates the energy-aware selection contribution"
+    },
+    {
+      "variant": "arl_no_pressure",
+      "method_family": "arl_fl",
+      "label": "ARL-FL without adaptive global pressure",
+      "rationale": "Full ARL-FL minus this variant estimates the adaptive-pressure contribution"
+    }
+  ],
+  "scientific_training_executed_during_build": false,
+  "scientific_optimizer_steps_executed_during_build": 0,
+  "runner_build_binding_sha256": "86B340E99713DD44B39DD2120B27721FF3629A999C67843E105EF3390EB77244"
+}

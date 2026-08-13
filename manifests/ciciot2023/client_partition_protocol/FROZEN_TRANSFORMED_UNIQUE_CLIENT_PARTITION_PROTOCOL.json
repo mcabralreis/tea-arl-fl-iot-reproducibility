@@ -1,0 +1,107 @@
+{
+  "status": "FROZEN",
+  "freeze_id": "CICIoT2023_TRANSFORMED_UNIQUE_K30_PARTITION_PROTOCOL_FREEZE_V2",
+  "protocol_id": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_CAPACITY_BALANCED_DIRICHLET_ALPHA_0P1_1P0_5SEEDS_V2",
+  "count_plan_set_id": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_EXACT_COUNT_PLAN_SET_V2",
+  "immutable_binding": {
+    "effective_dataset_fingerprint_sha256": "5708EFE6C08C91CF3637FA8F89F53C4459933F94C7CC0BF819A590CBE9EF8E5D",
+    "split_protocol_artifact_manifest_sha256": "C3E938C506BB3342566694A3227FF5B9734E721C5BAF7AB8E9A02E559AD21AD5",
+    "split_assignment_artifact_manifest_sha256": "DBF8B64C451E5DAB7AFA87FE88B5E9FFE6E7436FFAEAAFB66692076A5C16C276",
+    "train_weight_policy_artifact_manifest_sha256": "F77939B96EF739F6A298B821CB01BE4142248FFB517A600D64D482D525DD2E47",
+    "canonical_weight_vector_sha256": "C869BE9CA3CA092EBD86C1C86C99B24CA7668D99AEB4A9AEF3E8F8D46A818A69"
+  },
+  "frozen_design": {
+    "legacy_design_principle_id": "CAPACITY_BALANCED_DIRICHLET_IPF_V1",
+    "client_count": 30,
+    "alphas": [
+      0.1,
+      1.0
+    ],
+    "experimental_seeds": [
+      42,
+      123,
+      456,
+      789,
+      999
+    ],
+    "configuration_count": 10,
+    "capacity_rule_id": "FIRST_REMAINDER_CLIENT_IDS_GET_BASE_PLUS_ONE_V1",
+    "exact_capacities": [
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551661,
+      551660,
+      551660,
+      551660,
+      551660,
+      551660,
+      551660
+    ],
+    "capacity_vector_sha256": "4876137D26ADE608583DE67560E3788E8ED8C3AA8327CB825C8AFCF16F0B11F0",
+    "rng_binding_id": "SHA256_BOUND_PCG64_DIRICHLET_V1",
+    "continuous_balancing_id": "CLASSWISE_DIRICHLET_PLUS_IPF_RAS_V1",
+    "ipf_absolute_tolerance": 1e-06,
+    "ipf_max_iterations": 100000,
+    "integerisation_id": "DETERMINISTIC_MIN_COST_BIPARTITE_RESIDUAL_ROUNDING_V1",
+    "fraction_score_scale": 1000000000000,
+    "matrix_content_hash_id": "INT64_C_ORDER_7X30_SHA256_V1",
+    "count_plan_set_hash_id": "SORTED_CONFIG_ID_PLUS_MATRIX_CONTENT_SHA256_LF_V1",
+    "count_plan_set_sha256": "CAD5F8DB2C71CC17614D039E39F792C31F6B1F2C5F8CB3E23EE28FF2BD0BD705"
+  },
+  "frozen_count_plan_semantics": {
+    "matrix_shape": "7_TASK7_LABELS_X_30_CLIENTS",
+    "row_semantics": "EXACT_GLOBAL_TRANSFORMED_UNIQUE_TRAIN_CLASS_TOTALS",
+    "column_semantics": "EXACT_BALANCED_CLIENT_CAPACITIES",
+    "matrix_values": "NONNEGATIVE_INTEGER_OBSERVATION_COUNTS",
+    "count_plans_primary_for_future_assignment": true,
+    "regeneration_algorithm_role": "AUDIT_PROVENANCE"
+  },
+  "frozen_heterogeneity_interpretation": {
+    "alpha_0p1_role": "HIGHER_NON_IID_HETEROGENEITY",
+    "alpha_1p0_role": "MODERATE_NON_IID_HETEROGENEITY",
+    "aggregate_separation_pass": true
+  },
+  "prohibited_inputs": [
+    "VALIDATION_OBSERVATIONS",
+    "TEST_OBSERVATIONS",
+    "RawMultiplicity",
+    "TransformedGroupRawExactMultiplicity",
+    "SumSourceRawMultiplicity",
+    "Provenance",
+    "ModelResults",
+    "AttackResults"
+  ],
+  "supersession": {
+    "prior_physical_client_assignments": "SUPERSEDED_NOT_REUSABLE",
+    "prior_count_plans": "SUPERSEDED_NOT_REUSABLE"
+  },
+  "scientific_boundary": {
+    "partition_protocol_frozen": true,
+    "exact_count_plans_frozen": true,
+    "physical_assignment_algorithm_frozen": false,
+    "physical_client_assignments_materialized": false,
+    "scientific_optimizer_steps_executed": 0,
+    "scientific_training_started": false
+  }
+}

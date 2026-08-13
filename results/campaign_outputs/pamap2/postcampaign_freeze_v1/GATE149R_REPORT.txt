@@ -1,0 +1,43 @@
+PAMAP2 GATE-149R REPAIRED POST-CAMPAIGN FREEZE AND DESCRIPTIVE AGGREGATION
+==============================================================================
+
+STATUS
+------------------------------------------------------------------------------
+PASS
+
+ACCEPTED SCIENTIFIC CAMPAIGN
+------------------------------------------------------------------------------
+Scientific runs verified: 600/600
+Run manifest entries verified: 7000
+Evaluation rows verified: 12600
+ARL numeric global_pressure rows verified: 2100
+Non-ARL blank global_pressure rows verified: 10500
+Per-class F1 rows verified: 7200
+Accepted scientific optimizer steps: 3401459
+Protocol-defined early-stop runs: 28
+Missing run IDs: NONE
+Duplicate run IDs: NONE
+
+BINDING CHAIN
+------------------------------------------------------------------------------
+Gate-148 final binding: ED865AD6C73D223221D040106C4307747C9C47411CAB05FEA36AEF70CA9C5050
+Master authorization binding: 551359371C40693C2493834C8E72CF959BFB185AF8937187D248B08BA08873FE
+Final accepted group binding: AF67EC72689B28D286BF3481C14340B2BF39603BF2140742BED73E466CF1E5A7
+Autonomous campaign final binding: 0AE27C139DCBB1B5F5FEEADBEADBBA89C3D3F67C875987B04CA4F8BC2F44DCD9
+Autonomous conditional group audits: 72/72 PASS
+All 600 run-result bindings replayed: PASS
+All 600 run-file manifests replayed: PASS
+
+OUTPUT TABLES
+------------------------------------------------------------------------------
+Run-level result rows: 600
+Per-class F1 rows: 7200
+Evaluation trajectory rows: 12600
+Descriptive summary rows: 60
+
+SCIENTIFIC BOUNDARY
+------------------------------------------------------------------------------
+Scientific training executed by Gate-149R: NO
+Scientific optimizer steps executed by Gate-149R: 0
+New scientific runs started by Gate-149R: 0
+Inferential statistical testing executed by Gate-149R: NO

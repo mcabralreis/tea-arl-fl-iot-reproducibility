@@ -1,0 +1,115 @@
+CICIoT2023 ATTACK / TRAINING / EXECUTION COMMON PROTOCOL FREEZE
+==============================================================================
+
+STATUS
+------------------------------------------------------------------------------
+FROZEN
+
+PROTOCOL IDENTIFIERS
+------------------------------------------------------------------------------
+Freeze ID: CICIoT2023_TRANSFORMED_UNIQUE_ATTACK_TRAINING_EXECUTION_PROTOCOL_FREEZE_V1
+Common protocol ID: CICIoT2023_TASK7_COMMON_ATTACK_TRAINING_EXECUTION_PROTOCOL_V1
+Attack protocol ID: CICIoT2023_SIGNFLIP_NEG5_R5_TO_R20_MAIN_MU0P2_0P4_V2
+Core training protocol ID: CICIoT2023_MLP256_128_CPU_ADAM1E3_B256_S200_DISJOINT6BLOCKS_V2
+Seed protocol ID: CICIoT2023_PAIRED_GLOBAL_INIT_LOCAL_ORDER_LOCAL_RNG_SEEDS_V1
+Main campaign set ID: CICIoT2023_MAIN_CAMPAIGN_10CONFIG_6METHOD_3SCENARIO_180RUN_V1
+
+IMMUTABLE BRANCH BINDING
+------------------------------------------------------------------------------
+Effective dataset fingerprint SHA256: 5708EFE6C08C91CF3637FA8F89F53C4459933F94C7CC0BF819A590CBE9EF8E5D
+Feature-layer fingerprint SHA256: 3BCCF823E11D0088970EC9BD26D411C73213D4E22C4469EBD0BF1D92F255944A
+Split assignment artifact-manifest SHA256: DBF8B64C451E5DAB7AFA87FE88B5E9FFE6E7436FFAEAAFB66692076A5C16C276
+TRAIN weight-policy artifact-manifest SHA256: F77939B96EF739F6A298B821CB01BE4142248FFB517A600D64D482D525DD2E47
+Canonical weight-vector SHA256: C869BE9CA3CA092EBD86C1C86C99B24CA7668D99AEB4A9AEF3E8F8D46A818A69
+Assignment-set content SHA256: 6161DDCA8874F3A079B3D61C19C62A0C1A60389ECFF2B2028E043FFC38B36E98
+Physical-assignment audit artifact-manifest SHA256: E04148B061539804DF6928544707E47DFB84A3FCAE5544D55428719569DA67D5
+Combined pre-attack identity SHA256: 81057E395366BA10088F4455897446945556325756CA18BBF39B5F5A6A1198E2
+Participation/malicious-identity artifact-manifest SHA256: 94C65F3EE7EDDCF19CC35FE1324AC595C706D472F3C4C898EC562747B8EA6031
+
+FROZEN ATTACK PROTOCOL
+------------------------------------------------------------------------------
+Main scenarios: CLEAN, SIGNFLIP_MU0P2, SIGNFLIP_MU0P4
+Diagnostic-only reference: SIGNFLIP_MU0P1
+Honest delta: Delta_i = w_i_local - w_t
+Malicious delta: Delta_i_tilde = -5 * Delta_i
+Application point: after honest local training, before aggregation
+Warm-up rounds: 1-4
+Attack-active rounds: 5-20
+Server blind to malicious identity: YES
+Scenario-plan SHA256: B660EC4C1D007C580E1451575E9192AFF68E0AC261E0FA7216080947D2DA8208
+
+FROZEN CORE TRAINING PROTOCOL
+------------------------------------------------------------------------------
+Model: 39 -> 256 -> 128 -> 7
+Activation: ReLU
+Dropout: 0.2
+Trainable parameters: 44039
+Optimizer: Adam, lr=0.001, betas=(0.9,0.999), eps=1e-8
+Fresh optimizer per selected client participation: YES
+Batch size: 256
+Local optimizer steps per participation: 200
+Samples per participation: 51200
+Participations per client: 6
+Samples per client per run: 307200
+Primary loss: frozen global TASK7 weighted cross-entropy
+Secondary sensitivity: NATURAL_UNWEIGHTED_CE
+CPU deterministic primary: YES
+
+FROZEN DETERMINISTIC SEED HIERARCHY
+------------------------------------------------------------------------------
+Global-init seed-set SHA256: 1A5D810307F46F54CC329E1F255B2E72AD36647E72189BFAA01C8372C3DFC30C
+Local-order seed-set SHA256: 0EFBAA3CA5AE95B102950DB32F84C7719BDCA65FDE8471FC4524E1C178CEC9C3
+Local-train RNG seed-set SHA256: 0792A7ED915B655D76776136DEB602EF789AE7C2510354112DAC522AD960CC59
+Global init shared across alpha pair, methods, and scenarios: YES
+Local-train RNG shared across alpha pair, methods, and scenarios: YES
+Local-order seed configuration/client-specific: YES
+
+FROZEN EXACT EXECUTION DETAILS
+------------------------------------------------------------------------------
+Local sample-order algorithm ID: SPLITMIX64_DUAL_KEY_CONFIG_CLIENT_LOCAL_SAMPLE_ORDER_V1
+Local-order algorithm SHA256: 0C757D687DE35822211B8E2AC21FE1BC01FC8CFC70B5A3C3D6953931DCB4B21F
+Local block allocation ID: SIX_DISJOINT_CONTIGUOUS_51200_BLOCKS_BY_PARTICIPATION_ORDINAL_V1
+Block-boundary set SHA256: 7846A18811A29B5EE4876B85CF31E0DA49061AE6CC84127E96204C1B028B0607
+Round client execution ID: FROZEN_SCHEDULE_SLOT_ASCENDING_CLIENT_EXECUTION_V1
+Round-execution set SHA256: 028C4D8072D0B3B9BDF2A45FD81AE3A2F8C47BB9D0331EE70DB8AEE1E74AFFAA
+Local RNG application ID: EVENT_SEED_MOD_2POW63_MINUS1_BEFORE_STOCHASTIC_LOCAL_TRAINING_V1
+DataLoader shuffle: NO
+DataLoader workers: 0
+Checkpoint comparator ID: LEXICOGRAPHIC_MAX_MACROF1_BALACC_NEGROUND_FLOAT64_NO_TOLERANCE_V1
+Checkpoint comparator SHA256: 17C600042D27918CF2D754FC3A6E1C72224A48882B06E44254D41A8E517ED60B
+Checkpoint rule: max lexicographic (MacroF1, BalancedAccuracy, -Round)
+NaN / +/-Inf metrics prohibited: YES
+
+FROZEN MAIN CAMPAIGN MATRIX
+------------------------------------------------------------------------------
+Configurations: 10
+Methods: 6
+Scenarios: 3
+Main scientific runs: 180
+Campaign-matrix SHA256: D67D6501935D5987BF0D3CDD9FBB8FC23FCCE611046BC59262C500F777B7DFEB
+
+FROZEN SCIENTIFIC FINGERPRINTS
+------------------------------------------------------------------------------
+Gate-81 combined candidate binding SHA256: C3189C36A8E7BD9F1667663D0E5DEDF3B5B9D4306E796D0E2B45FB43FC2F4F59
+Gate-82 combined execution-detail SHA256: 02C7E853FF2453AE6DB681CA29EAD6DE131CBD9A2F334DCBC9E9A5AE9EB6C0FD
+Common protocol binding SHA256: 0DA3146E8195CA630EE9F4DEDDC3D665F2BE9C08E3906677E5F79E6D1C602570
+
+IMMUTABLE FREEZE ARTIFACT
+------------------------------------------------------------------------------
+Combined attack/training/execution artifact-manifest SHA256: DB39208DA367B5DC53DD33832D14746517EE82058C8DB07117806922BB8F86CA
+
+SCIENTIFIC BOUNDARY
+------------------------------------------------------------------------------
+Common attack protocol frozen: YES
+Common core training protocol frozen: YES
+Deterministic seed protocol frozen: YES
+Exact execution-detail protocol frozen: YES
+Main campaign matrix frozen: YES
+Method-specific algorithm parameters rebound: NO
+End-to-end method validation started: NO
+Scientific optimizer steps executed: 0
+Scientific training started: NO
+
+NEXT GATE
+------------------------------------------------------------------------------
+Rebind the six method implementations to this frozen common protocol. Audit each method's exact aggregation/update semantics and fixed parameters, then execute a minimal end-to-end technical validation before any scientific campaign run.

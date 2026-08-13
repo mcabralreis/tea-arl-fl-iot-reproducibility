@@ -1,0 +1,11 @@
+{
+  "status": "IN_PROGRESS",
+  "completed_round": 20,
+  "best": {
+    "loss": 0.18068266721447843,
+    "accuracy": 0.9266001651259423,
+    "macro_f1": 0.5170440795519248,
+    "balanced_accuracy": 0.5147841099697628,
+    "round": 17
+  }
+}

@@ -1,0 +1,111 @@
+CICIoT2023 SEED-PAIRED PARTICIPATION / MALICIOUS-IDENTITY FREEZE
+==============================================================================
+
+STATUS
+------------------------------------------------------------------------------
+FROZEN
+
+PROTOCOL IDENTIFIERS
+------------------------------------------------------------------------------
+Freeze ID: CICIoT2023_TRANSFORMED_UNIQUE_PARTICIPATION_MALICIOUS_IDENTITY_FREEZE_V2
+Participation protocol ID: CICIoT2023_K30_R20_M9_SEED_PAIRED_SIX_EPOCH_EXACT_EXPOSURE_V2
+Malicious identity ID: CICIoT2023_K30_SEED_PAIRED_FIXED_HASH_RANK_NESTED_PREFIX_V2
+Alpha-pairing policy ID: SAME_EXPERIMENTAL_SEED_SHARED_ACROSS_ALPHA_0P1_AND_1P0_V1
+Cross-method/scenario pairing ID: SAME_SEED_SCHEDULE_AND_RANKING_SHARED_ACROSS_METHODS_AND_SCENARIOS_V1
+
+IMMUTABLE BINDING
+------------------------------------------------------------------------------
+Assignment-set content SHA256: 6161DDCA8874F3A079B3D61C19C62A0C1A60389ECFF2B2028E043FFC38B36E98
+Assignment artifact-manifest SHA256: 61A3B010B58CB6BEF199C6EA521D6014D68310DB95B867C66B2183226CA2EC5D
+Physical-assignment audit artifact-manifest SHA256: E04148B061539804DF6928544707E47DFB84A3FCAE5544D55428719569DA67D5
+
+FROZEN CONFIGURATION PAIRING
+------------------------------------------------------------------------------
+Configurations: 10
+Experimental seed families: 5
+Each experimental seed shared across alpha=0.1 and alpha=1.0: YES
+Same seed-family participation schedule across alpha pair: YES
+Same seed-family malicious ranking across alpha pair: YES
+Same schedule to be reused across all methods: YES
+Same schedule to be reused across clean and attack scenarios: YES
+Same malicious ranking to be reused across all methods/severities: YES
+
+FROZEN PARTICIPATION GEOMETRY
+------------------------------------------------------------------------------
+Clients: 30
+Rounds: 20
+Selected clients per round: 9
+Total selections per schedule: 180
+Exact participations per client: 6
+Schedule families: 5
+Participation algorithm ID: SIX_EPOCH_HASH_PERMUTATION_WITH_DETERMINISTIC_BOUNDARY_REPAIR_V2
+
+Seed 42: schedule_sha=9E533AA8D23FC5258FC10AD239C0506467461F3AA6CCE204D4D9A1048724C14C, max_absence=5, mean_adjacent_overlap=0.736842105263
+Seed 123: schedule_sha=9CC38E2EC2FCA53079C74F4CE72AF80601FE0212DB03CB184B54EB8DE9804EC8, max_absence=5, mean_adjacent_overlap=0.789473684211
+Seed 456: schedule_sha=E06E16FB26BAFFDB8193CF898D3131AE33332B587BBE3F5B36B2200A40E6028E, max_absence=5, mean_adjacent_overlap=0.736842105263
+Seed 789: schedule_sha=41651FAD85B24721F41C889DC78992BB0BD3488AD855928B2AFEFFE3413BE5B7, max_absence=5, mean_adjacent_overlap=0.842105263158
+Seed 999: schedule_sha=5EE06159510CD661D478E45A9483EF73DC48194F1A1F3CC000E14FFC31422F9E, max_absence=5, mean_adjacent_overlap=1.000000000000
+
+Exact 6 participations/client: PASS ALL 5
+Unique clients within every round: PASS ALL 5
+Maximum consecutive absence <= 6: PASS ALL 5
+Mean adjacent overlap below random reference 2.7: PASS ALL 5
+
+FROZEN FIXED NESTED MALICIOUS IDENTITIES
+------------------------------------------------------------------------------
+10% malicious fraction: first 3 ranked clients
+20% malicious fraction: first 6 ranked clients
+40% malicious fraction: first 12 ranked clients
+Nested prefixes 3 subset 6 subset 12: PASS ALL 5
+Ranking fixed across rounds: YES
+
+Seed 42: ranking_sha=ADB8D96243BB681EEB27B6FE530CB3EA6DE3DCAC9A275CECBA68AE0E930A043F
+  mu=0.1: 21,2,19
+  mu=0.2: 21,2,19,17,4,0
+  mu=0.4: 21,2,19,17,4,0,5,9,11,25,10,12
+Seed 123: ranking_sha=CDD977C1F5CF9A8BD19643C0E6C18E69D4518FDECDE4875FCF8030B2D228E390
+  mu=0.1: 20,3,2
+  mu=0.2: 20,3,2,23,1,26
+  mu=0.4: 20,3,2,23,1,26,28,24,8,25,5,22
+Seed 456: ranking_sha=E254CAB99B6D23F10C84DE1145B31E7E05591B71797513EC23639E1D39A1B441
+  mu=0.1: 22,19,11
+  mu=0.2: 22,19,11,20,27,23
+  mu=0.4: 22,19,11,20,27,23,16,8,17,10,7,28
+Seed 789: ranking_sha=148E39E56A7A7B333E29F1350E233C3899804E341342119CBC04AD87767C8E21
+  mu=0.1: 18,21,14
+  mu=0.2: 18,21,14,9,17,1
+  mu=0.4: 18,21,14,9,17,1,12,4,0,11,19,2
+Seed 999: ranking_sha=36E29B7648A560C0118EF5753F6E0B7629E692D9021840C7B861D96DB7274D72
+  mu=0.1: 29,23,15
+  mu=0.2: 29,23,15,24,6,2
+  mu=0.4: 29,23,15,24,6,2,14,21,11,8,3,17
+
+FROZEN SCIENTIFIC FINGERPRINTS
+------------------------------------------------------------------------------
+Config mapping SHA256: 444E14F821630F3814E939A3B9A0F493B86D7E25BA245B8BDCDD7EE32A77FF9E
+Schedule-set SHA256: 072DE9493641E92D8A450A61E02E5C211AC818F80309041CD7F4CA5C6D50CE66
+Ranking-set SHA256: 65ADA6C60BCF1D5E7FCCF4A3874BD296AEAF1CF69B2D3C50087D5BC449CE491D
+Combined pre-attack identity SHA256: 81057E395366BA10088F4455897446945556325756CA18BBF39B5F5A6A1198E2
+
+REFERENCE ROUNDS 5-20 EXPOSURE - DIAGNOSTIC ONLY
+------------------------------------------------------------------------------
+Attack timing frozen by this gate: NO
+mu=0.4: at least one selected malicious client every reference round, all 5 seeds
+mu=0.2: zero-malicious rounds are allowed under natural partial participation
+mu=0.1: zero-malicious rounds are allowed under natural partial participation
+
+IMMUTABLE ARTIFACT
+------------------------------------------------------------------------------
+Combined participation/malicious-identity artifact-manifest SHA256: 94C65F3EE7EDDCF19CC35FE1324AC595C706D472F3C4C898EC562747B8EA6031
+
+SCIENTIFIC BOUNDARY
+------------------------------------------------------------------------------
+Participation protocol frozen: YES
+Malicious-client identity frozen: YES
+Attack protocol rebound: NO
+Scientific optimizer steps executed: 0
+Scientific training started: NO
+
+NEXT GATE
+------------------------------------------------------------------------------
+Rebind the sign-flip attack semantics and timing to the frozen participation / malicious-identity branch, then rebind the deterministic training/checkpoint protocol. Do not start scientific training until the combined attack-and-training protocol has been validated and frozen.

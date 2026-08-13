@@ -1,0 +1,62 @@
+{
+  "status": "FROZEN",
+  "ordering_algorithm_id": "SPLITMIX64_DUAL_KEY_CONFIG_BOUND_LABEL_ORDER_V1",
+  "assignment_domain_id": "TRAIN_ONLY_EFFECTIVE_TRANSFORMED_UNIQUE_OBSERVATIONS_V1",
+  "ordering_scope": "INDEPENDENTLY_WITHIN_EACH_CONFIGURATION_AND_TASK7_LABEL",
+  "eligible_observations": "EFFECTIVE_OBSERVATIONS_WITH_SPLIT_ID_TRAIN_ONLY",
+  "effective_observation_identity": [
+    "TransformedHash1",
+    "TransformedHash2"
+  ],
+  "seed_scope": "ONE_FROZEN_SEED_PER_CONFIGURATION",
+  "task7_label_role": "ORDERING_SCOPE_ONLY_NOT_A_RANK_KEY",
+  "order_key_1": "splitmix64(TransformedHash1 XOR SeedU64)",
+  "order_key_2": "splitmix64(TransformedHash2 XOR ROTL64(SeedU64,32) XOR 0xD1B54A32D192ED03)",
+  "ascending_lexicographic_sort_tuple": [
+    "OrderKey1",
+    "OrderKey2",
+    "TransformedHash1",
+    "TransformedHash2"
+  ],
+  "splitmix64_definition": {
+    "modulus": "2^64",
+    "increment_hex": "0x9E3779B97F4A7C15",
+    "xor_shift_1": 30,
+    "multiplier_1_hex": "0xBF58476D1CE4E5B9",
+    "xor_shift_2": 27,
+    "multiplier_2_hex": "0x94D049BB133111EB",
+    "xor_shift_3": 31,
+    "dual_key_xor_constant_hex": "0xD1B54A32D192ED03"
+  },
+  "slice_allocation_id": "ASCENDING_CLIENT_ID_CONTIGUOUS_FROZEN_COUNT_PLAN_SLICES_V1",
+  "slice_allocation": {
+    "client_order": "ASCENDING_CLIENT_ID_0_TO_29",
+    "slice_lengths": "EXACT_FROZEN_CONFIGURATION_COUNT_PLAN_ROW",
+    "slice_interpretation": "CONTIGUOUS_HALF_OPEN_INTERVALS_IN_SORTED_LABEL_ORDER",
+    "zero_count_client": "EMPTY_SLICE"
+  },
+  "required_per_configuration_properties": {
+    "every_train_effective_observation_assigned_exactly_once": true,
+    "assigned_client_id_range": "0_TO_29",
+    "validation_observations_assigned_to_clients": false,
+    "test_observations_assigned_to_clients": false,
+    "exact_count_plan_reproduction": true,
+    "exact_client_capacity_reproduction": true
+  },
+  "prohibited_rank_or_assignment_inputs": [
+    "OldSplitID",
+    "OldPhysicalClientAssignment",
+    "RepresentativeSourceBucket",
+    "RepresentativeSourceRowIndex",
+    "RawMultiplicity",
+    "TransformedGroupRawExactMultiplicity",
+    "SumSourceRawMultiplicity",
+    "Provenance",
+    "FeatureValues",
+    "TRAINWeightVector",
+    "ModelResults",
+    "AttackResults",
+    "VALIDATIONObservations",
+    "TESTObservations"
+  ]
+}

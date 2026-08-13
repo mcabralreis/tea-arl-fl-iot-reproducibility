@@ -1,0 +1,91 @@
+CICIoT2023 TRANSFORMED-UNIQUE K=30 CLIENT PARTITION PROTOCOL FREEZE
+==============================================================================
+
+STATUS
+------------------------------------------------------------------------------
+FROZEN
+
+PROTOCOL IDENTIFIERS
+------------------------------------------------------------------------------
+Freeze ID: CICIoT2023_TRANSFORMED_UNIQUE_K30_PARTITION_PROTOCOL_FREEZE_V2
+Protocol ID: CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_CAPACITY_BALANCED_DIRICHLET_ALPHA_0P1_1P0_5SEEDS_V2
+Count-plan set ID: CICIoT2023_TASK7_TRANSFORMED_UNIQUE_K30_EXACT_COUNT_PLAN_SET_V2
+
+IMMUTABLE BINDING
+------------------------------------------------------------------------------
+Effective dataset fingerprint SHA256: 5708EFE6C08C91CF3637FA8F89F53C4459933F94C7CC0BF819A590CBE9EF8E5D
+Split protocol artifact-manifest SHA256: C3E938C506BB3342566694A3227FF5B9734E721C5BAF7AB8E9A02E559AD21AD5
+Split assignment artifact-manifest SHA256: DBF8B64C451E5DAB7AFA87FE88B5E9FFE6E7436FFAEAAFB66692076A5C16C276
+TRAIN weight-policy artifact-manifest SHA256: F77939B96EF739F6A298B821CB01BE4142248FFB517A600D64D482D525DD2E47
+Canonical weight-vector SHA256: C869BE9CA3CA092EBD86C1C86C99B24CA7668D99AEB4A9AEF3E8F8D46A818A69
+
+FROZEN DESIGN
+------------------------------------------------------------------------------
+Clients: 30
+Alpha values: 0.1, 1.0
+Experimental seeds: 42, 123, 456, 789, 999
+Configurations: 10
+Legacy design principle ID: CAPACITY_BALANCED_DIRICHLET_IPF_V1
+RNG binding ID: SHA256_BOUND_PCG64_DIRICHLET_V1
+Continuous balancing ID: CLASSWISE_DIRICHLET_PLUS_IPF_RAS_V1
+Exact integerisation ID: DETERMINISTIC_MIN_COST_BIPARTITE_RESIDUAL_ROUNDING_V1
+
+FROZEN EXACT CAPACITIES
+------------------------------------------------------------------------------
+Clients 0..23: 551661 observations each
+Clients 24..29: 551660 observations each
+Maximum capacity difference: 1
+Capacity total: 16549824
+Capacity vector SHA256: 4876137D26ADE608583DE67560E3788E8ED8C3AA8327CB825C8AFCF16F0B11F0
+
+FROZEN EXACT COUNT PLANS
+------------------------------------------------------------------------------
+Count plans: 10
+Matrix shape: 7 TASK7 labels x 30 clients
+Exact global class totals: PASS ALL 10
+Exact client capacities: PASS ALL 10
+Negative counts: 0
+Matrix content hash ID: INT64_C_ORDER_7X30_SHA256_V1
+Count-plan set hash ID: SORTED_CONFIG_ID_PLUS_MATRIX_CONTENT_SHA256_LF_V1
+Count-plan set SHA256: CAD5F8DB2C71CC17614D039E39F792C31F6B1F2C5F8CB3E23EE28FF2BD0BD705
+
+alpha_0p1_seed_42: 561ED9A36DB44ADD4D987ADFF62A59128811D9CBB9E7DBD380FEA1880708B3A3
+alpha_0p1_seed_123: 23DF5941B7F7E5F37D9F7AD0B920709A543EF5BE72FB9FA56F055C25B1AA4C1F
+alpha_0p1_seed_456: CE7627BF4874758EE85EBC9DF9544F9C8D1D0C393FD2E6B73D10759BF5F3CE75
+alpha_0p1_seed_789: 41B4DC6FCB5CD8E833A7874DE3AC7F54FC0FA68D082D9C9D53DE7A1CE985E5C2
+alpha_0p1_seed_999: C5A9A2867FA044B406DA661CC489410B39B4D1FB809CD0960FFB3EA874C1841E
+alpha_1p0_seed_42: B419D4A8B75082BDF7C1ED7BFFFE30F4A292D50CC8E6561ECBF28E5C95E72D51
+alpha_1p0_seed_123: 1B3063AABB221FB5E0711C0B5B89A52C9607055C319185DBB11ED11EDE2D6BBC
+alpha_1p0_seed_456: A67A9EE08B877AEF39C610FCF59084C103A5A50010E57FC094E966D9EC723BD0
+alpha_1p0_seed_789: 85944F1E723143F193170896147569D70D38298F95E8C1C2205458C9358BFF1C
+alpha_1p0_seed_999: 4F2204C5F09D2E9CF3ED38D06E7D1DD499EC23676BEE7C3417AD2D8382D1BCB9
+
+FROZEN HETEROGENEITY INTERPRETATION
+------------------------------------------------------------------------------
+alpha=0.1: higher non-IID heterogeneity
+alpha=1.0: moderate non-IID heterogeneity
+Aggregate alpha separation: PASS
+
+SUPERSESSION
+------------------------------------------------------------------------------
+Prior count plans: SUPERSEDED
+Prior physical client assignments: SUPERSEDED
+Prior count plans may be reused: NO
+Prior physical assignments may be reused: NO
+
+IMMUTABLE ARTIFACT
+------------------------------------------------------------------------------
+Combined client-partition protocol artifact-manifest SHA256: 7FF24F0A50C283EDC41053F81E7F8DB38A2864411C7E85B97BD8E9BEEEA7BB32
+
+SCIENTIFIC STATE
+------------------------------------------------------------------------------
+Partition protocol frozen: YES
+Exact count plans frozen: YES
+Physical assignment algorithm frozen: NO
+Physical client assignments materialized: NO
+Scientific optimizer steps executed: 0
+Scientific training started: NO
+
+NEXT GATE
+------------------------------------------------------------------------------
+Design and freeze the deterministic physical TRAIN-observation assignment algorithm. The algorithm must bind only the new TRAIN effective observation identity, label, configuration-specific frozen count plan, and a configuration-specific deterministic ordering seed. Do not materialise physical client assignments until that assignment algorithm and all ordering seeds are frozen.

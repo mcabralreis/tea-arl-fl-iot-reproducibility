@@ -1,0 +1,40 @@
+﻿ARL-FL MACHINE-LEARNING XPU ENVIRONMENT REPORT
+==============================================================================
+Project root: C:\teste\tets
+Virtual environment: C:\teste\tets\.venv
+Python executable: C:\teste\tets\.venv\Scripts\python.exe
+Python version: 3.14.0
+Platform: Windows-11-10.0.26200-SP0
+
+HARDWARE
+------------------------------------------------------------------------------
+Physical CPUs: 16
+Logical CPUs: 22
+RAM: 31.61 GiB
+XPU device count: 1
+XPU device: Intel(R) Arc(TM) Graphics
+XPU properties: _XpuDeviceProperties(name='Intel(R) Arc(TM) Graphics', platform_name='Intel(R) oneAPI Unified Runtime over Level-Zero', type='gpu', device_id=0x7D55, uuid=8680557d-0800-0000-0002-000000000000, driver_version='1.6.34938', total_memory=16895MB, local_mem_size=64KB, max_compute_units=128, memory_clock_rate=0MHz, memory_bus_width=64-bit, gpu_eu_count=128, gpu_subslice_count=16, max_work_group_size=1024, max_num_sub_groups=128, sub_group_sizes=[8 16 32], has_fp16=1, has_fp64=1, has_atomic64=1)
+
+SOFTWARE
+------------------------------------------------------------------------------
+PyTorch: 2.12.1+xpu
+CUDA available: False
+XPU available: True
+NumPy: 2.5.1
+pandas: 3.0.3
+scikit-learn: 1.9.0
+
+FUNCTIONAL TESTS
+------------------------------------------------------------------------------
+Matrix multiplication: pass
+Matrix test seconds: 0.1247589000267908
+Matrix checksum: 566.0706787109375
+
+Conv1d training step: pass
+Conv1d training seconds: 0.8014169000089169
+Conv1d training loss: 2.4603724479675293
+
+FILES
+------------------------------------------------------------------------------
+Environment JSON: C:\teste\tets\outputs\environment\ml_environment_xpu.json
+Exact pip freeze: C:\teste\tets\outputs\environment\requirements_lock_ml_xpu.txt

@@ -1,0 +1,57 @@
+{
+  "algorithm_id": "SPLITMIX64_DUAL_KEY_EFFECTIVE_TVT_V1",
+  "split_unit_id": "ONE_BITWISE_EXACT_39_FLOAT32_MODEL_INPUT_VECTOR",
+  "scope": "INDEPENDENTLY_WITHIN_EACH_TASK7_LABEL",
+  "effective_observation_id": [
+    "TransformedHash1",
+    "TransformedHash2"
+  ],
+  "seed_material": "CICIoT2023_TASK7_TRANSFORMED_UNIQUE_F32_INDEX_V1|5708EFE6C08C91CF3637FA8F89F53C4459933F94C7CC0BF819A590CBE9EF8E5D|TVT_SPLIT_V1",
+  "seed_sha256": "57F86F49720C8236885F1BF612C1B0AB4B937DD7D7BF73EE1FC087917212831B",
+  "seed_uint64_derivation": "UNSIGNED_BIG_ENDIAN_INTEGER_FROM_FIRST_8_BYTES_OF_SEED_SHA256",
+  "seed_uint64": 6338938836760691254,
+  "rank_key_1": "splitmix64(TransformedHash1 XOR SeedU64)",
+  "rank_key_2": "splitmix64(TransformedHash2 XOR ROTL64(SeedU64,32) XOR 0xD1B54A32D192ED03)",
+  "sort_tuple": [
+    "RankKey1",
+    "RankKey2",
+    "TransformedHash1",
+    "TransformedHash2"
+  ],
+  "sort_direction": "ASCENDING_LEXICOGRAPHIC",
+  "allocation_order_after_sort": [
+    "TRAIN",
+    "VALIDATION",
+    "TEST"
+  ],
+  "allocation_boundaries": {
+    "TRAIN": "first TRAIN_target observations",
+    "VALIDATION": "next VALIDATION_target observations",
+    "TEST": "remaining TEST_target observations"
+  },
+  "integer_target_rule_per_label": {
+    "VALIDATION": "floor(N_label / 10)",
+    "TEST": "floor(N_label / 10)",
+    "TRAIN": "N_label - VALIDATION - TEST"
+  },
+  "splitmix64_definition": {
+    "modulus": "2^64",
+    "increment_hex": "0x9E3779B97F4A7C15",
+    "xor_shift_1": 30,
+    "multiplier_1_hex": "0xBF58476D1CE4E5B9",
+    "xor_shift_2": 27,
+    "multiplier_2_hex": "0x94D049BB133111EB",
+    "xor_shift_3": 31
+  },
+  "rank_inputs_prohibited": [
+    "OldSplitID",
+    "RepresentativeSourceBucket",
+    "RepresentativeSourceRowIndex",
+    "RawMultiplicity",
+    "TransformedGroupRawExactMultiplicity",
+    "SumSourceRawMultiplicity",
+    "Provenance",
+    "ModelResults"
+  ],
+  "task7_label_usage": "STRATIFICATION_SCOPE_ONLY_NOT_A_RANK_KEY"
+}

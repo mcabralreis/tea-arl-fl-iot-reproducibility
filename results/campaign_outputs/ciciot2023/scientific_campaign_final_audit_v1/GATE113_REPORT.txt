@@ -1,0 +1,56 @@
+CICIoT2023 GATE-113 FINAL 180-RUN POST-AUDIT
+==============================================================================
+
+STATUS
+------------------------------------------------------------------------------
+PASS
+
+SCOPE
+------------------------------------------------------------------------------
+FINAL_180_RUN_POST_AUDIT_AND_RESULTS_EXTRACTION_ONLY
+Scientific training executed by Gate-113: NO
+Optimizer steps executed by Gate-113: 0
+PAMAP2 600-run campaign started: NO
+
+FINAL CAMPAIGN AUDIT
+------------------------------------------------------------------------------
+Complete scientific runs: 180/180
+Experimental matrix cells verified: 180/180
+Six-file inventories verified: 180/180
+Twenty-round metric chains verified: 180/180
+Canonical result-binding replays verified: 180/180
+Unique result bindings: 180/180
+
+RUNNER GENERATIONS
+------------------------------------------------------------------------------
+RUNNER_V4_INITIAL_ACCEPTED: 4 runs
+RUNNER_V5_FEDPROX_REPAIR_ACCEPTED: 3 runs
+RUNNER_V6R1_CONTEXT_BRIDGE_ACCEPTED: 173 runs
+
+LEDGER
+------------------------------------------------------------------------------
+Accepted complete-run scientific optimizer steps: 6480000
+Preserved failed-partial scientific optimizer steps: 1801
+Total scientific optimizer steps including failed partials: 6481801
+Technical optimizer steps: 825
+
+RUN_STATE NOTE
+------------------------------------------------------------------------------
+Status counts: {'IN_PROGRESS': 180}
+RUN_STATE.json is an in-run checkpoint record. Its IN_PROGRESS value is not
+treated as final status; acceptance is based on RUN_COMPLETE.json, completed_round=20,
+the 20-round validation chain, six-file inventory, and canonical result-binding replay.
+No scientific output was modified.
+
+EXTRACTED OUTPUTS
+------------------------------------------------------------------------------
+MASTER_RUN_RESULTS.csv: 180 rows
+RUN_FILE_SHA256.csv: 1080 rows
+DESCRIPTIVE_SUMMARY_BY_ALPHA_METHOD_SCENARIO.csv: 36 rows
+DESCRIPTIVE_SUMMARY_BY_METHOD_SCENARIO.csv: 18 rows
+GATE113_AUDIT.json
+GATE113_FINAL_BINDING.json
+
+FINAL BINDING
+------------------------------------------------------------------------------
+7649BB9E5EA9452C53D26948D3A45D057C85A693A06896D6D556E6D6952BCE6A
